@@ -1,14 +1,14 @@
 # Site settings
-title: 生命不止，折腾不息
-author: MonsterSlayer
+title: 生命不息，折腾不止
+author: Quebradawill
 author_avatar: /images/header.jpg
 email: alias@domain.tld
-description: 生命不止，折腾不息 
-url: "https://dongyado.github.io"
-domain: "http://dongyado.com"
-github_username: dongyado
-github_site_repo: dongyado/dongyado.github.io
-disqus: monsterslayer
+description: 生命不息，折腾不止
+url: "https://quebrada.github.io"
+domain: "http://www.quebradawill.com"
+github_username: quebrada
+github_site_repo: quebrada/quebrada.github.io
+disqus: Quebradawill
 
 
 # Build settings
