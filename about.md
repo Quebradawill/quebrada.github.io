@@ -8,9 +8,9 @@ author_footer: false
 
 ## 个人信息
 
-dongyado, 90, HangZhou
+Quebradawill, Jinan
 
-* 生命不止，折腾不息 
+* 生命不息，折腾不止
 
 * Just for fun -- by linus
 
@@ -45,7 +45,7 @@ friso 是基于 mmseg 算法的一个轻量级中文分词器(基于 C, 已支�
 
 ## 相关链接
 [博客源码][] - 如果喜欢这个博客模板，欢迎 fork 使用！
- 
+
 
 [博客源码]: https://github.com/dongyado/dongyado.github.io
 [Jcseg@github]: https://github.com/lionsoul2014/jcseg
