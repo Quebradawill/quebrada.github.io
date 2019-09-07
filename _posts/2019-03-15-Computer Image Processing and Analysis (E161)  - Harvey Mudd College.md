@@ -28,7 +28,7 @@ Let $x_T (t)$ represent a continuous periodic function
 $$
 x_T (t + mT) = x_T(t), \quad (m = 0, \pm1, \pm2, \cdots )
 $$
-with its period equal to $T$. Its <font color="red">**Fourier expansion**</font> is
+with its period equal to $T$. Its <font color="red">Fourier expansion</font> is
 $$
 x_T(t) = \sum_{n=-\infty}^{\infty} X(n) e^{j 2\pi n f_0 t}
 $$
@@ -77,7 +77,7 @@ $$
 
 ### 5. Convolution Theory
 
-The **<font color="red">convolution</font>** of two continuous signals $x(t)$ and $h(t)$ is defined as 
+The <font color="red">convolution</font> of two continuous signals $x(t)$ and $h(t)$ is defined as 
 
 $$
 y(t)=h(t)*x(t) \stackrel{\triangle}{=} \int_{-\infty}^{\infty} x(\tau) h(t-\tau) d\tau = \int_{-\infty}^{\infty} h(\tau) x(t-\tau) d\tau = x(t)*h(t)
