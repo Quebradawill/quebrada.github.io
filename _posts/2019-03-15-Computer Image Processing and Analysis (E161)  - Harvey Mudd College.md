@@ -125,7 +125,7 @@ $$
 
 Typically, $$y(t)$$ is the output of a system characterized by its impulse response function $$h(t)$$ with input $$x(t)$$.
 
-!<img src="./pictures/20190315-ConvolutionEx1.gif" align=center width="70%">
+!<img src="https://github.com/quebrada/quebrada.github.io/blob/master/_posts/pictures/20190315-ConvolutionEx1.gif?raw=true" align=center width="70%">
 
 Convolution in discrete form is 
 
