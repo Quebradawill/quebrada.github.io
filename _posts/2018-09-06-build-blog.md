@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub + Jekyll 搭建 blog
-date: 2019-09-06
+date: 2018-09-06
 categories: Programming
 tags: Blog
 status: publish
