@@ -25,17 +25,27 @@ From: [http://fourier.eng.hmc.edu/e161/lectures/](http://fourier.eng.hmc.edu/e16
 **Fourier expansion**
 
 Let $x_T (t)$ represent a continuous periodic function
+
+
 $$
 x_T (t + mT) = x_T(t), \quad (m = 0, \pm1, \pm2, \cdots )
 $$
+
+
 with its period equal to $T$. Its <font color="red">Fourier expansion</font> is
+
+
 $$
 x_T(t) = \sum_{n=-\infty}^{\infty} X(n) e^{j 2\pi n f_0 t}
 $$
 where $f_0 = 1/T$ and $X(n), (n = 0, \pm 1, \pm 2, \cdots)$ are the *expansion coefficients* defined as
+
+
 $$
 X (n) = \frac1T \int_{-T/2}^{+T/2} x_T(t) e^{- j 2\pi n f_0 t} dt
 $$
+
+
 These coefficients can also be considered as the discrete, non-periodic spectrum of $x_T (t)$
 $$
 X(f) = \sum_{n=-\infty}^{\infty} X(n) \delta (f - n f_0)
