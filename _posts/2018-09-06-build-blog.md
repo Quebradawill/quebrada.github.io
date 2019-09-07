@@ -18,9 +18,9 @@ author:
 
 ### 申请账号
 
-1. 申请一个 GitHub 账号；
+1. [] 申请一个 GitHub 账号；
 
-2. 创建一个新仓库（Repositories），注意勾选上 `Initialize this repository with a README`；
+2. [] 创建一个新仓库（Repositories），注意勾选上 `Initialize this repository with a README`；
 
 3. 给自己的仓库（Repositories）命名，**注意：**名称格式为：username.github.io（username 是你 GitHub 用户名，最好不要用别的），username.github.io 将成为网站的网址；
 
