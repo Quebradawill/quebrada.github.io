@@ -30,4 +30,12 @@ author:
 3. 打开 GitHub Desktop，点击 `file`，选择 `Clone repository`，选择 username.github.io；
 4. 转到 GitHub Desktop 界面，这时候它已经检测到了本地文件的变换，在左下角输入这次改动的摘要就可以上传了，点击 `Commit to master`，再点击 `Fetch origin` 完成上传。
 
+### 在 Github.Page 渲染数学公式
+
+在根模板文件增加这样一句：
+
+```javascript
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+```
+
 参考：[个人网站的搭建（基于 GitHub 和 Jekyll 主题）](https://blog.csdn.net/qq_19799765/article/details/80869363)
