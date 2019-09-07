@@ -18,13 +18,13 @@ author:
 
 ### 申请账号
 
-1. [] 申请一个 GitHub 账号；
+- 申请一个 GitHub 账号；
 
-2. [] 创建一个新仓库（Repositories），注意勾选上 `Initialize this repository with a README`；
+- 创建一个新仓库（Repositories），注意勾选上 `Initialize this repository with a README`；
 
-3. 给自己的仓库（Repositories）命名，**注意：**名称格式为：username.github.io（username 是你 GitHub 用户名，最好不要用别的），username.github.io 将成为网站的网址；
+- 给自己的仓库（Repositories）命名，**注意：**名称格式为：username.github.io（username 是你 GitHub 用户名，最好不要用别的），username.github.io 将成为网站的网址；
 
-4. 进入到仓库界面，点击 settings 往下拉，找到 Github pages 设置界面，在 `source` 选项里选择 `master branch`，然后点击 save 保存。也可以在 `Theme Chooser` 里选择一个网页主题，这时候你的一个简单的网站已经搭建好了。对，你没听错，就这么简单！在 `Source` 上面出现了 `Your site is published at thhps://username.github.io/` 字样，这就是你自己网站的网址了。
+- 进入到仓库界面，点击 settings 往下拉，找到 Github pages 设置界面，在 `source` 选项里选择 `master branch`，然后点击 save 保存。也可以在 `Theme Chooser` 里选择一个网页主题，这时候你的一个简单的网站已经搭建好了。对，你没听错，就这么简单！在 `Source` 上面出现了 `Your site is published at thhps://username.github.io/` 字样，这就是你自己网站的网址了。
 
 ### 主题美化
 
