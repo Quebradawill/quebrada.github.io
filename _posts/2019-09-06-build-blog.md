@@ -32,7 +32,7 @@ author:
 
 ### 在 Github.Page 渲染数学公式
 
-在根模板文件增加这样一句：
+在根模板文件（一般位于 `_layout` 文件夹中的 `default.html`）增加这样一句：
 
 ```javascript
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
