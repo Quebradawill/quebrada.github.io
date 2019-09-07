@@ -28,13 +28,13 @@ author:
 
 ### 主题美化
 
-1. 推荐从 GitHub 上下载 Jekyll 类型的模板，便于使用 Jekyll Writer 管理博文。下载后解压出网页源代码，并找到文件名为 `_config.yml` 的文件，在这个文件里面你可以修改网页的名称，要展示的内容等等；
+- 推荐从 GitHub 上下载 Jekyll 类型的模板，便于使用 Jekyll Writer 管理博文。下载后解压出网页源代码，并找到文件名为 `_config.yml` 的文件，在这个文件里面你可以修改网页的名称，要展示的内容等等；
 
-2. 然后就是把网页源代码上传到 GitHub 上刚创建的仓库里了，这里有两种方案。一种是通过 GitHub Desktop 上传，一种是通过 GitHub 网页端上传。这里介绍从 GitHub Desktop 上传；
+- 然后就是把网页源代码上传到 GitHub 上刚创建的仓库里了，这里有两种方案。一种是通过 GitHub Desktop 上传，一种是通过 GitHub 网页端上传。这里介绍从 GitHub Desktop 上传；
 
-3. 打开 GitHub Desktop，点击 `file`，选择 `Clone repository`，选择 username.github.io；
+- 打开 GitHub Desktop，点击 `file`，选择 `Clone repository`，选择 username.github.io；
 
-4. 转到 GitHub Desktop 界面，这时候它已经检测到了本地文件的变换，在左下角输入这次改动的摘要就可以上传了，点击 `Commit to master`，再点击 `Fetch origin` 完成上传。
+- 转到 GitHub Desktop 界面，这时候它已经检测到了本地文件的变换，在左下角输入这次改动的摘要就可以上传了，点击 `Commit to master`，再点击 `Fetch origin` 完成上传。
 
 ### 在 Github.Page 渲染数学公式
 
