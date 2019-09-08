@@ -9,6 +9,7 @@ author_footer: false
 
 - [CS231n: Convolutional Neural Networks for Visual Recognition](http://vision.stanford.edu/teaching/cs231n/)：由斯坦福大学李飞飞领衔，CNN 方面的精彩课程。
 - [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)：斯坦福大学的深度学习自然语言处理的精彩课程。
+- [deeplearning.ai](https://www.deeplearning.ai)：有精彩的深度学习课程，包括：Deep Learning Specification，TensorFlow Specification，AI For Everyone Course。
 
 
 ## Blogs
