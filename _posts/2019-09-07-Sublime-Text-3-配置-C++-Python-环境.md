@@ -102,6 +102,8 @@ int main()
 }
 ```
 
+安装 AutoPEP8 插件：选择 Preferences $$\to$$ Package Control，输入 package install，然后搜索 AutoPEP8 安装插件，安装后按 Ctrl + Alt + R 即可清除其中的红色波浪线和白框。
+
 **参考：**
 
 [sublime text 3配置c/c++编译环境，小白也能看懂！](https://www.jianshu.com/p/4cb799abb420)
