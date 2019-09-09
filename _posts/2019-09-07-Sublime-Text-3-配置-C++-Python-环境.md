@@ -3,7 +3,7 @@ layout: post
 title: Sublime Text 3 配置 C++ 和 Python 环境
 date: 2019-09-07
 categories: Programming
-tags: C++, Python
+tags: C++ Python
 status: publish
 type: post
 published: true
