@@ -10,6 +10,8 @@ published: true
 author: Quebradawill
 ---
 
+## C++ 环境
+
 可以说对 Sublime Text 3 是真爱了，我最爱的代码编辑器，没有之一。网上有很多帖子说明如何配置，现总结如下：
 
 ###  MinGW的系统环境配置
@@ -76,6 +78,29 @@ int main()
 选择 Preferences $$\to$$ Package Control，输入 package install，然后搜索安装插件。
 
 - `SublimeCodeIntel`，`SublimeREPL`，`SublLinter`，`SublimeClang` 等
+
+## Python 环境
+
+### Python 运行弹出 cmd 窗口
+
+选择 Tools $$\to$$ Build System $$\to$$ New Build System ...，输入如下代码保存为 Python-3.7.4.sublime-build；
+
+```javascript
+{
+	"cmd": ["python","-u","$file"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.python",
+	"variants":
+		[
+			{
+				"name":"Run",
+				"shell": true,
+				"cmd": ["start","cmd","/c", "python $file &echo. & pause"],
+				"working_dir": "${file_path}",
+			}
+		]
+}
+```
 
 **参考：**
 
