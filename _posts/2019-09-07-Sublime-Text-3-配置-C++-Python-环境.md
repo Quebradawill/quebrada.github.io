@@ -20,7 +20,7 @@ author: Quebradawill
 - 设置环境变量：C:\Software\mingw64\bin；
 - 运行 cmd，输入 `g++ -v`，看是否配置成功。
 
-### 新建 Sublime Text 3的 C++ 语言编译环境
+### 新建 Sublime Text 3的 C++17 语言编译环境
 
 - 打开 Sublime Text 3 选择，Tools $$\to$$ Build System $$\to$$ New Build System ...，输入如下代码保存为 C++.sublime-build；
 
@@ -28,7 +28,7 @@ author: Quebradawill
   {
       "encoding": "utf-8",
       "working_dir": "$file_path",
-      "shell_cmd": "g++ -Wall -std=c++11 \"$file_name\" -o \"$file_base_name\"",
+      "shell_cmd": "g++ -Wall -std=c++17 \"$file_name\" -o \"$file_base_name\"",
       "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
       "selector": "source.c++",
   
@@ -36,7 +36,7 @@ author: Quebradawill
       [
           {   
           "name": "Run",
-              "shell_cmd": "g++ -Wall -std=c++11  \"$file\" -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\""
+              "shell_cmd": "g++ -Wall -std=c++17  \"$file\" -o \"$file_base_name\" && start cmd /c \"\"${file_path}/${file_base_name}\" & pause\""
           }
       ]
   }
