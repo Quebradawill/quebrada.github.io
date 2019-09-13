@@ -48,13 +48,13 @@ author: Quebradawill
 
 可以使用“平衡二叉树”存放数据，增加、删除、查找数据都能在 $$\log (n) $$ 复杂度完成，体现在 STL 中，就是以下四种“排序容器”：`multiset`、`set`、`multimap`、`map`。需要 `#include <set>` 或者 `#include <map>`。
 
-- `multiset`：`multiset<T> st;`，能自动排序，排序规则为：表达式 `a<b` 为 `true`，则 `a` 排在 `b` 前面；可用 `st.insert` 添加元素，`st.find` 查找元素，`st.erase` 删除元素，复杂度都是 $$\log(n)$$；
+- `multiset`：`multiset<T> st;`，能**自动排序**，排序规则为：表达式 `a<b` 为 `true`，则 `a` 排在 `b` 前面；可用 `st.insert` 添加元素，`st.find` 查找元素，`st.erase` 删除元素，复杂度都是 $$\log(n)$$；
 
   `multiset` 上的迭代器 `multiset<T>::iterator p;`，`p` 是迭代器，相当于指针，可用于指向 `multiset` 的元素，访问 `multiset` 中的元素要通过迭代器。与指针的不同：`multiset` 上的迭代器可 `++`，`--`，用 `!=` 和 `==` 比较，不可比大小，不可加减整数，不可相减。`st.begin()` 和 `st.end()`。
 
-- `set`：`set` 和 `multiset` 的区别在于容器里不能有重复元素，`set` 插入元素可能不成功。
+- `set`：`set` 和 `multiset` 的区别在于容器里**不能有重复元素**，`set` 插入元素可能不成功。
 
-- `multimap`：`multimap` 容器里的元素，都是 `pair` 形式的 `multimap <T1, T2> mp;`，则 `mp` 里的元素都是如下类型：
+- `multimap`：`multimap` 容器里的元素，都是 **`pair` 形式**的 `multimap <T1, T2> mp;`，则 `mp` 里的元素都是如下类型：
 
   ```C++
   struct {
@@ -65,4 +65,4 @@ author: Quebradawill
 
   `multimap` 中的元素按照 `first` 排序，并可以按 `first` 进行查找，缺省的排序规则是 `a.first<b.first` 为 `true`，则 `a` 排在 `b` 前面。
 
-- `map`：和 `multimap` 的区别在于：不能有关键字重复的元素；可以使用 `[]`，下标为关键字，返回值为 `first` 和关键字相同的元素的 `second`；插入元素可能失败。
+- `map`：和 `multimap` 的区别在于：**不能有关键字重复**的元素；可以使用 `[]`，下标为关键字，返回值为 `first` 和关键字相同的元素的 `second`；插入元素可能失败。
