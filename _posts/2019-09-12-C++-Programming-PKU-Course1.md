@@ -14,7 +14,7 @@ author: Quebradawill
 
 #### 1. 算法
 
-要使用其中的算法，需要 `#include <algorithm>`
+要使用其中的算法，需要 `#include <algorithm>`。
 
 ##### 1.1 排序算法 `sort`
 
@@ -46,9 +46,9 @@ author: Quebradawill
 
 #### 2. STL 中的平衡二叉树
 
-可以使用“平衡二叉树”存放数据，增加、删除、查找数据都能在 $$\log (n) $$ 复杂度完成，体现在 STL 中，就是以下四种“排序容器”：`multiset`、`set`、`multimap`、`map`。
+可以使用“平衡二叉树”存放数据，增加、删除、查找数据都能在 $$\log (n) $$ 复杂度完成，体现在 STL 中，就是以下四种“排序容器”：`multiset`、`set`、`multimap`、`map`。需要 `#include <set>` 或者 `#include <map>`。
 
-- `multiset`：`multiset<T> st;`，能自动排序，排序规则为：表达式 `a<b` 为 `true`，则 `a` 排在 `b` 前面，可用 `st.insert` 添加元素，`st.find` 查找元素，`st.erase` 删除元素，复杂度都是 $$\log(n)$$；
+- `multiset`：`multiset<T> st;`，能自动排序，排序规则为：表达式 `a<b` 为 `true`，则 `a` 排在 `b` 前面；可用 `st.insert` 添加元素，`st.find` 查找元素，`st.erase` 删除元素，复杂度都是 $$\log(n)$$；
 
   `multiset` 上的迭代器 `multiset<T>::iterator p;`，`p` 是迭代器，相当于指针，可用于指向 `multiset` 的元素，访问 `multiset` 中的元素要通过迭代器。与指针的不同：`multiset` 上的迭代器可 `++`，`--`，用 `!=` 和 `==` 比较，不可比大小，不可加减整数，不可相减。`st.begin()` 和 `st.end()`。
 
