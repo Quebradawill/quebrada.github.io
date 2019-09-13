@@ -44,7 +44,7 @@ author: Quebradawill
 - 在对元素类型为 `T` 的从小到大排好序的基本类型的数组中进行查找，`T* upper_bound(arrayName + n1, arrayName + n2, value)`，返回一个指针 `T* p`；`*p` 是查找区间里下标最小的， **大于**“值” 的元素。如果找不到， `p` 指向下标为 `n2` 的元素。
 - 在元素为任意的 `T` 类型、按照自定义排序规则排好序的数组中进行查找，`T* upper_bound(arrayName + n1, arrayName + n2, value, sort_rule_struct())`，返回一个指针 `T* p`；`*p` 是查找区间里下标最小的，按自定义排序规则，**必须排在“值”后面**的元素。如果找不到，`p` 指向下标为 `n2` 的元素。
 
-##### 1.3 STL 中的平衡二叉树
+#### 2. STL 中的平衡二叉树
 
 可以使用“平衡二叉树”存放数据，增加、删除、查找数据都能在 $$\log (n) $$ 复杂度完成，体现在 STL 中，就是以下四种“排序容器”：`multiset`、`set`、`multimap`、`map`。
 
