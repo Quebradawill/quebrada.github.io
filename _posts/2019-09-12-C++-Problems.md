@@ -14,3 +14,10 @@ author: Quebradawill
 
 Debug $$\to$$ Properties... $$\to$$ C/C++ $$\to$$ Language $$\to$$ C++ Language Standard
 
+#### 2. C++ 删除字符串中某字符
+
+```C++
+string str = ",hello,";
+str.erase(remove(str.begin(), str.end(), ','), str.end());    // hello
+```
+
