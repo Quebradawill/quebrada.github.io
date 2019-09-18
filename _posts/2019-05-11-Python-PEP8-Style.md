@@ -10,8 +10,6 @@ published: true
 author: Quebradawill
 ---
 
-### PEP 8 风格指南
-
 PEP 是 Python Enhancement Proposal 的缩写，通常翻译为“Python 增强提案”。
 
 **空格的使用**
