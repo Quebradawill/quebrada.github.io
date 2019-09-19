@@ -40,7 +40,7 @@ author:
 
 在根模板文件（一般位于 `_layout` 文件夹中的 `default.html`）增加这样一句：
 
-```javascript
+```html
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
