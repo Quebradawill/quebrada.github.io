@@ -48,4 +48,43 @@ author:
 
 GitHub 里不支持有序列表，支持项目列表。
 
+1. 在 `_includes` 文件夹下新建 `mathjax.html`，并在里面添加：
+
+```html
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+>
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+>
+</script>
+```
+
+2. 在 `_layouts/post.html` 的 `Post Header` 中添加：
+
+```html
+{% include mathjax.html %}
+```
+
+3. 在想要启用Mathjax的文章的 [Front Matter](https://jekyllrb.com/docs/front-matter) 中添加：
+
+```html
+mathjax: true
+```
+
+
+
 参考：[个人网站的搭建（基于 GitHub 和 Jekyll 主题）](https://blog.csdn.net/qq_19799765/article/details/80869363)
