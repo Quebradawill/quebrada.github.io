@@ -79,7 +79,7 @@ GitHub 里不支持有序列表，支持项目列表。
 {% include mathjax.html %}
 ```
 
-3. 在想要启用Mathjax的文章的 [Front Matter](https://jekyllrb.com/docs/front-matter) 中添加：
+3. 在想要启用 Mathjax 的文章的 [Front Matter](https://jekyllrb.com/docs/front-matter) 中添加：
 
 ```html
 mathjax: true
