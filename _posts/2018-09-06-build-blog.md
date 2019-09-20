@@ -85,6 +85,4 @@ GitHub 里不支持有序列表，支持项目列表。
 mathjax: true
 ```
 
-
-
 参考：[个人网站的搭建（基于 GitHub 和 Jekyll 主题）](https://blog.csdn.net/qq_19799765/article/details/80869363)
