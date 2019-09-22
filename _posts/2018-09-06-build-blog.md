@@ -86,3 +86,12 @@ mathjax: true
 ```
 
 参考：[个人网站的搭建（基于 GitHub 和 Jekyll 主题）](https://blog.csdn.net/qq_19799765/article/details/80869363)
+
+在 Windows 上安装 Jekyll 的步骤：
+
+- 安装 Ruby，获取地址 [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)，一般选择的是 Ruby + Devkit。
+- 安装 RubyGems，获取地址 [https://rubygems.org/pages/download](https://rubygems.org/pages/download)，解压缩后，在 cmd 中进入到该目录，使用命令 `ruby setup.rb` 安装；使用命令 `gem update --system` 更新到最新。
+- 使用命令 `gem install jekyll` 安装 jekyll。更新软件：`gem update && gem cleanup`，如果安装错误，则可以使用如下命令：`gem sources --remove https://rubygems.org/`，`gem sources -a http://rubygems.org/`，`gem install jekyll`
+- 
+
+参考：[Run Jekyll on Windows](http://jekyll-windows.juthilo.com)
