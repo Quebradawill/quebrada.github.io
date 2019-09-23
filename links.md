@@ -23,6 +23,7 @@ author_footer: false
 
 - [李宏毅机器学习笔记(LeeML-Notes)](https://datawhalechina.github.io/leeml-notes/)：Datawhale 整理的台湾大学[李宏毅 (Hung-yi Lee)](http://speech.ee.ntu.edu.tw/~tlkagk/index.html)教授的《机器学习》课程的笔记，是机器学习领域经典的中文视频之一。
 - [AI 算法工程师手册](http://www.huaxiaozhuan.com)：包括数学基础、统计学习、深度学习和常用工具等。
+- [v_JULY_v](https://me.csdn.net/v_july_v)：July，湖南娄底人，于 2010 年 10 月 11 日开始在 CSDN 上写博（搜索：结构之法，进入本博客），博客专注面试、算法、机器学习。2011 年毕业于东华理工，2015 年正式创业，任：七月在线创始人兼 CEO，公司官网：七月在线（[https://www.julyedu.com/](https://www.julyedu.com/)），微博@研究者July（[https://weibo.com/julyweibo](https://weibo.com/julyweibo)）。
 
 ## ML Blogs
 
