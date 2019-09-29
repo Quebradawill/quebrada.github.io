@@ -62,10 +62,13 @@ Project Properties... $$\to$$ C/C++ $$\to$$ Command Line $$\to$$ Additional Opti
 
 十二、VSColorOutput，以不同颜色显示编译输出。
 
-#### 2. C++ 删除字符串中某字符
+#### 5. C++ 删除字符串中某字符
 
 ```C++
 string str = ",hello,";
 str.erase(remove(str.begin(), str.end(), ','), str.end());    // hello
 ```
 
+#### 6. VS 设置文件编码格式
+
+File $$\to $$ Advanced Save Option...，选择 Unicode (UTF-8 with signature)，或其他编码格式，如果没有这个菜单，可以先进行如下设置：View $$\to $$ Toolbars $$\to $$ Customize... $$\to $$ Commands，在 Menu bar 中选择 File，单击 Add Command... 命令按钮，在 Categories 中选择 File，在右侧的 Commands 中选择 Advanced Save Option...。
