@@ -16,7 +16,7 @@ PyCharm 从 2017.3 版之后，将 `matplotlib` 的绘图的结果默认显示�
 
 ### 2. 让 PyCharm 运行程序时只打开一个 Python Console
 
-Run $$\to$$ Edit Configuration $$\to$$ Run with Python Console
+取消 Run $$\to$$ Edit Configuration $$\to$$ Run with Python Console
 
 ### 3. 更改 jupyterlab 中的字号
 
