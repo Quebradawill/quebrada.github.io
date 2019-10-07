@@ -24,5 +24,7 @@ author: Quebradawill
 
 ## 第 3 章 数组和字符串
 
+提示3-4：比较大的数组应尽量声明在 `main` 函数外，否则程序可能无法运行。数组复制可用如下命令：`memcpy(b, a, sizeof(int) * k)`，需要包含头文件 `string.h`。
+
 
 
