@@ -10,10 +10,9 @@ published: true
 author: Quebradawill
 ---
 
-### 1. IDEA 恢复默认设置
+### 1. 栈的输出序列数
 
-打开 `C:\Users\Quebradawill` 文件夹，删除 `.IntelliJIdea2019.2` 文件夹，即可恢复默认设置。
+一个栈的输入序列是 $$1,2,3,4,5$$，不可能的输出序列有哪些？算一下 $$1,2,3,4,5$$ 的全排列有多少种，合法的出栈序列的个数是 Catalan 数，两者相减就是不可能的序列的个数。
 
-### 2. 导入 Sublime Text 主题
+Catalan 数（卡特兰数）的定义令 $$h(1)=1$$，Catalan 数满足递归式：$$h(n) = h(1) h(n-1) + h(2) h(n-2) + \cdots + h(n-1) h(1), n \geq 2$$，该递推关系的解为：$$h(n) = C(2n-2,n-1)/n，n=1,2,3,...$$（其中 $$C(2n-2,n-1)$$ 表示 $$2n-2$$ 个中取 $$n-1$$ 个的组合数）。
 
-File $$\to$$ Settings $$\to$$ Editor $$\to$$ Color Theme $$\to$$ Import Scheme
