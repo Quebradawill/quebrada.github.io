@@ -1,9 +1,9 @@
 ---
 layout: post
-title: IntelliJ IDEA 的使用问题
-date: 2019-10-17
+title: 数据结构与算法相关问题
+date: 2019-10-18
 categories: Programming
-tags: Java
+tags: C++
 status: publish
 type: post
 published: true
