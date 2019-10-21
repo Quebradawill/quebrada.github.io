@@ -52,12 +52,12 @@ int bit_cnt(int n)
 int main(void)
 {
 	int F[6], B[6];
-	int i,j,k,state,ok,ans = 0;
+	int i, j, k, state, ok, ans = 0;
 	for (state = 0; state < (1 << 12); ++state) {
 		if (bit_cnt(state) == 6) {
 			i = j = 0;
 			for (int k = 0; k < 12; ++k) {
-				if(state&(1<<k))
+				if(state & (1 << k))
 					F[i++] = k;
 				else
 					B[j++] = k;
