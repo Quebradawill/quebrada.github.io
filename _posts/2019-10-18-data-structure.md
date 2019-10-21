@@ -1,0 +1,19 @@
+---
+layout: post
+title: IntelliJ IDEA 的使用问题
+date: 2019-10-17
+categories: Programming
+tags: Java
+status: publish
+type: post
+published: true
+author: Quebradawill
+---
+
+### 1. IDEA 恢复默认设置
+
+打开 `C:\Users\Quebradawill` 文件夹，删除 `.IntelliJIdea2019.2` 文件夹，即可恢复默认设置。
+
+### 2. 导入 Sublime Text 主题
+
+File $$\to$$ Settings $$\to$$ Editor $$\to$$ Color Theme $$\to$$ Import Scheme
