@@ -26,7 +26,18 @@ author: Quebradawill
 
 **实例1：矩阵相乘基本运算次数**
 
-蛮力算法：加 $n$ 个括号的方法有 $\frac{1}{n+1} \left( 2n \\ n \right)$ ，是一个 Catalan 数，是指数级别。
+矩阵 $P,Q$ 的大小分别为 $p\times q$ 和 $q \times r $，则 $ P \times Q $ 的基本运算次数为 $ p \times q \times r $。
+
+蛮力算法：加 $n$ 个括号的方法有 $\frac{1}{n+1} \binom {2n}{n}$ ，是一个 Catalan 数，是指数级别。
+
+动态规划算法：（1）子问题划分：矩阵链 $A_i A_{i+1} \cdots A_j$，边界向量 $i,j$，输入向量：$<P_{i-1} P_i \cdots P_j>$，其最好划分运算次数：$m[i,j]$。（2）子划分的依赖：最优划分最后一次相乘发生在矩阵 $k$ 的位置，即 $ A_{i \cdots j} = A_{i \cdots k} A_{k + 1 \cdots j}$。（3）递推方程为：
+$$
+m[i,j] = \left\{\begin{array}
+00 & i=j \\ 
+\min_{i \leq k < j} \{ m[i,k] + m[k+1,j] + P_{i-1} P_k P_j \} & i < j
+\end{array}\right.
+$$
+
 
 ## 3. 贪心
 
