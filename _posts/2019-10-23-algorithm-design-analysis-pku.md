@@ -26,7 +26,7 @@ author: Quebradawill
 
 **实例1：矩阵相乘基本运算次数**
 
-
+蛮力算法：加 $n$ 个括号的方法有 $\frac{1}{n+1} \left( 2n \\ n \right)$ ，是一个 Catalan 数，是指数级别。
 
 ## 3. 贪心
 
