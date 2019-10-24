@@ -10,7 +10,7 @@ published: true
 author: Quebradawill
 ---
 
-## 1. 分治
+## 1. 分治策略
 
 
 
@@ -39,6 +39,6 @@ m[i,j] = \left\{\begin{array}
 $$
 
 
-## 3. 贪心
+## 3. 贪心法
 
-## 4. 回溯
+## 4. 回溯与分支限界
