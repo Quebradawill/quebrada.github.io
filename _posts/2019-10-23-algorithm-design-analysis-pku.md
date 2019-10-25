@@ -43,16 +43,17 @@ author: Quebradawill
 
 #### 1.4.1 选最大最小
 
-**分组算法：**
-
-1. 将 $n$ 个元素两两一组分成 $\lfloor n/2 \rfloor$ 组；
-2. 每组比较，得到 $\lfloor n/2 \rfloor$ 个较小和 $\lfloor n/2 \rfloor$ 个较大；
-3. 在 $\lceil n/2 \rceil$ 个较大（含轮空元素）中找最大 $\max$；
-4. 在 $\lceil n/2 \rceil$ 个较小（含轮空元素）中找最小 $\min$。
+**分组算法：**<br>1. 将 $n$ 个元素两两一组分成 $\lfloor n/2 \rfloor$ 组；<br>2. 每组比较，得到 $\lfloor n/2 \rfloor$ 个较小和 $\lfloor n/2 \rfloor$ 个较大；<br>3. 在 $\lceil n/2 \rceil$ 个较大（含轮空元素）中找最大 $\max$；<br>4. 在 $\lceil n/2 \rceil$ 个较小（含轮空元素）中找最小 $\min$。
 
 
+
+## 
 
 ## 2. 动态规划
+
+### 2.1 设计思想
+
+动态规划（Dynamic Programming）：求解过程是<font color='magenta'>多阶段决策</font>过程，每步处理一个子问题，可用于求解组合优化问题。
 
 ### 2.1 设计思想
 
