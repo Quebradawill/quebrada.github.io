@@ -59,7 +59,15 @@ author: Quebradawill
 
 **分治算法：**<br>假设元素彼此不等，设计思想：<br>1. 用某个元素 $m^{\star}$ 作为标准将 $S$ 划分成 $S_1$ 与 $S_2$，其中 $S_1$ 的元素小于 $m^{\star}$，$S_2$ 的元素大于 $m^{\star}$；<br>2. 如果 $k \leq \vert S_1 \vert $，则在 $S_1$ 中找第 $k$ 小，如果 $k=\vert S_1 \vert + 1$，则 $m^{\star}$ 是第 $k$ 小，如果 $k > \vert S_1 \vert + 1$，则在 $S_2$ 中找第 $k - \vert S_1 \vert - 1$ 小。
 
+#### 1.4.4 卷积及其应用
 
+给定向量 $a = (a_0, a_1, \cdots, a_{n-1}), b = (b_0, b_1, \cdots, b_{n-1})$，卷积为 $a*b = (c_0, c_1, \cdots, c_{2n-2})$，其中 $c_k = \sum_{i+j=k, i,j <n} a_i b_j, k = 0, 1, \cdots, 2n-2$。
+
+#### 1.4.5 平面点集的凸包
+
+算法思想：<br>1. 以连接最大纵坐标点 $y_{\max}$ 和最小纵坐标点 $y_{\min}$ 的线段 $d$ 划分 $L$ 为左点集 $L_{\textrm{left}}$ 和右点集  $L_{\textrm{right}}$；（<font color='blue'>当然连接最大横坐标点和最小横坐标点应该也是可以的</font>）<br>2. $\textrm{Deal}(L_{\textrm{left}})$；$\textrm{Deal}(L_{\textrm{right}})$。
+
+$\textrm{Deal}(L_{\textrm{left}})$<br>1. 以 $d$ 和距离 $d$ 最远点 $P$ 构成三角形，$P$ 加入凸包，另外两条边分别记作 $a$ 和 $b$；<br>2. 检查 $L_{\textrm{left}}$ 中其他点是否在三角形内；在三角形内，则从 $L_{\textrm{left}}$ 中删除；否则根据在 $a$ 或 $b$ 边的外侧划分在两个子问题中；<br>3. $\textrm{Deal}(a)$；<br>4. $\textrm{Deal}(b)$。
 
 ## 2. 动态规划
 
