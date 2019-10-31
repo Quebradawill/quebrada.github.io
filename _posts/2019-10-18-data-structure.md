@@ -16,8 +16,8 @@ author: Quebradawill
 
 #### 1.1 并查集是什么
 
-并查集是一种用来**管理元素分组情况**的数据结构，并查集可以高效地进行如下操作：<br><li>查询元素 $a$ 和元素 $b$ 是否属于同一组；</li><br><li>合并元素 $a$ 和元素 $b$ 所在的组。</li>
+并查集是一种用来**管理元素分组情况**的数据结构，并查集可以高效地进行如下操作：<br>- 查询元素 $a$ 和元素 $b$ 是否属于同一组；<br>- 合并元素 $a$ 和元素 $b$ 所在的组。
 
 
 
-参考：<br>1. https://www.jianshu.com/p/b37ba1f7d45c<br>2. https://www.jianshu.com/p/fc17847b0a31<br>3. https://www.cnblogs.com/cyjb/p/UnionFindSets.html
+参考：<br>1. [https://www.jianshu.com/p/b37ba1f7d45c](https://www.jianshu.com/p/b37ba1f7d45c)<br>2. [https://www.jianshu.com/p/fc17847b0a31](https://www.jianshu.com/p/fc17847b0a31)<br>3. [https://www.cnblogs.com/cyjb/p/UnionFindSets.html](https://www.cnblogs.com/cyjb/p/UnionFindSets.html)
