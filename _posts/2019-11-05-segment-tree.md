@@ -44,11 +44,174 @@ construct(arr):
         segmentTree[i] = merge(segmentTree[2*i], segmentTree[2*i+1]);
 ```
 
-由于所构建的是完全二叉树，完全二叉树度为 1 的结点最多有 1 个，分情况讨论：<br>1. 若完全二叉树没有度为 1 的结点，则 $n = n_0 + n_2, \ n_0 = n_2 + 1$，此时完全二叉树的结点总数为 $ 2 n_0 - 1$；<br>2. 若完全二叉树有一个度为 1 的结点，则 $ n = n_0 + n_2 + 1,  \ n_0 = n_2 + 1$，此时完全二叉树的结点总数为 $ 2 n_0$。
+由于所构建的是完全二叉树，完全二叉树度为 1 的结点最多有 1 个，由于总是有 $n_0 = n_2 + 1$，分情况讨论：<br>1. 若完全二叉树没有度为 1 的结点，则 $n = n_0 + n_2$，此时完全二叉树的结点总数为 $ 2 n_0 - 1$；<br>2. 若完全二叉树有一个度为 1 的结点，则 $ n = n_0 + n_2 + 1$，此时完全二叉树的结点总数为 $ 2 n_0$。
 
 因此，若叶子结点的总数为 $n$，则线段树的结点数量为 $2n$ 或者 $2n-1$。
 
+### 4. 更新
 
+更新一个线段树的过程与上述构造线段树的过程相同。当输入数组中位于 $i$ 位置的元素被更新时，我们只需从这一元素对应的叶子结点开始，沿二叉树的路径向上更新至根结点即可。显然，这一过程是一个 $O( \log n)$ 的操作。其算法如下：
+
+```c++
+update(i, value):
+    i = i + n;
+    segmentTree[i] = value;
+    while i > 1:
+        i = i / 2;
+        segmentTree[i] = merge(segmentTree[2*i], segmentTree[2*i+1]);
+```
+
+### 5. 区间查询
+
+区间查询大体上可以分为 3 种情况讨论：<br>1. 当前结点所代表的区间完全位于给定需要被查询的区间之外，则不应考虑当前结点；<br>2. 当前结点所代表的区间完全位于给定需要被查询的区间之内，则可以直接查看当前结点的母结点；<br>3. 当前结点所代表的区间部分位于需要被查询的区间之内，部分位于其外，则我们先考虑位于区间外的部分，后考虑区间内的（注意总有可能找到完全位于区间内的结点，因为叶子结点的区间长度为 1，因此我们总能组合出合适的区间）。
+
+以求最小值为例，其算法如下：
+
+```C++
+minimum(left, right):
+    left = left + n;
+    right = right + n;
+    minimum = Integer.MAX_VALUE;
+    while left < right:
+        if left is odd:
+            // left is out of range of parent interval, check value of left node first,
+            // then shift it right in the same level
+            minimum = min(minimum, segmentTree[left]);
+            left = left + 1;
+        if right is odd:
+            // right is out of range of current interval,
+            // shift it left in the same level and then check the value
+            right = right - 1;
+            minimum = min(minimum, segmentTree[right]);
+        // move left and right one level up
+        left = left / 2;
+        right = right / 2;
+```
+
+### 6. $n$ 不是 2 的次方怎么办？
+
+一个简单的方法是在原数组的结尾补 0，直到其长度正好为 2 的次方位置。但事实上这个方法比较低效。最坏情况下，我们需要 $O(4n)$ 的空间来存储相应的线段树。例如，如果输入数组的长度刚好为 $2^i +1$，则我们首先需要补 0 直到数组长度为 $2^{i+1} = 2 \times 2^i$ 为止。那么对于这个补 0 过后的数组，我们需要的线段树数组的长度为 $2 \times 2 \times 2^x = 4 \times 2^i = O(4n)$。
+
+其实上面所说的算法对于 $n$ 不是 2 的次方的情况同样适用。这也是为什么我在上文中说线段树是一棵**完全二叉树**而非**满二叉树**的原因。
+
+### 7. Java代码
+
+**Range Minimum Query**
+
+```Java
+public class MinSegmentTree {
+    private ArrayList<Integer> minSegmentTree;
+    private int n;
+    
+    public MinSegmentTree(int[] arr) {
+        n = arr.length;
+        minSegmentTree = new ArrayList<>(2 * n);
+        
+        for  (int i = 0; i < n; i++) {
+            minSegmentTree.add(0);
+        }
+        
+        for (int i = 0; i < n; i++) {
+            minSegmentTree.add(arr[i]);
+        }
+        
+        for (int i = n - 1; i > 0; i--) {
+            minSegmentTree.set(i, Math.min(minSegmentTree.get(2 * i), minSegmentTree.get(2 * i + 1)));
+        }
+    }
+    
+    public void update(int i, int value) {
+        i += n;
+        minSegmentTree.set(i,  value);
+        
+        while (i > 1) {
+            i /= 2;
+            minSegmentTree.set(i, Math.min(minSegmentTree.get(2 * i), minSegmentTree.get(2 * i + 1)));
+        }
+    }
+    
+    // Get the minimum of range [left, right)
+    public int minimum(int left, int right) {
+        left += n;
+        right += n;
+        int min = Integer.MAX_VALUE;
+        
+        while (left < right) {
+            if ((left & 1) == 1) {
+                min = Math.min(min, minSegmentTree.get(left));
+                left++;
+            }
+            
+            if ((right & 1) == 1) {
+                right--;
+                min = Math.min(min,  minSegmentTree.get(right));
+            }
+            left >>= 1;
+            right >>= 1;
+        }
+        
+        return min;
+    }
+}
+```
+
+**Range Sum Query**
+
+```java
+public class SumSegmentTree {
+    private ArrayList<Integer> sumSegmentTree;
+    private int n;
+    
+    public SumSegmentTree(int[] arr) {
+        n = arr.length;
+        sumSegmentTree = new ArrayList<>(2 * n);
+        
+        for  (int i = 0; i < n; i++) {
+            sumSegmentTree.add(0);
+        }
+        
+        for (int i = 0; i < n; i++) {
+            sumSegmentTree.add(arr[i]);
+        }
+        
+        for (int i = n - 1; i > 0; i--) {
+            sumSegmentTree.set(i, sumSegmentTree.get(2 * i) + sumSegmentTree.get(2 * i + 1));
+        }
+    }
+    
+    public void update(int i, int value) {
+        i += n;
+        sumSegmentTree.set(i,  value);
+        
+        while (i > 1) {
+            i /= 2;
+            sumSegmentTree.set(i, sumSegmentTree.get(2 * i) + sumSegmentTree.get(2 * i + 1));
+        }
+    }
+    
+    // Get the sum of range [left, right)
+    public int sum(int left, int right) {
+        left += n;
+        right += n;
+        int sum = 0;
+        while (left < right) {
+            if ((left & 1) == 1) {
+                sum += sumSegmentTree.get(left);
+                left++;
+            }
+            
+            if ((right & 1) == 1) {
+                right--;
+                sum += sumSegmentTree.get(right);
+            }
+            
+            left >>= 1;
+            right >>= 1;
+        }
+        
+        return sum;
+    }
+}
+```
 
 参考：[线段树（segment tree），看这一篇就够了](https://www.jianshu.com/p/6fd130084a43)
-
