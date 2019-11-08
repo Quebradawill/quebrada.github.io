@@ -26,7 +26,7 @@ author: Quebradawill
 
 #### 1、病变检测
 
-计算机辅助检测（CAD）是医学图像分析的有待完善的领域，并且非常适合引入深度学习。在 CAD 的标准方法中，一般通过监督方法或经典图像处理技术（如过滤和数学形态学）检测候选病变位置。病变位置检测是分阶段的，并且通常由大量手工制作的特征描述。将分类器用于特征向量映射到候选者来检测实际病变的概率。采用深度学习的直接方式是训练 CNN 操作一组以图像为中心的图像数据候选病变。Setio 等在 3D 胸部 CT 扫描中检测肺结节，并在九个不同方向上提取以这些候选者为中心的 2D 贴片 [6]，使用不同 CNN 的组合来对每个候选者进行分类，CAD 系统结构如图 1 所示。根据检测结果显示，与先前公布的用于相同任务的经典 CAD 系统相比略有改进。罗斯等人应用 CNN 改进三种现有的 CAD 系统，用于检测 CT 成像中的结肠息肉，硬化性脊柱变形和淋巴结肿大 [7]。他们还在三个正交方向上使用先前开发的候选检测器和 2D 贴片，以及多达 100 个随机旋转的视图。随机旋转的“2.5D”视图是从原始 3D 数据分解图像的方法。采用 CNN 对这些 2.5D 视图图像检测然后汇总，来提高检测的准确率。对于使用 CNN 的三个 CAD 系统，病变检测的准确率度提高了 13-34％，而使用非深度学习分类器（例如支持向量机）几乎不可能实现这种程度的提升。早在 1996 年， Sahiner 等人就已将 CNN 应用于医学图像处理。从乳房 X 线照片中提取肿块或正常组织的 ROI。 CNN 由输入层，两个隐藏层和输出层组成，并用于反向传播。在“GPU 时代”以前，训练时间被描述为“计算密集型”，但没有给出任何时间。1993 年，CNN 应用于肺结节检测；1995 年 CNN 用于检测乳腺摄影中的微钙化。
+**计算机辅助检测（CAD）是医学图像分析的有待完善的领域，并且非常适合引入深度学习。**在 CAD 的标准方法中，一般通过<font color='blue'>监督方法</font>或<font color='blue'>经典图像处理技术</font>（如过滤和数学形态学）检测候选病变位置。病变位置检测是分阶段的，并且通常由大量手工制作的特征描述。将分类器用于特征向量映射到候选者来检测实际病变的概率。采用深度学习的直接方式是训练 CNN 操作一组以图像为中心的图像数据候选病变。Setio 等在 3D 胸部 CT 扫描中检测肺结节，并在九个不同方向上提取以这些候选者为中心的 2D 贴片 [6]，使用不同 CNN 组合来对每个候选者进行分类。根据检测结果显示，与先前公布的用于相同任务的经典 CAD 系统相比略有改进。罗斯等人应用 CNN 改进三种现有的 CAD 系统，用于检测 CT 成像中的结肠息肉，硬化性脊柱变形和淋巴结肿大 [7]。他们还在三个正交方向上使用先前开发的候选检测器和 2D 贴片，以及多达 100 个随机旋转的视图。随机旋转的“2.5D”视图是从原始 3D 数据分解图像的方法。采用 CNN 对这些 2.5D 视图图像检测然后汇总，来提高检测的准确率。对于使用 CNN 的三个 CAD 系统，病变检测的准确率度提高了 13-34％，而使用非深度学习分类器（例如支持向量机）几乎不可能实现这种程度的提升。早在 1996 年， Sahiner 等人就已将 CNN 应用于医学图像处理。从乳房 X 线照片中提取肿块或正常组织的 ROI。 CNN 由输入层，两个隐藏层和输出层组成，并用于反向传播。在“GPU 时代”以前，训练时间被描述为“计算密集型”，但没有给出任何时间。1993 年，CNN 应用于肺结节检测；1995 年 CNN 用于检测乳腺摄影中的微钙化。
 
 #### 2、图像分割
 
@@ -72,49 +72,48 @@ author: Quebradawill
 
 #### 参考文献
 
-[1]林晓, 邱晓嘉. 图像分析技术在医学上的应用 [J] . 包头医学院学报, 2005, 21 (3) ： 311~ 314
+[1] 林晓, 邱晓嘉. 图像分析技术在医学上的应用 [J] . 包头医学院学报, 2005, 21 (3) : 311~ 314.
 
-[2]周贤善. 医学图像处理技术综述[J]. 福建电脑, 2009(1):34-34.
+[2] 周贤善. 医学图像处理技术综述[J]. 福建电脑, 2009(1):34-34.
 
-[3]Mcinerney T , Terzopoulos D . Deformable models in medical image analysis: a survey[J]. Medical Image Analysis, 1996, 1(2):91.
+[3] Mcinerney T , Terzopoulos D . Deformable models in medical image analysis: a survey[J]. Medical Image Analysis, 1996, 1(2):91.
 
-[4]Litjens G , Kooi T , Bejnordi B E , et al. A survey on deep learning in medical image analysis[J]. Medical Image Analysis, 2017, 42:60-88.
+[4] Litjens G , Kooi T , Bejnordi B E , et al. A survey on deep learning in medical image analysis[J]. Medical Image Analysis, 2017, 42:60-88.
 
-[5]Deserno T M , Heinz H , Maier-Hein K H , et al. Viewpoints on Medical Image Processing: From Science to Application[J]. Current Medical Imaging Reviews, 2013, 9(2):79-88.
+[5] Deserno T M , Heinz H , Maier-Hein K H , et al. Viewpoints on Medical Image Processing: From Science to Application[J]. Current Medical Imaging Reviews, 2013, 9(2):79-88.
 
-[6]A. Setio et al., “Pulmonary nodule detection in CT images using multiview convolutional networks,” IEEE Trans. Med. Imag., vol. 35, no. 5,pp. 1160–1169, May 2016.
+[6] A. Setio et al., “Pulmonary nodule detection in CT images using multiview convolutional networks,” IEEE Trans. Med. Imag., vol. 35, no. 5,pp. 1160–1169, May 2016.
 
-[7]H. Roth et al., “Improving computer-aided detection using convolutional neural networks and random view aggregation,” IEEE Trans.Med. Imag., vol. 35, no. 5, pp. 1170–1181, May 2016
+[7] H. Roth et al., “Improving computer-aided detection using convolutional neural networks and random view aggregation,” IEEE Trans.Med. Imag., vol. 35, no. 5, pp. 1170–1181, May 2016
 
-[8]林瑶, 田捷. 医学图像分割方法综述[J]. 模式识别与人工智能, 2002, 15(2).
+[8] 林瑶, 田捷. 医学图像分割方法综述[J]. 模式识别与人工智能, 2002, 15(2).
 
-[9]Ghesu F C , Georgescu B , Mansi T , et al. An Artificial Agent for Anatomical Landmark Detection in Medical Images[C]// International Conference on Medical Image Computing & Computer-assisted Intervention. Springer, Cham, 2016.
+[9] Ghesu F C , Georgescu B , Mansi T , et al. An Artificial Agent for Anatomical Landmark Detection in Medical Images[C]// International Conference on Medical Image Computing & Computer-assisted Intervention. Springer, Cham, 2016.
 
-[10]Pham D L , Xu C , Prince J L . Current methods in medical image segmentation.[J]. Annual Review of Biomedical Engineering, 2000, 2(2):315-337.
+[10] Pham D L , Xu C , Prince J L . Current methods in medical image segmentation.[J]. Annual Review of Biomedical Engineering, 2000, 2(2):315-337.
 
-[11]Lehmann T M , Gonner C , Spitzer K . Survey: interpolation methods in medical image processing[J]. IEEE Transactions on Medical Imaging, 1999, 18(11):1049-1075.
+[11] Lehmann T M , Gonner C , Spitzer K . Survey: interpolation methods in medical image processing[J]. IEEE Transactions on Medical Imaging, 1999, 18(11):1049-1075.
 
-[12]Cootes T F , Taylor C J . Statistical Models of Appearance for Medical Image Analysis and Computer Vision[J]. Proceedings of SPIE - The International Society for Optical Engineering, 2001, 4322(1).
+[12] Cootes T F , Taylor C J . Statistical Models of Appearance for Medical Image Analysis and Computer Vision[J]. Proceedings of SPIE - The International Society for Optical Engineering, 2001, 4322(1).
 
 [13] T. Brosch et al., “Deep 3D convolutional encoder networks with shortcuts for multiscale feature integration applied to multiple sclerosis lesion segmentation,” IEEE Trans. Med. Imag., vol. 35, no. 5,pp. 1229–1239, May 2016.
 
-[14]Ghesu F C , Krubasik E , Georgescu B , et al. Marginal Space Deep Learning: Efficient Architecture for Volumetric Image Parsing[J]. IEEE Transactions on Medical Imaging, 2016, 35(5):1217-1228.
+[14] Ghesu F C , Krubasik E , Georgescu B , et al. Marginal Space Deep Learning: Efficient Architecture for Volumetric Image Parsing[J]. IEEE Transactions on Medical Imaging, 2016, 35(5):1217-1228.
 
-[15]Milletari F , Navab N , Ahmadi S A . V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation[J]. 2016.
+[15] Milletari F , Navab N , Ahmadi S A . V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation[J]. 2016.
 
-[16] .周永新, 罗述谦. 一种人机交互式快速脑图象配准系统[J] . 北京生物医学工程, 2002; 21 (1) ：11~14
+[16] 周永新, 罗述谦. 一种人机交互式快速脑图象配准系统[J] . 北京生物医学工程, 2002; 21 (1) ：11~14
 
-[17]杨虎, 马斌荣, 任海萍. 基于互信息的人脑图象配准研究[J] . 中国医学物理学杂志, 2001; 18 (2) ：69~73
+[17] 杨虎, 马斌荣, 任海萍. 基于互信息的人脑图象配准研究[J] . 中国医学物理学杂志, 2001; 18 (2) ：69~73
 
-[18]汪家旺，愈同福，姜晓彤，等.肺部孤立性结节定量研究[J].中国医学影 像技术,2003,19(9)：1218~1219
+[18] 汪家旺，愈同福，姜晓彤，等.肺部孤立性结节定量研究[J].中国医学影 像技术,2003,19(9)：1218~1219
 
-[19]Ishihara S , Ishihara K , Nagamachi M , et al. An analysis of Kansei structure on shoes using self-organizing neural networks[J]. International Journal of Industrial Ergonomics, 1997, 19(2):93-104.
+[19] Ishihara S , Ishihara K , Nagamachi M , et al. An analysis of Kansei structure on shoes using self-organizing neural networks[J]. International Journal of Industrial Ergonomics, 1997, 19(2):93-104.
 
-[20]Maintz J B , Viergever M A . A Survey of Medical Image Registration[J]. Computer & Digital Engineering, 2009, 33(1):140-144.
+[20] Maintz J B , Viergever M A . A Survey of Medical Image Registration[J]. Computer & Digital Engineering, 2009, 33(1):140-144.
 
-[21]Hill D L G , Batchelor P G , Holden M , et al. Medical image registration[J]. Physics in Medicine & Biology, 2008, 31(4):1-45.
+[21] Hill D L G , Batchelor P G , Holden M , et al. Medical image registration[J]. Physics in Medicine & Biology, 2008, 31(4):1-45.
 
-[22]Razzak M I , Naz S , Zaib A . Deep Learning for Medical Image Processing: Overview, Challenges and Future[J]. 2017.
+[22] Razzak M I , Naz S , Zaib A . Deep Learning for Medical Image Processing: Overview, Challenges and Future[J]. 2017.
 
-[23]林晓, 邱晓嘉. 图像分析技术在医学上的应用 [J] . 包头医学院学报, 2005, 21 (3) ： 311~ 314
-
+[23] 林晓, 邱晓嘉. 图像分析技术在医学上的应用 [J] . 包头医学院学报, 2005, 21 (3) : 311~ 314.
