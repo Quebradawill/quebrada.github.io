@@ -10,7 +10,7 @@ published: true
 author: Quebradawill
 ---
 
-参考：[最全综述 | 医学图像处理](https://mp.weixin.qq.com/s?__biz=MzIxOTczOTM4NA==&mid=2247487797&idx=1&sn=334390bf511f3e4efbc14376c0ec22fe&chksm=97d7f4a2a0a07db4a22c8075cd3ffe624a4afc5c2d3eb0bc47b89bd6464cf8a5bdcdd5f0823a&mpshare=1&scene=1&srcid=0924bms41nTxRwSxo4rxtcOk&sharer_sharetime=1569316512644&sharer_shareid=2dcb22c16881cb29bab18eeac9dd2764&key=48945bec6f7dd4318aaf8141790e2e7ddad48bac5e68e6e7211ee4f7898d995d88274192ea770b792b16fb2b47e80d68689a2b806c899caf383ebe76743c111d23c0668ece8a6fd57afebfbb2e250b27&ascene=1&uin=MjQwMDA2NDE0Mw%3D%3D&devicetype=Windows+10&version=62070152&lang=en&pass_ticket=CXMg1Buzxao0F47DQMIrEwB1s1DF48NQ%2FT2jwUPx4%2B0DiW4EG89x5YvB%2FyAoGjHO)
+参考：[最全综述 \| 医学图像处理](https://mp.weixin.qq.com/s?__biz=MzIxOTczOTM4NA==&mid=2247487797&idx=1&sn=334390bf511f3e4efbc14376c0ec22fe&chksm=97d7f4a2a0a07db4a22c8075cd3ffe624a4afc5c2d3eb0bc47b89bd6464cf8a5bdcdd5f0823a&mpshare=1&scene=1&srcid=0924bms41nTxRwSxo4rxtcOk&sharer_sharetime=1569316512644&sharer_shareid=2dcb22c16881cb29bab18eeac9dd2764&key=48945bec6f7dd4318aaf8141790e2e7ddad48bac5e68e6e7211ee4f7898d995d88274192ea770b792b16fb2b47e80d68689a2b806c899caf383ebe76743c111d23c0668ece8a6fd57afebfbb2e250b27&ascene=1&uin=MjQwMDA2NDE0Mw%3D%3D&devicetype=Windows+10&version=62070152&lang=en&pass_ticket=CXMg1Buzxao0F47DQMIrEwB1s1DF48NQ%2FT2jwUPx4%2B0DiW4EG89x5YvB%2FyAoGjHO)
 
 ### 0、引言
 
