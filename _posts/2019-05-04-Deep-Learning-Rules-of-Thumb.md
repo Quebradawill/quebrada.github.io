@@ -1,3 +1,15 @@
+---
+layout: post
+title: 深度学习经验法则
+date: 2019-05-04
+categories: Papers
+tags: DeepLearning
+status: publish
+type: post
+published: true
+author: Quebradawill
+---
+
 英文版：[Deep Learning Rules of Thumb](https://jeffmacaluso.github.io/post/DeepLearningRulesOfThumb/)
 
 中文版：[深度学习经验法则](https://cugtyt.github.io/blog/2019/0405)
