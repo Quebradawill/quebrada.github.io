@@ -63,3 +63,8 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ### 9. Python 中 `if __name__ == '__main__':` 的解析
 
 模块是对象，并且所有的模块都有一个内置属性 `__name__`。一个模块的 `__name__` 的值取决于您如何应用模块。如果 `import` 一个模块，那么模块 `__name__` 的值通常为模块文件名，不带路径或者文件扩展名。但是您也可以像一个标准的程序样直接运行模块，在这种情况下，`__name__` 的值将是一个特别缺省“`__main__`”。
+
+### 10. 更改 jupyterlab 中的字号
+
+C:\Users\Quebradawill\AppData\Local\Programs\Python\Python37\share\jupyter\lab\themes\@jupyterlab\theme-dark-extension 文件夹下的 index.css 中的字号（font-size）
+
