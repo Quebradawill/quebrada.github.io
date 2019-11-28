@@ -16,6 +16,7 @@ author_footer: false
 
 
 ## Blogs
+- [文艺数学君]( https://www.mathpretty.com )： 文艺数学君旨在通过[**图形化的语言**](http://mathpretty.com/category/mathshow)，来分享一些[**有趣的数学知识**](http://mathpretty.com/category/math_beauty)，并会结合[**Mathematica**](http://mathpretty.com/category/mathematica)和[**Python**](http://mathpretty.com/)等软件做数学与实际的应用。**成员分工：**网站建设：王茂南 -- 一只萌新路过；赵倩 -- 这个是大佬；UI设计：赵奕林 -- 网站logo及文章封面图设计；公众号编辑：孙慧中 -- 负责文艺数学君公众号的更新；文章编辑：邵亚男 -- 概率论与数理统计部分文章；孙晓楠 -- 应用回归分析spss部分文章；王祥赛 -- 应用回归分析mathematica部分文章；合作者：遇见数学--图解线性代数部分文章。
 - [Chiyuan Zhang (张驰原)](http://pluskid.org/index.html)：浙江大学本硕（2005-2012），MIT 博士（2012-2017），有很多 ML、DL 方面的精彩 blogs，现在很少更新了。
 - [Shervine Amidi](https://stanford.edu/~shervine/)：斯坦福大学研究生，包括 CS 221: Artificial Intelligence，CS 229: Machine Learning，CS 230: Deep Learning 等课程的 notes。
 
