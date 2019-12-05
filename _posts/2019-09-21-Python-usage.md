@@ -72,3 +72,12 @@ C:\Users\Quebradawill\AppData\Local\Programs\Python\Python37\share\jupyter\lab\t
 
 PyCharm 从 2017.3 版之后，将 `matplotlib` 的绘图的结果默认显示在 `SciView` 窗口中，而不是弹出独立的窗口，如果不喜欢这种设置，可以通过如下方式修改，取消勾选，弹出独立窗口 File $\to$ Settings $\to$ Tools $\to$ Python Scientific $\to$ Show plots in toolwindow
 
+有时需做如下更改：
+
+```python
+import matplotlib
+matplotlib.use('TkAgg')
+print(matplotlib.get_backend())
+```
+
+常见的 backend 有 TkAgg、Qt4Agg、Qt5Agg 等等。
