@@ -9,6 +9,7 @@ author_footer: false
 
 - [CS231n: Convolutional Neural Networks for Visual Recognition](http://vision.stanford.edu/teaching/cs231n/)：由斯坦福大学李飞飞领衔，CNN 方面的精彩课程。
 - [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)：斯坦福大学的深度学习自然语言处理的精彩课程。
+- [CS230: Deep Learning](https://cs230.stanford.edu)：Andrew Ng 开设的深度学习课程，值得推荐。
 - [动手学深度学习](http://zh.d2l.ai)：英文名 [Dive into Deep Learning](https://d2l.ai)，伯克利大学课程，韩家炜、周志华、张潼、余凯等多名大牛推荐，非常值得学习！
 - [deeplearning.ai](https://www.deeplearning.ai)：有精彩的深度学习课程，包括：Deep Learning Specification，TensorFlow Specification，AI For Everyone Course。
 - [dataflowr](https://mlelarge.github.io/dataflowr-web/)：讲授 PyTorch 的课程，值得推荐。
