@@ -38,3 +38,24 @@ $$
 
 当初始点选的比较好的时候，$\lim_{n \to \infty} x_n $ 收敛于一个局部极值点。
 
+### 2. 方阵的相似变换
+
+**定义：**如果两个方阵满足 $\tilde{A} = P^{-1} A P $，那么这两个方阵互为相似矩阵。
+
+相似矩阵的**几何意义**是同一个线性变换在不同基下的表达形式。
+
+当研究对象是线性变换的时候，我们只关心矩阵在相似变换下不变的几何性质：
+
+- 行列式（det）
+
+
+$$
+\begin{array} \det (P^{-1} A P) & = \det(P^{-1}) \det(A) \det(P) \\ & =  \det(P^{-1}) \det(P) \det(A) \\ & = \det(A) \end{array}
+$$
+
+
+- 迹（trace）$ {\rm tr} (AB) = {\rm tr} (BA)$，${\rm tr} (P^{-1} A P) = {\rm tr} (AP P^{-1}) = {\rm tr} (A \cdot I) = {\rm tr} (A)$
+- 秩（rank）
+- 特征值：特征方程 $ \det (A - \lambda I)  = 0$ 的根。如果 $ \det (A - \lambda I) = 0 $，那么 $\det \left ( P^{-1} (A - \lambda I) P \right) = 0$，于是 $  \det (P^{-1} A P - \lambda I)  = 0 $。
+
+<font color = 'blue'>特征值是最重要的相似不变量，利用这个相似不变量可以方便地得出上面所有的不变量。</font>
