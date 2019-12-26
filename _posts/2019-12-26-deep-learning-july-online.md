@@ -24,7 +24,7 @@ author: Quebradawill
 
 
 $$
-f(x_0 + \Delta_x) = f(x_0) + f^{'}(x_0) \Delta_x + \frac{f^{''}(x_0)}{2} \Delta_x^2 = \omicron (\Delta_x^2) = g(\Delta_x) + \omicron (\Delta_x^2)
+f(x_0 + \Delta_x) = f(x_0) + f^{'}(x_0) \Delta_x + \frac{f^{''}(x_0)}{2} \Delta_x^2 + \omicron (\Delta_x^2) = g(\Delta_x) + \omicron (\Delta_x^2)
 $$
 
 
