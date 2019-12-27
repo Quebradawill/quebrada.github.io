@@ -225,12 +225,78 @@ $$
 
 
 $$
-\begin{aligned} \\ v_t &= \gamma v_{t-1} + \eta \nabla_{\theta} J(\theta - \gamma v_{t-1}) \\ \theta_t &= \theta_{t-1} - v_t \\ &= \theta_{t-1} - \gamma v_{t-1} - \eta \nabla_{\theta} J(\theta) \end{aligned}
+\begin{aligned} \\ v_t &= \color{red}{\gamma v_{t-1}} + \eta \nabla_{\theta} J(\theta \color{magenta}{- \gamma v_{t-1}}) \\ \theta_t &= \theta_{t-1} - v_t \\ &= \theta_{t-1} \color{red}{- \gamma v_{t-1}} - \eta \nabla_{\theta} J(\theta \color{magenta}{- \gamma v_{t-1}}) \end{aligned}
 $$
 
 
+**3. Adagrad**（自动调整学习率，适用于稀疏数据）
+
+梯度下降法在每一步对每一个参数使用相同的学习率，这种一刀切的做法不能有效利用每一个数据集自身的特点。
+
+Adagrad 是一种自动调整学习率的方法
+
+- 随着模型的训练，学习率自动衰减；
+- 对于更新频繁的参数，采取较小的学习率；
+- 对于更新不频繁的参数，采取较大的学习率。
+
+对每个参数历史上的每次更新叠加，以此来做下一次更新的惩罚系数：
+
+- 梯度：$g_{t,i} = \nabla_{\theta} J(\theta_i)$
+- 梯度历史矩阵：$G_t$ 对角矩阵，其中 $G_{t,ii} = \sum_k g_{k,i}^2$
+- 参数更新：
 
 
+$$
+\theta_{t+1,i} = \theta_{t,i} - \frac{\eta}{\sqrt{G_{t,ii} + \epsilon}} \cdot g_{t,i}
+$$
 
+
+**4. Adadelta**（Adagrad 的改进算法）
+
+Adagrad 的一个问题在于随着训练的进行，学习率快速单调衰减。Adadelta 则使用梯度平方的移动平均来取代全部历史平方和。定义移动平均：$E[g^2]_t = \gamma E[g^2]_{t-1} + (1 - \gamma) g_t^2$，于是就得到参数更新法则：
+
+
+$$
+\theta_{t+1,i} = \theta_{t,i} - \frac{\eta}{\sqrt{E[g^2]_{t,ii} + \epsilon}} \cdot g_{t,i}
+$$
+
+
+Adagrad 以及一般梯度下降法的另一个问题在于，梯度与参数的单位不匹配。Adadelta 使用参数更新的移动平均取代学习率 $\eta$，于是参数更新法则：
+
+
+$$
+\theta_{t+1,i} = \theta_{t,i} - \frac{\sqrt{E[\Delta \theta]_{t-1}}}{\sqrt{E[g^2]_{t,ii} + \epsilon}} \cdot g_{t,i}
+$$
+
+
+**注意：**Adadelta 的第一个版本也叫做 RMSprop，是 Geoff Hinton 独立于 Adadelta 提出来的。
+
+**5. Adam**（结合了动量法与 Adadelta 的算法）
+
+如果把 Adadelta 里梯度的平方和看成是梯度的二阶矩，那么梯度自身的求和就是一阶矩。Adam 算法在 Adadelta 二阶矩基础上又引入了一阶矩。
+
+而一阶矩，其实就类似于动量法里面的动量。
+
+
+$$
+\begin{aligned} m_t &= \beta_1 m_{t-1} + (1 - \beta_1) g_t \\ v_t &= \beta_2 v_{t-1} + (1 - \beta_2) g_t^2 \end{aligned}
+$$
+
+
+于是参数更新法则：
+
+
+$$
+\theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{v_t} + \epsilon} m_t
+$$
+
+
+**注意：**实际操作中 $v_t$ 与 $m_t$ 采取了更好的无偏估计，避免前几次更新时数据不足的问题。
+
+**6. 如何选择算法**
+
+- 动量法与 Nesterov 的改进方法着重解决目标函数图像崎岖的问题；
+- Adagrad 与 Adadelta 主要解决学习率更新的问题；
+- Adam 集中了两种做法的主要优点。
 
 ## 3. 概率论
