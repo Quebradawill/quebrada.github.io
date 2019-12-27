@@ -171,7 +171,6 @@ $$
 \Delta \theta = \left(\nabla^2 J(\theta_0) \right)^{-1} \cdot \nabla J(\theta_0)
 $$
 
-
 **困难：**
 
 - 梯度的计算：样本量很大时，梯度的计算非常耗时耗力；
