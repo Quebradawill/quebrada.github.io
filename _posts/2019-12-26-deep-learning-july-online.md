@@ -59,3 +59,27 @@ $$
 - 特征值：特征方程 $ \det (A - \lambda I)  = 0$ 的根。如果 $ \det (A - \lambda I) = 0 $，那么 $\det \left ( P^{-1} (A - \lambda I) P \right) = 0$，于是 $  \det (P^{-1} A P - \lambda I)  = 0 $。
 
 <font color = 'blue'>特征值是最重要的相似不变量，利用这个相似不变量可以方便地得出上面所有的不变量。</font>
+
+<font color='red'>相合变换（二次型）</font>：假设 $V$ 是一个实系数线性空间，那么线性空间上的**度量**指的是空间中向量的内积关系 $G(v_1,v_2)$。如果 $\alpha \{\alpha_1, \cdots, \alpha_k \}$ 是空间 $V$ 的一组基，那么这个内积一般可以用一个对称矩阵 $H_{\alpha} = [h_{ij}]_{n \times n}$ 来表示。
+
+
+$$
+h_{ij} = G(\alpha_i, \alpha_j)
+$$
+
+
+这时候对于任意两个向量 $v_1, v_2$，如果 $v_1 = \alpha \cdot x_1$，$v_2 = \alpha \cdot x_2$，那么
+
+
+$$
+G(v_1, v_2) = x_1^T H_{\alpha} x_2
+$$
+
+
+<font color='blue'>有什么几何意义呢？</font>
+
+方阵的相合变换：
+
+- 如果两个对称矩阵 $A$ 和 $\tilde{A}$ 满足，$\tilde{A} = P^T AP$，那么这两个方阵将互为相合矩阵；
+- 相似矩阵的几何意义是同一个内积结构在不同基下的表示形式。
+
