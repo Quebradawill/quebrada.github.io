@@ -48,11 +48,12 @@ $$
 
 当研究对象是线性变换的时候，我们只关心矩阵在相似变换下不变的几何性质：
 
-- 行列式（det）
+- 行列式（determinant）
 
 
 $$
-\begin{array} \det (P^{-1} A P) & = \det(P^{-1}) \det(A) \det(P) \\ & =  \det(P^{-1}) \det(P) \det(A) \\ & = \det(A) \end{array}
+\begin{array}
+\\ \det (P^{-1} A P) & = \det(P^{-1}) \det(A) \det(P) \\ & =  \det(P^{-1}) \det(P) \det(A) \\ & = \det(A) \end{array}
 $$
 
 
