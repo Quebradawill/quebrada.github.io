@@ -253,7 +253,7 @@ $$
 
 **4. Adadelta**（Adagrad 的改进算法）
 
-Adagrad 的一个问题在于随着训练的进行，学习率快速单调衰减。Adadelta 则使用梯度平方的移动平均来取代全部历史平方和。定义移动平均：$E[g^2]_t = \gamma E[g^2]_{t-1} + (1 - \gamma) g_t^2$，于是就得到参数更新法则：
+Adagrad 的一个问题在于随着训练的进行，学习率快速单调衰减。Adadelta 则使用梯度平方的移动平均来取代全部历史平方和。定义移动平均：$$E[g^2]_t = \gamma E[g^2]_{t-1} + (1 - \gamma) g_t^2$$，于是就得到参数更新法则：
 
 
 $$
@@ -318,8 +318,11 @@ ROC 曲线：
 - 评估模型时，如果数据不平衡，则用准确率是不合适的。
 
 - $\rm{precision} = TP / (TP + FP)$
+
+  
   $$
   \begin{aligned} \rm{recall} = & TPR = TP / (TP + FN) \\ & FPR = FP / (FP + TN) \end{aligned}
   $$
+  
 
 - ROC 曲线的横坐标为 FPR（False Positive Rate），纵坐标为 TPR（True Positive Rate）。
