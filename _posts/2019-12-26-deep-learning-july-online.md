@@ -104,6 +104,86 @@ $$
 
 ## 2. 微积分
 
+微分学的核心思想是用<font color='red'>熟悉且简单</font>的函数对复杂函数进行<font color='red'>局部</font>逼近。
 
+重要极限（两边夹定理应用）：
+
+- 三角函数
+
+
+$$
+\lim_{x \to 0} \frac{\sin (x)}{x} = 1
+$$
+
+
+- 自然对数底数
+
+
+$$
+e = \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n
+$$
+
+
+- 指数函数
+
+
+$$
+\lim_{x \to 0} \frac{e^x - 1}{x} = 1
+$$
+
+
+梯度（以二元函数为例）：对于一个可微函数 $f(x,y)$，梯度定义为 $ \nabla f(x,y) = (\partial_x f, \partial_y f)^T$。
+
+- 梯度的代数意义：任意方向的偏导数可以由梯度来表示，如果 $v = (a,b)$
+
+
+$$
+\nabla_v f(x,y) = v \cdot \nabla f(x, y) = a \partial_x f(x,y) + b \partial_y f(x,y)
+$$
+
+
+- 梯度的几何意义：梯度方向就是函数增长最快的方向。
+
+### 2.1 梯度下降法和牛顿法
+
+梯度下降法：对函数进行一阶逼近寻找函数下降最快的方向。
+
+牛顿法：对函数的二阶逼近，并直接估计函数的极小值点
+
+
+$$
+f(\theta_0 + \Delta \theta) = f(\theta_0) + \Delta \theta^T \cdot \nabla J(\theta_0) + \frac12 \Delta \theta^T \nabla^2 J(\theta_0) \Delta \theta + \omicron (\vert \Delta \theta \vert^2)
+$$
+
+
+于是关于 $\Delta \theta $ 的梯度为
+
+
+$$
+\nabla J(\theta_0) + \nabla^2 J(\theta_0) \Delta \theta + \omicron (\vert \Delta \theta \vert)
+$$
+
+
+零点的近似值为
+
+
+$$
+\Delta \theta = \left(\nabla^2 J(\theta_0) \right)^{-1} \cdot \nabla J(\theta_0)
+$$
+
+
+**困难：**
+
+- 梯度的计算：样本量很大时，梯度的计算非常耗时耗力；
+- 学习率的选择：过小算法收敛太慢，过大易导致算法不收敛。
+
+### 2.2 随机梯度下降法
+
+随机梯度下降法主要为了解决第一个问题：梯度计算。
+
+由于随机梯度下降法的引入，通常将梯度下降法分为三种类型：
+
+- 批梯度下降法（GD），原始的梯度下降法；
+- 随机梯度下降法（SGD），每次梯度计算只使用一个样本
 
 ## 3. 概率论
