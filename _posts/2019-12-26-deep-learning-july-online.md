@@ -52,8 +52,8 @@ $$
 
 
 $$
-\begin{array}
-\\ \det (P^{-1} A P) & = \det(P^{-1}) \det(A) \det(P) \\ & =  \det(P^{-1}) \det(P) \det(A) \\ & = \det(A) \end{array}
+\begin{aligned}
+\\ \det (P^{-1} A P) & = \det(P^{-1}) \det(A) \det(P) \\ & =  \det(P^{-1}) \det(P) \det(A) \\ & = \det(A) \end{aligned}
 $$
 
 
@@ -183,5 +183,54 @@ $$
 
 - 批梯度下降法（GD），原始的梯度下降法；
 - 随机梯度下降法（SGD），每次梯度计算只使用一个样本
+  - 避免在类似样本上计算梯度造成的冗余计算；
+  - 增加了跳出当前的局部最小值的潜力；
+  - 在中逐渐缩小学习率的情况下，有与批梯度下降法类似的收敛速度。
+- 小批量随机梯度下降法（Mini Batch SGD），每次梯度计算使用一个小批量样本
+  - 梯度计算比单样本更加稳定；
+  - 可以很好地利用现成的高度优化的矩阵运算工具。
+
+**注意：**神经网络训练的文献中经常把 Mini Batch SGD 称为 SGD。
+
+随机梯度下降法的**主要困难**在于前述的第二个问题，即学习率的选取。
+
+- 局部梯度的反方向不一定是函数整体下降的方向：对图像比较崎岖的函数，尤其是隧道型曲面，梯度下降表现不佳；
+- 预定学习率衰减法的问题：学习率衰减法很难根据当前数据进行自适应；
+- 对不同参数采取不同的学习率的问题：在数据有一定稀疏性时，希望对不同特征采取不同的学习率；
+- 神经网络训练中梯度下降法容易被困在鞍点附近的问题：比起局部极小值，鞍点更加可怕。
+
+为什么不用牛顿法？
+
+- 牛顿法要求计算目标函数的二阶导数（Hessian matrix），在高维特征情形下这个<font color='blue'>矩阵非常巨大</font>，计算和存储都成问题；
+- 在使用小批量情形下，牛顿法对于二阶导数的估计<font color='blue'>噪声太大</font>；
+- 在目标函数非凸时，牛顿法更容易受到<font color='blue'>鞍点</font>甚至<font color='blue'>最大值点</font>的吸引。
+
+### 2.3 随机梯度下降法的优化算法
+
+**1. 动量法（Momentum）**（适用于隧道型曲面）
+
+动量法每次更新都吸收一部分上次更新的余势：
+
+
+$$
+\begin{aligned} \\ v_t &= \color{red}{ \gamma v_{t-1} } + \eta \nabla_{\theta} J(\theta) \\ \theta_t &= \theta_{t-1} - v_t \\ &= \theta_{t-1} \color{red}{ - \gamma v_{t-1} } - \eta \nabla_{\theta} J(\theta) \end{aligned}
+$$
+
+
+**2. 动量法的改进算法（Nesterov accelerated gradient）**
+
+动量法的一个问题：从山顶推下的铁球越滚越快，以至于到了山底停不下来。希望算法更聪明一些，到达山底前景自己刹车。
+
+利用主体下降方向的先见之明，预判下一步的位置，并到预判位置计算梯度。
+
+
+$$
+\begin{aligned} \\ v_t &= \gamma v_{t-1} + \eta \nabla_{\theta} J(\theta - \gamma v_{t-1}) \\ \theta_t &= \theta_{t-1} - v_t \\ &= \theta_{t-1} - \gamma v_{t-1} - \eta \nabla_{\theta} J(\theta) \end{aligned}
+$$
+
+
+
+
+
 
 ## 3. 概率论
