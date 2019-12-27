@@ -313,7 +313,7 @@ $$
   - 支持向量机（Support Vector Machine）
   - 条件随机场（Conditional Random Field）
 
-ROC 曲线：
+**ROC 曲线：**
 
 - 评估模型时，如果数据不平衡，则用准确率是不合适的。
 
@@ -326,3 +326,25 @@ ROC 曲线：
   
 
 - ROC 曲线的横坐标为 FPR（False Positive Rate），纵坐标为 TPR（True Positive Rate）。
+
+**熵（Entropy）：**$H(X) = - \sum_i P(X_i) \log P(X_i)$
+
+**KL 散度（KL Divergence）：**
+
+
+$$
+\begin{aligned} \\ \textrm{KL} (p \Vert q) & = \sum_i p_i \log \frac{p_i}{q_i} \\ & = \sum_i p_i \log p_i - \sum_i p_i \log q_i \\ & = - H(p) + H(p,q) \end{aligned}
+$$
+
+
+$\textrm{KL} (p \Vert q) \geq 0$，$\textrm{KL} (p \Vert q) = 0 \Longleftrightarrow p = q$
+
+KL 散度不对称！常用于解释 EM 算法。
+
+**互信息（Mutual Information）：**
+
+
+$$
+\begin{align} I(X,Y) & = \textrm{KL} \left( P(X,Y) \Vert P(X) P(Y) \right) = \sum_x \sum_y P(X,Y) \log \frac{P(X,Y)}{P(X) P(Y)} \\ I(X,Y) & \geq 0, \qquad I(X,Y) = 0 \Longleftrightarrow P(X,Y) = P(X)P(Y) \\
+I(X,Y) & = H(X) - H(X \vert Y) \end{align}
+$$
