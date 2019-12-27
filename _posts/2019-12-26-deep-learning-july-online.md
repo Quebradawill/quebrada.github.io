@@ -300,3 +300,26 @@ $$
 - Adam 集中了两种做法的主要优点。
 
 ## 3. 概率论
+
+马尔可夫（Markov）：$P(X_1, \cdots, X_n) = P(X_1) P(X_2 \vert X_1) P(X_3 \vert X_2) \cdots P(X_n \vert X_{n - 1})$
+
+生成模型和判别模型：
+
+- 生成模型：$P(Y \vert X) = P(X \vert Y) \times P(Y) / P(X) $
+  - 朴素贝叶斯（Naïve Bayes）
+  - 隐马尔可夫（Hidden Markov Model）
+- 判别模型：$P(Y \vert X)$
+  - 逻辑回归（Logistic Regression）
+  - 支持向量机（Support Vector Machine）
+  - 条件随机场（Conditional Random Field）
+
+ROC 曲线：
+
+- 评估模型时，如果数据不平衡，则用准确率是不合适的。
+
+- $\rm{precision} = TP / (TP + FP)$
+  $$
+  \begin{aligned} \rm{recall} = & TPR = TP / (TP + FN) \\ & FPR = FP / (FP + TN) \end{aligned}
+  $$
+
+- ROC 曲线的横坐标为 FPR（False Positive Rate），纵坐标为 TPR（True Positive Rate）。
