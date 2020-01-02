@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Photoshop设计精讲精练
+title: Photoshop设计精讲精练 - 浙江大学
 date: 2020-01-02
 categories: Photoshop
 tags: Photoshop
