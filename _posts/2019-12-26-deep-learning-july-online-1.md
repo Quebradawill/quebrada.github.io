@@ -10,7 +10,7 @@ published: true
 author: Quebradawill
 ---
 
-# 第 1 周：概率论和微积分
+# 第 1 课：微积分、线性代数、概率论和凸优化
 
 ## 1. 微积分和线性代数
 
