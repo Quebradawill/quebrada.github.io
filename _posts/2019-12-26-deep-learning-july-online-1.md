@@ -3,7 +3,7 @@ layout: post
 title: Deep Learning 课程 - PART 1 - 七月在线
 date: 2019-12-26
 categories: Deep-learning
-tags: PyTorch Tensorflow
+tags: PyTorch Tensorflow 七月在线
 status: publish
 type: post
 published: true
