@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning 课程 - 七月在线
+title: Deep Learning 课程 - PART 1 - 七月在线
 date: 2019-12-26
 categories: Deep-learning
 tags: PyTorch Tensorflow
@@ -324,7 +324,6 @@ $$
   \begin{aligned} \rm{recall} = & TPR = TP / (TP + FN) \\ & FPR = FP / (FP + TN) \end{aligned}
   $$
   
-
 - ROC 曲线的横坐标为 FPR（False Positive Rate），纵坐标为 TPR（True Positive Rate）。
 
 **熵（Entropy）：**$H(X) = - \sum_i P(X_i) \log P(X_i)$
