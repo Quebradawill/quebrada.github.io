@@ -347,3 +347,48 @@ $$
 \begin{align} I(X,Y) & = \textrm{KL} \left( P(X,Y) \Vert P(X) P(Y) \right) = \sum_x \sum_y P(X,Y) \log \frac{P(X,Y)}{P(X) P(Y)} \\ I(X,Y) & \geq 0, \qquad I(X,Y) = 0 \Longleftrightarrow P(X,Y) = P(X)P(Y) \\
 I(X,Y) & = H(X) - H(X \vert Y) \end{align}
 $$
+
+
+
+## 4. 线性代数基础
+
+### 4.1 矩阵计算及性质
+
+**1. 内积及正交性**
+
+
+$$
+\langle x, y \rangle = \langle y, x \rangle = x \cdot y = y \cdot x = x^T y = y^T x = \Vert x \Vert \Vert y \Vert \cos \theta
+$$
+
+
+其中，
+
+
+$$
+\cos \theta = \arg \cos \frac{\langle x, y \rangle}{\Vert x \Vert \Vert y \Vert}
+$$
+
+
+性质：
+
+
+$$
+\begin{aligned} & \langle \lambda x, y \rangle = \lambda \langle x, y \rangle \\ & \langle x + y , z \rangle = \langle x, z \rangle + \langle y,z \rangle \\ & \langle x, y \rangle^2 \leq \langle x, x \rangle \langle y, y \rangle \\ & \langle x, y \rangle \leq \Vert x \Vert \Vert y \Vert \end{aligned}
+$$
+
+
+**2. 矩阵乘法运算律**
+
+乘法结合律：$ A(BC) = (AB)C$
+
+左分配律：$(A+B)C = AC + BC$
+
+右分配律：$A(B+C) = AB + AC$
+
+一般情况下，$AB \neq BA$
+
+**3. 矩阵（方阵）的迹**
+
+方阵迹的性质：$\rm{tr} A = \rm{tr} A^T$，$ \rm{tr} (A+B) = \rm{tr} A + \rm{tr} B$，$\rm{tr} (\lambda A) = \lambda ( \rm{tr} A)$，$\rm{tr} (AB) = \rm{tr}(BA)$。
+
