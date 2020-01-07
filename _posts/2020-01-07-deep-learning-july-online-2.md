@@ -22,7 +22,7 @@ $f(x, W) = Wx$
 
 **损失函数1：hinge loss/支持向量机损失**
 
-$L_i = \sum_{j \neq y_i} \max \left( 0, f(x_i, W)_j - f(x_i, W)_{y_i} + \Delta \right)$
+$$L_i = \sum_{j \neq y_i} \max \left( 0, f(x_i, W)_j - f(x_i, W)_{y_i} + \Delta \right)$$
 
 - 因为是线性模型，可以简化成 $L_i = \sum_{j \neq y_i} \max \left( 0, w_j^T x_i - w_{y_i}^T x_i + \Delta \right)$
 - 加正则化项：$L = \frac1N \sum_i L_i + \lambda R(W)$
