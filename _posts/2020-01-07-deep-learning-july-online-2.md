@@ -16,5 +16,7 @@ author: Quebradawill
 
 ## 2. 一点基础：线性分类器
 
+损失函数（loss function）、代价函数（cost function）、客观度（objective）。
+
 
 
