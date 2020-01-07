@@ -487,3 +487,45 @@ $ (y - A \hat{x}) \perp \textrm{Col}(A) \Rightarrow \langle a_j, y - A \hat{x} \
 
 线性方程 $Ax = y$ 的最小二乘解与法方程 $A^T Ax = A^T y$ 的解一致，**当且仅当**矩阵 $A$ 的列线性无关（即列满秩）时，方阵 $A^TA$ 可逆，方程 $Ax=y$ 有唯一的最小二乘解：$\hat{x} = (A^TA)^{-1} A^T y$
 
+## 5. 概率论
+
+**1. 随机变量的矩**
+
+随机变量 $X$，对于任何正整数 $n$，其 $k$ 阶矩定义为
+
+
+$$
+E(X^k) = \int p(x) x^k dx
+$$
+
+
+$k = 1, E(X)$ 为期望；$k = 2, E(X^2) - E(X)^2$ 为方差。
+
+## 6. 凸优化
+
+常见凸函数：
+
+- 仿射函数：$ax+b \ \textrm{on} \ \mathcal{R}^n$
+- 指数函数：$e^{\alpha x}, \forall \alpha \in \mathcal{R}$
+- 幂函数：$x^{\alpha} \ \textrm{on} \ \mathcal{R}^+, \forall \alpha \geq 1, \ \textrm{or} \ \alpha < 0$
+- 负熵：$ x \log x \ \textrm{on} \ \mathcal{R}^+$
+- 负对数函数：$ - \log x \ \textrm{on} \ \mathcal{R}^+$
+
+<font color='red'>Hessian 矩阵半正定！！！</font>
+
+Jensen 不等式：如果 $f: \Omega \to \mathcal{R}$ 是一个凸函数，则对于任何 $\{ x_i \in \Omega \}_{i=1}^n$，以及凸组合 $\sum_{i=1}^n \omega_i x_i$ 都有
+
+
+$$
+\sum_{i=1}^n \omega_i f(x_i) \geq f \left( \sum_{i=1}^n \omega_i x_i \right)
+$$
+
+
+凸函数保凸运算：
+
+- 任意多个凸函数的逐点上确界仍是凸函数。
+- 固定一个凸函数的若干个变量，所得的函数仍然是凸函数。
+- 凸函数的 sublevel set 都是凸集合。
+- 凸函数的非负线性组合仍是凸函数。
+- 若 $f: \mathcal{R}^n \to \mathcal{R}$ 是凸函数，$A \in \mathcal{R}^{n \times m}, b \in \mathcal{R}$，那么复合函数 $g(x) = f(Ax+b)$ 还是凸函数。
+- perspective：$g(x,t) = t f(x/t)$，$g$ 是凸函数如果 $f$ 为凸函数。
