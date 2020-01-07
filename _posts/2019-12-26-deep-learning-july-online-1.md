@@ -390,7 +390,15 @@ $$
 
 **3. 矩阵（方阵）的迹**
 
-方阵迹的性质：$\rm{tr} A = \rm{tr} A^T$，$ \rm{tr} (A+B) = \rm{tr} A + \rm{tr} B$，$\rm{tr} (\lambda A) = \lambda ( \rm{tr} A)$，$\rm{tr} (AB) = \rm{tr}(BA)$。
+方阵迹的性质：
+
+$\rm{tr} A = \rm{tr} A^T$
+
+$ \rm{tr} (A+B) = \rm{tr} A + \rm{tr} B$
+
+$\rm{tr} (\lambda A) = \lambda ( \rm{tr} A)$
+
+$\rm{tr} (AB) = \rm{tr}(BA)$
 
 **4. 矩阵的秩**
 
