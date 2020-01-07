@@ -369,14 +369,15 @@ $$
 \cos \theta = \arg \cos \frac{\langle x, y \rangle}{\Vert x \Vert \Vert y \Vert}
 $$
 
-
 性质：
 
+$ \langle \lambda x, y \rangle = \lambda \langle x, y \rangle $
 
-$$
-\begin{aligned} & \langle \lambda x, y \rangle = \lambda \langle x, y \rangle \\ & \langle x + y , z \rangle = \langle x, z \rangle + \langle y,z \rangle \\ & \langle x, y \rangle^2 \leq \langle x, x \rangle \langle y, y \rangle \\ & \langle x, y \rangle \leq \Vert x \Vert \Vert y \Vert \end{aligned}
-$$
+$ \langle x + y , z \rangle = \langle x, z \rangle + \langle y,z \rangle $
 
+$  \langle x, y \rangle^2 \leq \langle x, x \rangle \langle y, y \rangle $
+
+$ \langle x, y \rangle \leq \Vert x \Vert \Vert y \Vert $
 
 **2. 矩阵乘法运算律**
 
@@ -513,7 +514,7 @@ $k = 1, E(X)$ 为期望；$k = 2, E(X^2) - E(X)^2$ 为方差。
 
 <font color='red'>Hessian 矩阵半正定！！！</font>
 
-Jensen 不等式：如果 $f: \Omega \to \mathcal{R}$ 是一个凸函数，则对于任何 $\{ x_i \in \Omega \}_{i=1}^n$，以及凸组合 $\sum_{i=1}^n \omega_i x_i$ 都有
+Jensen 不等式：如果 $f: \Omega \to \mathcal{R}$ 是一个凸函数，则对于任何 $$\{ x_i \in \Omega \}_{i=1}^n$$，以及凸组合 $ \sum_{i=1}^n \omega_i x_i $​ 都有
 
 
 $$
