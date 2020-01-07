@@ -392,3 +392,19 @@ $$
 
 方阵迹的性质：$\rm{tr} A = \rm{tr} A^T$，$ \rm{tr} (A+B) = \rm{tr} A + \rm{tr} B$，$\rm{tr} (\lambda A) = \lambda ( \rm{tr} A)$，$\rm{tr} (AB) = \rm{tr}(BA)$。
 
+**4. 矩阵的秩**
+
+给定 $A \in R^{m \times n}$，$x, b \in R^n$，矩阵方程 $Ax = b$ 可分为三种类型：
+
+- 适定方程：若 $m=n$，且 $\textrm{rank} (A) = n$，即矩阵 $A$ 非奇异，则称方程为适定（well-determined）方程，方程解是唯一的，$x = A^{-1} b$
+- 欠定方程：若 $m < \textrm{rank} (A)$，独立方程个数小于独立未知数个数，则称方程为欠定（under-determined）方程，方程有无穷多解
+- 超定方程：若 $m > \textrm{rank} (A)$，独立方程个数大于独立未知数个数，则称方程为超定（over-determined）方程，方程无精确解
+
+矩阵的秩定义为该矩阵中线性无关的列向量的数目。
+
+令 $r_A = \textrm{rank}(A)$，$r_B = \textrm{rank}(B)$，则 $AB$ 的秩具有下面性质：$\textrm{rank}(AB) = r_{AB} \leq \min \{ r_A, r_B\}$
+
+矩阵 $A$ 左乘非奇异方阵或者右乘非奇异方阵将不改变 $A$ 的秩。
+
+$ \textrm{rank}(A+B) \leq  \textrm{rank}([A,B]) \leq  \textrm{rank}(A) +  \textrm{rank}(B)$
+
