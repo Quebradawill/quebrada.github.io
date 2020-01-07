@@ -416,3 +416,74 @@ $\rm{tr} (AB) = \rm{tr}(BA)$
 
 $ \textrm{rank}(A+B) \leq  \textrm{rank}([A,B]) \leq  \textrm{rank}(A) +  \textrm{rank}(B)$
 
+**5. 方阵的特征值和特征向量**
+
+$ Ax = \lambda x \Longleftrightarrow (A - \lambda I) x = 0 $ 存在非零解 $x \neq 0$ 的唯一条件是矩阵 $A - \lambda I$ 的行列式等于零，即 $\det (A - \lambda I) = 0 \Longleftrightarrow A - \lambda I$ 方阵奇异。
+
+设 $n$ 阶矩阵 $A = (a_{ij}) $ 的特征值为 $\lambda_1, \lambda_2, \cdots, \lambda_n$，具备下列性质：
+
+- $ \lambda_1 + \lambda_2 + \cdots + \lambda_n = a_{11} + a_{22} + \cdots + a_{nn}$
+- $\lambda_1 \lambda_2 \cdots \lambda_n = \det (A)$
+- 方阵 $A$ 奇异，则其特征值至少有一个为 $0$
+- 方阵 $A$ 与 $A^T$ 具有相同的特征值
+- $\lambda$ 是方阵 $A$ 的特征值，则 $ \lambda + \sigma^2$ 是 $ A + \sigma^2 I$ 的特征值
+- $ \lambda (\neq 0) $ 是方阵 $A$ 的特征值，则 $1 / \lambda$ 是 $A^{-1}$ 的特征值
+
+**6. 相似矩阵**
+
+两个 $n$ 阶矩阵相似，当且仅当存在一个 $n$ 阶方阵 $P$ 使得 $P^{-1} AP = B$，方阵 $P$ 称为 $A$ 与 $B$ 之间的相似变换矩阵，方阵 $A$ 相似于 $B$ 记作：$A \sim B$
+
+性质：
+
+$A \sim A$
+
+$A \sim B \Longleftrightarrow B \sim A$
+
+$A \sim B \Rightarrow \textrm{rank}(A) = \textrm{rank}(B), \ \det (A) = \det (B),  \ \textrm{tr} (A) = \textrm{tr} (B)$
+
+$A \sim B \Rightarrow$ $A$ 与 $B$ 特征值相同，特征向量未必相同。
+
+$A$ 与对角矩阵相似，则称 $A$ 为可对角化矩阵。$n$ 阶矩阵 $A$ 与对角矩阵相似的充要条件是 $A$ 有 $n$ 个线性无关的特征向量。
+
+**7. 矩阵等价**
+
+两个矩阵 $A,B \in R^{m \times n}$ 满足 $Q^{-1} AP = B$，其中 $P$ 是 $n$ 阶可逆方阵，$Q$ 是 $m$ 阶可逆方阵。
+
+两个同型矩阵等价 $\Longleftrightarrow$ 它们的秩相同。
+
+**8. 矩阵合同**
+
+设 $A,B$ 均为 $n$ 阶方阵，若存在 $n$ 阶方阵 $C$ 使得 $C^T AC = B$，则称方阵 $A$ 与 $B$ 合同，记作 $A \simeq B$。
+
+正定矩阵的特征值均为正数，半正定矩阵的特征值均为非负数。
+
+### 4.2 最小二乘法
+
+给定数据对序列 $(x_1, y_1), (x_2, y_2), \cdots, (x_m, y_m)$，构建线性回归模型 $\hat{y} = kx + b$
+
+1）根据已有数据求解平均值 $\bar{x}, \bar{y}$<br>2）根据已有数据和已计算的平均值求解直线斜率 $k$<br>3）根据平均值和斜率计算偏移 $b$
+
+
+$$
+\begin{aligned} k & = \frac{\sum_{i=1}^m (y_i - \bar{y}) (x_i - \bar{x)})} {\sum_{i=1}^m (x_i - \bar{x})^2} \\ b & = \bar{y} - k \bar{x} \end{aligned}
+$$
+
+
+最小二乘法与最大似然法之间的联系：<font color='blue'>最小二乘法是残差满足**正态分布**情况下的最大似然估计。</font>
+
+矩阵形式的最小二乘问题定义如下：
+
+给定 $A \in R^{m \times n}, y \in R^m$，求方程组 $Ax = y$ 的最小二乘解就是找到满足下面不等式的向量 $\hat{x} \in R^n$
+
+
+$$
+\Vert y - A \hat{x} \Vert \leq \Vert y - A x \Vert, \ \forall x \in R^n
+$$
+
+
+$\forall x \in R^n$，$Ax$ 都是列空间 $\textrm{Col} (A)$ 中的点，最小二乘法就是找到合适的 $x$ 使得 $Ax$ 成为列空间 $\textrm{Col} (A)$ 中距离 $y$ 最近的点。
+
+$ (y - A \hat{x}) \perp \textrm{Col}(A) \Rightarrow \langle a_j, y - A \hat{x} \rangle = a_j^T (y - A \hat{x}) = 0 \Rightarrow A^T (y - A \hat{x}) = 0 \Rightarrow A^TA \hat{x} = A^T y $
+
+线性方程 $Ax = y$ 的最小二乘解与法方程 $A^T Ax = A^T y$ 的解一致，**当且仅当**矩阵 $A$ 的列线性无关（即列满秩）时，方阵 $A^TA$ 可逆，方程 $Ax=y$ 有唯一的最小二乘解：$\hat{x} = (A^TA)^{-1} A^T y$
+
