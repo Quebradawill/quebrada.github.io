@@ -10,11 +10,11 @@ published: true
 author: Quebradawill
 ---
 
-# 第 2 课：Softmax，DNN，Wide & Deep Model
+## 第 2 课：Softmax，DNN，Wide & Deep Model
 
-## 1. 深度学习与应用
+### 1. 深度学习与应用
 
-## 2. 一点基础：线性分类器
+### 2. 一点基础：线性分类器
 
 损失函数（loss function）、代价函数（cost function）、客观度（objective）。
 
@@ -83,7 +83,20 @@ $$
 
 ### 5. 神经网络之 BP 算法
 
-- “正向传播”求损失，“反向传播”回传误差
+“正向传播”求损失，“反向传播”回传误差
 
 BP 算法，也叫 $\delta$ 算法。
+
+## 第 3 课：卷积神经网络与典型结构
+
+### 1. 卷积神经网络层次
+
+- 数据输入层（Input Layer）
+- 卷积计算层（CONV Layer）
+- 激励层（Activation Layer）
+- 池化层（Pooling Layer）
+- 全连接层（FC Layer）
+- Batch Normalization 层（可能有）
+
+数据输入层有 3 种常见的数据处理方式：**去均值**，各个维度都中心化到 0；**归一化**，幅度归一化到同样的范围；**PCA/白化**，用 PCA 降维，白化是对数据每个特征轴上的幅度归一化。
 
