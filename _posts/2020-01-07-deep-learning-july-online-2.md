@@ -89,7 +89,9 @@ BP 算法，也叫 $\delta$ 算法。
 
 ## 第 3 课：卷积神经网络与典型结构
 
-### 1. 卷积神经网络层次
+### 1. 神经网络与卷积神经网络
+
+#### 1.1 卷积神经网络层次
 
 - 数据输入层（Input Layer）
 - 卷积计算层（CONV Layer）
@@ -98,5 +100,102 @@ BP 算法，也叫 $\delta$ 算法。
 - 全连接层（FC Layer）
 - Batch Normalization 层（可能有）
 
-数据输入层有 3 种常见的数据处理方式：**去均值**，各个维度都中心化到 0；**归一化**，幅度归一化到同样的范围；**PCA/白化**，用 PCA 降维，白化是对数据每个特征轴上的幅度归一化。
+**1. 数据输入层**
 
+数据输入层有 3 种常见的数据处理方式：
+
+- **去均值**，各个维度都中心化到 0；
+- **归一化**，幅度归一化到同样的范围；
+- **PCA/白化**，用 PCA 降维，白化是对数据每个特征轴上的幅度归一化。<font color='blue'>这跟前面的归一化有什么不同？</font>
+
+```python
+# decorrelated data
+X -= np.mean(X, axis=0)
+cov = np.dot(X.T, X) / X.shape[0]
+U, S, V = np.linalg.svd(cov)
+X_rot = np.dot(X, U)
+
+# whitened data
+W_white = X_rot / np.sqrt(S + 1e-5)
+```
+
+<font color='blue'>可以试一下代码，看一下原图。</font>
+
+**2. 卷积计算层**
+
+- 局部关联。每个神经元看做一个 filter。
+- 窗口（receptive field）滑动，filter 对局部数据计算。
+- 涉及概念
+  - 深度/depth
+  - 步长/stride
+  - 填充值/zeor-padding
+- 参数共享机制，假设每个神经元连接数据窗的权重是固定的。
+
+**3. 激励层**
+
+把卷积层输出结果做非线性映射。Sigmoid，Tanh，ReLU，Leaky ReLU，ELU，Maxout，……
+
+- CNN 慎用 Sigmoid！慎用 Sigmoid！慎用 Sigmoid！
+- 首先试 ReLU，因为快，但要小心点。
+- 如果 ReLU 失效，请用 Leaky ReLU 或者 Maxout。
+- 某些情况下 tanh 倒是有不错的结果，但是很少。
+
+**4. 池化层**
+
+夹在连续的卷积层中间，压缩数据和参数的量，减小过拟合。Max pooling 和 Average pooling。
+
+**5. 全连接层**
+
+通常 FC 在 CNN 的尾部。
+
+**6. 典型的 CNN 的结构**
+
+$ \textrm{INPUT} \to [[\textrm{CONV} \to \textrm{ReLU}] * N] \to \textrm{POOL}?] * M \to [\textrm{FC} \to \textrm{ReLU}] * K \to \textrm{FC} $
+
+#### 1.2 卷积神经网络优缺点
+
+优点：
+
+- 共享卷积核，优化计算量
+- 无需手动选取特征，训练好权重，即得特征
+- 深层次的网络抽取图像信息丰富，表达效果好
+
+缺点：
+
+- 需要调参，需要大样本量，GPU 等硬件依赖
+- 物理含义不明确
+
+### 2. 正则化与 Dropout
+
+#### 2.1 Dropout
+
+**Dropout：**randomly set some neurons to zero in the forward pass
+
+防止过拟合的第 1 种理解方式：
+
+- 别让你的神经网络记住那么多东西（虽然 CNN 记忆力好）
+- 学习过程中，保持泛化能力
+
+防止过拟合的第 2 种理解方式：
+
+- 每次都关掉一部分感知器，得到一个新模型，最后做融合。不至于听一家之言。
+
+#### 2.2 典型 CNN
+
+- LeNet，这是最早用于数字识别的 CNN
+- AlexNet，2012 ILSVRC 比赛远超第 2 名的 CNN， 比 LeNet 更深， 用多层小卷积层叠加替换单大卷积层。
+- ZF Net，2013 ILSVRC 比赛冠军
+- GoogLeNet，2014 ILSVRC 比赛冠军
+- VGGNet，2014 ILSVRC 比赛中的模型， 图像识别略差于 GoogLeNet， 但是在很多图像转化学习问题（比
+  如 object detection）上效果很好
+- ResNet，即 Deep Residual Learning Network，微软亚洲研究院提出，2015 ILSVRC 比赛冠军， 结构修正（残差学习）以适应深层次 CNN 训练。比 VGG 还要深 8 倍。
+
+### 3. 典型结构与训练
+
+## 第 4 课：深度学习框架与应用
+
+Caffe
+
+TensorFlow
+
+PyTorch
