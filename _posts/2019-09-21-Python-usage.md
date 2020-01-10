@@ -81,3 +81,53 @@ print(matplotlib.get_backend())
 ```
 
 常见的 backend 有 TkAgg、Qt4Agg、Qt5Agg 等等。
+
+### 12. Python 列出文件夹下所有文件的 4 种方法
+
+**方法 1：**使用 `os.listdir`
+
+````python
+import os
+for filename in os.listdir(r'C:\Windows'):
+    print(filename)
+````
+
+**方法 2：**使用 `glob` 模块，可以设置文件过滤
+
+```python
+import glob
+for filename in glob.glob(r'C:\Windows\*.exe'):
+    print(filename)
+```
+
+**方法 3：**通过 `os.path.walk` 递归遍历，可以访问子文件夹
+
+```python
+import os.path
+
+def process_directory(args, dirname, filenames):
+    print('Directory: ', dirname)
+    for filename in filenames:
+        print('File: ', filename)
+        
+os.path.walk('r'C:\Windows', process_directory, None)
+```
+
+**方法 4：**非递归
+
+```python
+import os
+for dirpath, dirnames, filenames in os.walk(r'C:\Windows'):
+    print('Directory: ', dirpath)
+    for filename in filenames:
+        print('File: ', filename)
+```
+
+另外，判断文件或目录是否存在：
+
+```python
+import os
+os.path.isfile('text.txt')
+os.path.exists(directory)
+```
+
