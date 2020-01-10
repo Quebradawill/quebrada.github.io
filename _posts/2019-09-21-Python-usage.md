@@ -131,3 +131,20 @@ os.path.isfile('text.txt')
 os.path.exists(directory)
 ```
 
+### 13. 关于Pycharm无法debug问题的总结
+
+**问题描述：**在 PyCharm 中写 Python 时可以运行程序却突然不能 debug。出现 debug 提示——pydev debugger: process xxxx is connecting，但是之后却一直处于等待连接状态而报错。
+
+**与该错误相关的网上的解决方案：**
+
+解决方案一：PyCharm 的网络被禁，需要解禁网络。
+
+解决方案二：去掉 ".idea"文件重启项目。
+
+尝试了所有的方案后还是不能解决我的问题，突然发现众多报错信息中有一个 attributeerror: 'queue' object has no attribute 'put'。
+
+难道和我自己写的 queue.py 文件中的 queue 类有关？
+
+**更改了 queue.py 的文件名后问题解决！**
+
+原因大概是自己创建的 queue.py 文件代替了 Python 3 中自带的同名文件被调试程序调用而出错。
