@@ -148,3 +148,7 @@ os.path.exists(directory)
 **更改了 queue.py 的文件名后问题解决！**
 
 原因大概是自己创建的 queue.py 文件代替了 Python 3 中自带的同名文件被调试程序调用而出错。
+
+### 14. Pandas 读取 excel 文件有时候提示 index out of range
+
+确认是 Excel 文件，有时候保存为 Strict Open XML Spreadsheet 文件，其扩展名也是 .xlsx。
