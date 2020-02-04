@@ -152,3 +152,24 @@ os.path.exists(directory)
 ### 14. Pandas 读取 excel 文件有时候提示 index out of range
 
 确认是 Excel 文件，有时候保存为 Strict Open XML Spreadsheet 文件，其扩展名也是 .xlsx。
+
+### 15. PyCharm 新建文件具有相同扩展名
+
+File $\to$ Settings $\to$ File and Code Templates，选中“Python Script”，输入如下：
+
+```python
+# encoding: utf-8
+"""
+@author: Quebradawill
+@license: (C) Copyright 2010-2020.
+@contact: dwqiu@foxmail.com
+@software: PyCharm
+@filename: ${NAME}.py
+@datetime: ${DATE} ${TIME}
+@desc:
+"""
+
+
+```
+
+### 16.
