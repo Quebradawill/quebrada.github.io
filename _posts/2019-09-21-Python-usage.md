@@ -70,7 +70,7 @@ C:\Users\Quebradawill\AppData\Local\Programs\Python\Python37\share\jupyter\lab\t
 
 ### 11. 新版 PyCharm 中 Matplotlib 图像不在弹出独立的显示窗口
 
-PyCharm 从 2017.3 版之后，将 `matplotlib` 的绘图的结果默认显示在 `SciView` 窗口中，而不是弹出独立的窗口，如果不喜欢这种设置，可以通过如下方式修改，取消勾选，弹出独立窗口 File $\to$ Settings $\to$ Tools $\to$ Python Scientific $\to$ Show plots in toolwindow
+PyCharm 从 2017.3 版之后，将 `matplotlib` 的绘图的结果默认显示在 `SciView` 窗口中，而不是弹出独立的窗口。如果不喜欢这种设置，可以通过如下方式修改，取消复选，File $\to$ Settings $\to$ Tools $\to$ Python Scientific $\to$ Show plots in toolwindow，将弹出独立窗口。
 
 有时需做如下更改：
 
