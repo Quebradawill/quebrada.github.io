@@ -12,7 +12,7 @@ author: Quebradawill
 
 ### 1、代码排版，自动PEP8
 
-1）安装 Python 代码自动排版为 PEP8 风格的工具，`pip install autopep8`<br>2）autopep8 的配置：打开 File $\to$ Setting... $\to$ External Tools，点击“+”，Name：autopep8，Description：autopep8，Program：autopep8，Arguments：`--in-place --aggressive --aggressive $FilePath$`，Working directory：`$ProjectFileDir$`，Output filters：`$FILE_PATH$\:$LINE$\:$COLUMN$\:.*`
+1）安装 Python 代码自动排版为 PEP8 风格的工具，`pip install autopep8`<br>2）autopep8 的配置：打开 File $\to$ Setting... $\to$ External Tools，点击“+”，Name：autopep8，Description：autopep8，Program：autopep8，Arguments：`--in-place --aggressive $FilePath$`，Working directory：`$ProjectFileDir$`，Output filters：`$FILE_PATH$\:$LINE$\:$COLUMN$\:.*`
 
 ### 2、误删文件，一秒找回
 
