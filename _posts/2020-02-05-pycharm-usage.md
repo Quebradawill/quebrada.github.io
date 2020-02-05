@@ -40,6 +40,20 @@ Pycharm （2018 版本）里是有开关按钮的，将选项（File $\to$ Setti
 
 Pycharm 本身会实时地对变量名进行检查，如果变量名不是一个已存在的英文单词，就会出现一条波浪线，当一个变量里有多个单词时，Python 推荐的写法是用下划线来分隔（其他语言可能会习惯使用**驼峰式命名法**，但 Python 是使用下划线），那么如何关闭这个非语法级别的波浪线呢？很简单，它的开关就在你的右下角那个像 人头像 一样的按钮。
 
+### 6、运行选中的代码的几种方式
+
+**1. 直接运行（Shift+F10）**
+
+**2. 调试运行（Shift+F9）**
+
+**3. 运行选中代码：**选中代码，右键菜单里选择“Execute Selection in Python Console (Alt+Shift+E)”。
+
+**4. 分段执行代码：**1）在想要分段运行的段的前一行（空白行）输入 `#%%`；2）选择 Scientific Mode；3）运行程序。
+
+PyCharm 在 2017.3 版本之后加入了 Scientific Mode，在科学计算时，可以方便的追踪变量变化等。有时打开了 scientific mode 时，但文件中引入了 numpy 等科学计算包时并没有被自动识别，以 scientific mode 运行。需要在 run 方法中手动设置一下。
+
+具体步骤：<br>1）File $\to$ Settings... $\to$ Tools $\to$ Python Scientific，勾选 Show plots in tool window；<br>2）View 菜单中勾选 Scientific Mode；<br>3）Run $\to$ Edit Configurations… 中勾选 Run with Python Console
+
 **参考：**
 
 1、[PyCharm 使用技巧](https://www.cnblogs.com/xxtalhr/p/11083279.html)
