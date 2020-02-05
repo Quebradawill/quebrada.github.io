@@ -54,6 +54,10 @@ PyCharm 在 2017.3 版本之后加入了 Scientific Mode，在科学计算时，
 
 具体步骤：<br>1）File $\to$ Settings... $\to$ Tools $\to$ Python Scientific，勾选 Show plots in tool window；<br>2）View 菜单中勾选 Scientific Mode；<br>3）Run $\to$ Edit Configurations… 中勾选 Run with Python Console
 
+### 7、PyCharm 中设置代码提示不区分大小写
+
+对于 2018.2 版以后的版本，按如下方法设置：File $\to$ Settings... $\to$ Editor $\to$ General $\to$ Code Completion，取消 “Match case”的复选。
+
 **参考：**
 
 1、[PyCharm 使用技巧](https://www.cnblogs.com/xxtalhr/p/11083279.html)
