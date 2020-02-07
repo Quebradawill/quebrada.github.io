@@ -74,10 +74,6 @@ File $\to$ Settings... $\to$ Editor $\to$ General，复选 Change font size (Zoo
 
 Windows $\to$ Store Current Layout as Default
 
-### 12、代码分块
-
-键入 `#%%`
-
 **参考：**
 
 1、[PyCharm 使用技巧](https://www.cnblogs.com/xxtalhr/p/11083279.html)
