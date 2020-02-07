@@ -58,6 +58,26 @@ PyCharm 在 2017.3 版本之后加入了 Scientific Mode，在科学计算时，
 
 对于 2018.2 版以后的版本，按如下方法设置：File $\to$ Settings... $\to$ Editor $\to$ General $\to$ Code Completion，取消 “Match case”的复选。
 
+### 8、选定内容敲引号、括号括住
+
+File $\to$ Settings... $\to$ Editor $\to$ General $\to$ Smart Keys，复选 Surround selection on typing quote or brace
+
+### 9、设置比较大的换行
+
+File $\to$ Settings... $\to$ Editor $\to$ Code Style，设置 Hard warp at 中比较大的数值。
+
+### 10、鼠标滑轮改变字号大小
+
+File $\to$ Settings... $\to$ Editor $\to$ General，复选 Change font size (Zoom) with Ctrl+Mouse Wheel
+
+### 11、保存当前窗口布局
+
+Windows $\to$ Store Current Layout as Default
+
+### 12、代码分块
+
+键入 `#%%`
+
 **参考：**
 
 1、[PyCharm 使用技巧](https://www.cnblogs.com/xxtalhr/p/11083279.html)
