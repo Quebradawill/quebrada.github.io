@@ -19,3 +19,9 @@ Windows 10 从 Microsoft Store 中获取并安装。
 ### 2. 英文版 Win 10 记事本等程序中显示中文乱码
 
 Control Panel $$\to$$ Region $$\to$$ Administrative $$\to$$ Change system locale... $$\to$$ Current system locale 中选择 Chinese (Simplified China)，不勾选 Beta: Use Unicode UTF-8 for worldwide language support
+
+### 3. Win 10 系统不显示 U 盘的解决方法
+
+1）按下 Win+i 进入到 Win 10 下的“设置界面”，点击“设备”；<br>2）点击已连接设备，然后电脑的外接设备就会出现在左侧的列表里面，可以看见，我们连接的 U 盘出现了；<br>3）点击 U 盘就出现了“删除设备”的点击项，点击“删除设备”；<br>4）最后拔掉U盘，再插上 U 盘就会出现在电脑中即可正常打开！
+
+### 4.
