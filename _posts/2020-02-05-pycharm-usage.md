@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PyCharm使用技巧
+title: PyCharm 使用技巧
 date: 2020-02-05
 categories: Programming
 tags: Python
