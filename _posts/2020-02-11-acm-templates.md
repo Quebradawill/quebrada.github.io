@@ -64,7 +64,7 @@ for(vector<int>:: it=n.begin(); it!=n.end(); it++)
 
 ```c++
 vector< pair<int, int> > points;
-for（vector< pair<int, int> >::iterator = n.begin(); it != n.end(); it++)
+for (vector< pair<int, int> >::iterator = n.begin(); it != n.end(); it++)
     cout << "x: " << it->first << "y: " << (*it).second << endl;
 ```
 
