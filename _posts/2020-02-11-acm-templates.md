@@ -85,7 +85,7 @@ int main()
     cin >> N >> M;
     for (int i = 1; i <= N; i++)
         tab[i].clear();
-    for (int i = 0; i < M；i++)
+    for (int i = 0; i < M; i++)
     {
         int a, b;
         cin >> a >> b;
@@ -386,10 +386,12 @@ int main()
 			scanf("%d", &to_sort[i].arr[j]);
 	for (int j = 0; j < 4; j++)
 	{
-		sort(to_sort.begin(), to_sort.end(), T_arr_cmp(j));    // 传入比较器，以数组的第 j 位为关键字
+         // 传入比较器，以数组的第 j 位为关键字
+		sort(to_sort.begin(), to_sort.end(), T_arr_cmp(j));
 		printf("the to_sort sort by arr[%d] is:", j);
 		for (int i = 0; i < N; i++)
-			printf("%4d %4d %4d %4d", to_sort[i].arr[0], to_sort[i].arr[1], to_sort[i].arr[2], to_sort[i].arr[3]);
+			printf("%4d %4d %4d %4d", to_sort[i].arr[0], to_sort[i].arr[1],
+                   to_sort[i].arr[2], to_sort[i].arr[3]);
 	}
 	return 0;
 }
@@ -436,7 +438,8 @@ int main()
 		}); 
 		printf("the to_sort sort by arr[%d] is:", j);
 		for (int i = 0; i < N; i++)
-			printf("%4d %4d %4d %4d", to_sort[i].arr[0], to_sort[i].arr[1], to_sort[i].arr[2], to_sort[i].arr[3]);
+			printf("%4d %4d %4d %4d", to_sort[i].arr[0], to_sort[i].arr[1],
+                   to_sort[i].arr[2], to_sort[i].arr[3]);
 	}
 	return 0;
 }
@@ -566,7 +569,7 @@ set<int> iset;
 - `set::lower_bound(val)`；<br>
 - `set::upperbound(val)`；<br>
 - `set::begin()` 返回从左开始的迭代器（从小到大）；<br>
-- `set::end()` 返回；<br>
+- `set::end()` 返回最后一个迭代器；<br>
 - `set::rbegin`, `set::rend()`；<br>
 - `set::count(val)` 返回 set 指定 val 的个数。
 
