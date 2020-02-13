@@ -49,3 +49,33 @@ File $\to$ Settings... $\to$ Editor $\to$ General $\to$ Appearance，去掉复�
 ### 9、中文乱码问题
 
 File $\to$ Settings... $\to$ Editor $\to$ File Encondings 选择 Global Encoding 为 GBK。
+
+### 10. CLion 新建文件具有相同文件头
+
+File $\to$ Settings $\to$ File and Code Templates，选中“C Source File”，输入如下：
+
+```c++
+#parse("C File Header.h")
+#if (${HEADER_FILENAME})
+#[[#include]]# "${HEADER_FILENAME}"
+#end
+
+```
+
+或者更复杂的：
+
+```c++
+/*
+encoding: utf-8
+@author: Quebradawill
+@license: (C) Copyright 2010-2020.
+@contact: dwqiu@foxmail.com
+@software: CLion
+@filename: ${NAME}.cpp
+@datetime: ${DATE} ${TIME}
+@desc:
+*/
+
+
+```
+
