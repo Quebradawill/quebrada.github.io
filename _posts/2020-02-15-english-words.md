@@ -100,7 +100,7 @@ Chinese 中国人，Japanese 日本人，sheep 绵羊，deer 鹿，series 系列
 2、以 s 或 es 结尾的复数名词。只在词尾加 ’。<br>例：Teachers’ Day（教师节）<br>
 特殊的名词复数仍要加  ’s 如 children 就是 child 的名词复数形式它变所有格时则必须加 ’s
 
-3、有些表示时间、距离以及世界、国家、城镇等无生命的名词，也可在词尾加 ’s<br>例：today’s newspaper（今天的报纸）,
+3、有些表示时间、距离以及世界、国家、城镇等无生命的名词，也可在词尾加 ’s<br>例：today’s newspaper（今天的报纸）
 
 4、无论表示有生命还是无生命的东西的名词，一般均可用介词 of 短语来表示所有关系。<br>例：a fine daughter of the Party（党的好女儿）
 
@@ -799,6 +799,44 @@ therefore（因此），moreover（此外），however，otherwise（另外）�
 4、形容词与副词的注意事项<br>
 （1）有一些形容词、副词没有比较形式：comparative，particular，special，extreme 等；<br>
 （2）too+形容词、副词+to do sth. 表示太……而不能做某事，但是当 happy，glad，anxious，willing，thankful 等词用在不定式中，表示肯定的含义，too 前面可以加 only，but，just 等词。<br>例：Rose is all too glad to defeat the defending champion.<br>罗斯打败了卫冕冠军，感到非常高兴。
+
+# 虚词
+
+## 一、介词
+
+介词又称作前置词，表示名词、代词等与句中其他词的关系，在句中不能单独作句子成分。介词后面一般有名词、代词或相当于名词的其他词类、短语或从句作它的宾语，表示与其他成分的关系。介词和它的宾语构成介词词组，在句中作状语，表语，补语或介词宾语。介词可以分为时间介词、地点介词、方式介词、原因介词、数量介词和其他介词。
+
+### 介词的主要用途
+
+1、表示时间
+
+A、表示“在某时间”，常用介词 at、on、in 等。at dawn 在黎明；at sixteen/at the age of sixteen 16岁的时候；on Christmas Day  在圣诞节那一天<br>
+B、表示“期间”，常用介词 during、for、over、within、throughout、from 和 to 等。<br>	a、during 用于已知的一段时间，包括大家熟知的节日，或者某种已确切限定的时期或阶段之前。例：during the Middle Ages 在中世纪<br>	b、for 用来表示一段时间。for six years 六年之久<br>
+C、表示其他时间概念的介词有 before、after、since、until、till、between、by、up to 等。
+
+2、表示方位
+
+A、表示位置的介词有 at、on、in、before、after、above、among、below、behind、between、beside、near、over、under 等。
+B、表示方向的介词有 to、into、along、at、down、for、from、out、of、toward 、up 等。
+C、表示 “经过，穿过” 的介词有 across、by、over、through、past 等。
+D、表示 “遍及” 的介词有 throughout、all over all along 等。
+
+3、表示原因<br>
+常用的介词有because of、for、with等
+
+4、表示 “方法 ，手段”<br>
+常用的有by、in、with、through等
+
+5、表示数量<br>
+常用的有 about (around)、over 等。
+
+
+
+
+
+
+
+
 
 
 
