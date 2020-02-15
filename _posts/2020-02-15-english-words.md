@@ -1112,12 +1112,153 @@ K、although …  yet…，但 although 不与 but 连用。<br>
 9、what 和 how 意思相同，但表达方式有所不同，如：<br>
 "What a beautiful girl she is!" 或 "How beautiful the girl is!"
 
+## 四、冠词
 
+冠词是一种虚词，在句子中不重读，本身不能独立使用，只能放在名词前帮助说明名词所指的人或事物。冠词有三种，一种是不定冠词，一种是定冠词，此外也有些特定场合不用冠词，即通常所称的零冠词。
 
+### 冠词的用法
 
+1、不定冠词 a/an
 
+例：There is an "a" and "n" in the word "and"。<br>
+在单词 and 中有一个字母 a 和一个字母 n。
 
+1）用在可数名词的单数形式前，表示一类事物或人中的任意一个。<br>
+例：Be sure to bring me a dictionary.<br>
+一定要给我带本字典来。
 
+2） 用在可数名词的单数形式前，表示一类事物或人。<br>
+例：An ear is an organ for listening.<br>
+耳朵是听觉器官。
 
+3）用在专有名词前，表示“一个”、“一种”、“一类”或“一个类似……的”
+
+2、定冠词“the”：
+
+1）the + 名词 + 介词短语<br>
+例：Show me the photo of your family.<br>
+给我看看你家人的照片。
+
+2）用在重新提到的人或事物前面<br>
+例：I met a lovely girl at the gate. Look, this is the girl who is coming.<br>
+我在门口遇到一个可爱的女孩，看！就是正走来的这个女孩。
+
+3）用在谈话双方都知道的人或事物面前<br>
+例：Please fill in the form and sign it.<br>请填写表格并签字。
+
+4）用在单数可数名词前，表示某一类人或事物<br>
+例：The tiger is a wild animal. <br>老虎是一种野生动物。
+
+5）用在世界上独一无二的事物或方位名词前面<br>
+例：the east 东方，the universe 宇宙
+
+6）用在序数词形容词最高级及 only 所修饰的词前面<br>
+例：It's the second country they will visit in Asia.<br>
+这是他们在亚洲第二个参观的国家。
+
+7）用在江河、湖海、山脉、岛屿等<br>
+例：the River Seine 塞纳河
+
+8）用在普通名词构成的专有名词前<br>
+例：the Great Wall 长城
+
+9）用在姓氏的复数形式前<br>
+例：the Greens 格林一家
+
+10）用在乐器名词前<br>
+例：play the piano 弹钢琴
+
+11）和某些形容词连用，表示一类人或事物，是复数概念<br>
+例：the rich 富人
+
+**折叠哪些地方不出现冠词**
+
+A、表示一类人或事物的复数名词前不用冠词<br>例：We are all students.<br>
+我们都是学生。
+
+B、有物主代词、指示代词、不定代词或名词所有格修饰的名词前不用冠词<br>例：Mike's school is over there.<br>
+麦克的学校就在那边。
+
+C、表示特别含义的名词前不用冠词<br>
+例： He usually has his supper at home.<br>
+通常他都在家里吃晚饭。
+
+D、家庭成员的名称、称呼或只有一个人担任的职务名词前不用冠词<br>
+例：Sir, please show me another one.<br>
+先生，请给我看另一个。
+
+E、与 by 连用的交通工具前不用冠词<br>
+例：by car 乘汽车，by taxi 乘出租车
+
+F、两个相同或相对的名词构成的平行结构前不用冠词<br>
+例：day and night 日夜
+
+G、在有些词组中，有无冠词含义不同<br>
+例：school，bed... 等为表示“处所”的名词，不是指具体地点，不用冠词<br>
+当指明地点，或是为了目的去这些处所时，它们前面就要加上冠词
+
+### 冠词的位置
+
+**不定冠词位置**
+
+不定冠词常位于名词或名词修饰语前。注意：
+
+1、位于下列形容词之后：such，what，many，half。<br>
+例：I have never seen such an animal.<br>
+我从未见过这样的动物。
+
+2、当名词前的形容词被副词as,so,too,how,however,enough修饰时，不定冠词应放在形容词之后。<br>
+例：It is as pleasant a day as I have ever spent.<br>
+这是我可以感觉到的最愉快的一天。
+
+3、quite，rather 与单数名词连用，冠词放在其后；但当 rather，quite 前仍有形容词，不定冠词放其前后均可。如：quite a lot
+
+4、在 as，though 引导的让步状语从句中，当表语为形容词修饰的名词时，不定冠词放形容词后。<br>
+例：Brave a man though he is, he trembles at the sight of snakes.<br>
+他尽管勇敢，可见到蛇还是发抖。
+
+当名词被比较级形容词修饰时，不定冠词通常置于比较级形容词之后。
+
+**定冠词位置**
+
+定冠词通常位于名词或名词修饰语前，但放在all，both，double，half，twice，three times 等词之后，名词之前。<br>
+例：All the students in the class went out.<br>
+班里的所有学生都出去了。
+
+冠词的特殊用法：
+
+1、两个形容词都有冠词，表示两个不同东西。<br>
+例：He raises a black and a white cat.<br>
+他养了一只黑猫和一只白猫。
+
+2、如后一个形容词无冠词，则指一物。<br>
+例：He raises a black and white cat.<br>
+他养了一只花猫（黑白相间的猫）。
+
+冠词的活学运用：
+
+1、表示世界上独一无二的事物的名词前一般加定冠词 the；但如果名词前有修饰语，也可能用不定冠词 a，an。<br>
+例：the world，a peaceful world<br>
+在这样的情况下，独一无二的单词被“泛指化”。也就是说，moon 虽然独一无二，但是当用 bright 来修饰 moon 的时候，不同状态的 moon 就构成了“多种多样的moon”，而此处的 bright moon，就需要用泛指了。
+
+2、表示一日三餐的名词前面一般不用冠词，但前面如果有了定语修饰，也可能用不定冠词 a，an。<br>
+例：We had a wonderful supper.<br>
+我们吃了一顿非常丰盛的晚餐。
+
+3、表示乐器的名词前一般用定冠词 the，但前面如果出现定语修饰，也可能用不定冠词 a，an。<br>
+例：He starts his day by playing the violin.<br>
+他的一天以演奏小提琴开始。
+
+4、介词与表示交通工具的名词连用表示笼统的方式，前面一般不用冠词，但如果名词的前面出现了修饰语，前面需加冠词。<br>
+例：He went to the station by car.<br>
+他是坐车去的车站。
+
+5、表示语言的名词前一般不用冠词，但后面如果出现 language 一词，前面需加定冠词 the。<br>
+例：English = the English language<br>
+French = the French language
+
+6、turn 用作系动词时，后面作表语的单数名词前不用冠词。<br>
+例：He turned writer many years later. (= He became a writer many years later.)
+许多年后他成了一位作家。
 
 参考：[一篇文章帮你搞懂高中英语中出现的所有词法知识](https://www.jianshu.com/p/f2b85251d88f)
