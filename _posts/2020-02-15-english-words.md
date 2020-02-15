@@ -75,8 +75,8 @@ $$
 
 ### （二）单数名词变复数
 
-1、以 o 结尾的名词变为复数时，常在词尾加 s，但是下列词除外，他们要加 es，Negroes、,Heroes、potato、tomatoes、黑人英雄爱吃土豆、西红柿。<br>
-2、以 f 或者 fe 结尾的名词变复数时，一般直接加 s 但是下列需要把 f 或者 fe 改为 ves，selves，lives、thieves，wives，knives、leaves、shelves、wolves、halves。为了自己活命，小偷和他的妻子手里拿着刀子和树叶站在架子上把狼劈成了两半。<br>
+1、以 o 结尾的名词变为复数时，常在词尾加 s，但是下列词除外，他们要加 es，Negroes、Heroes、potato、tomatoes、黑人英雄爱吃土豆、西红柿。<br>
+2、以 f 或者 fe 结尾的名词变复数时，一般直接加 s 但是下列需要把 f 或者 fe 改为 ves / selves，lives、thieves、wives、knives、leaves、shelves、wolves、halves。为了自己活命，小偷和他的妻子手里拿着刀子和树叶站在架子上把狼劈成了两半。<br>
 3、合成名词构成复数时，通常只将里面所含有的主体名词变为复数，如果没有主体名词，则将最后一部分变为复数。例：sons—in—law（女婿）
 
 ### （三）下列名词通常用作不可数名词
@@ -456,6 +456,260 @@ tired 累的，more tired 更累的，most tired 最累的
 
 例：I feel even worse now.<br>
 现在的我感觉更糟糕了。
+
+## 四、数词
+
+表示数量或顺序的词叫做数词。数词分为两大类，即基数词和序数词。基数词表示数量，如：one，two，three，four……；序数词表示顺序，如：first，second，third，fourth……序数词前一般要加 the。
+
+**数词的用法：**（第一个例子是基数词，第二个例子是序数词）
+
+1、作定语<br>
+例：There are only three boys in the class.<br>
+班上只有3名男生。
+
+2、作主语<br>
+例：It is said that thirteen is an unlucky number.<br>
+据说13是个不吉利的数字。
+
+3、作宾语<br>
+例：It is worth three hundred.<br>
+这件东西值300。
+
+4、作表语<br>
+例:I am eighteen.<br>
+我18岁。
+
+5、作同位语<br>
+例：Are you two coming?<br>
+你们俩来吗？
+
+**折叠序数词与冠词**
+
+1、序数词前一般要加定冠词 the。<br>如：It's the third time I've been here.<br>这是我第三次到这里来。
+
+2、表示在原有的基础上增加，即“又一，再一”时，用不定冠词。<br>如：Shall I ask her a third time?<br>我还要问她一次吗？
+
+3、下列4种情况不用冠词。
+
+A、序数词前已有物主代词或名词所有格时，不能再用冠词。<br>
+例：This is Tom's second visit to China.<br>
+这是汤姆第二次访问中国。
+
+B、表示比赛或考试的名词时，通常省略定冠词。<br>
+例:He was (the) second in the English exam.<br>
+在这次英语考试中他得了第二名。
+
+C、序数词被用作副词时不用冠词。<br>
+例：I have to finish my homework first.<br>
+我得先把作业完成好。
+
+D、在某些习语中不用冠词。<br>
+例：at first 起初，first of all 首先，at first sight 乍一看。
+
+## 五、动词
+
+动词是用来表示动作或状态的词汇，在一个完整的句子中少不了动词，在表示第二个动作时可使用不定词、动名词、对等连接词、从属连接词或增加子句等方法连结。
+
+**动词的分类有好几种：**
+
+1、按照动词在四类句子中扮演的角色，可以把他们分为：实义动词、系动词、助动词、情态动词。
+
+2、按照其后部能否跟宾语，动词还可以分为：及物动词和不及物动词。
+
+同一个动词有时可用作及物动词，有时可用作不及物动词。<br>
+例如：She can dance and sing.<br>
+她能唱歌又能跳舞。（sing 在此用作不及物动词。）<br>
+She can sing many English songs.<br>
+她能唱好多首英文歌曲。（sing 用作及物动词。）
+
+3、按照动词是否受到主语的人称与数的限制可以分为：限定动词、非限定动词。
+
+例：She sings very well.<br>她唱得很好。（sing受主语she的限制，故用第三人称单数形式sings。）
+
+例：She wants to learn English well.<br>她想学好英语。（to learn不受主语she的限制，没有词形变化，是非限定动词。
+
+所以在英语中总共有三种非限定动词，他们分别是：动词不定式、动名词、分词。
+
+4、动词一共有以下几种形态：原形、第三人称单数形式、过去式、过去分词、现在分词。
+
+### 系动词
+
+有些不具词义；有些具有词义，但不能单独用作谓语，后边必须跟表语（亦称补语），构成系表结构说明主语的状况、性质、特征等情况。
+
+1）状态系动词<br>
+用来表示主语状态，只有 be 一词<br>
+例：He is a teacher.　<br>
+他是一名教师。（is 与补足语一起说明主语的身份。）
+
+2）持续系动词<br>
+用来表示主语继续或保持一种状况或态度，主要有 keep，rest，remain，stay，lie，stand，等等。例如：<br>
+例：He always kept silent at meeting.　<br>
+他开会时总保持沉默。
+
+3）表像系动词<br>
+用来表示“看起来像”这一概念，主要有 seem，appear，look，等等。例如：<br>
+例：He looks tired.<br>他看起来很累。
+
+4）感官系动词<br>
+感官系动词主要有 feel，smell，sound，taste，等等。<br>
+例：This kind of cloth feels very soft.<br>
+这种布手感很软。
+
+5）变化系动词<br>
+这些系动词表示主语变成什么样，变化系动词主要有 become，grow，turn，fall，get，go，come，run，等等。<br>
+例：He became mad after that.<br>
+自那之后，他疯了。
+
+6）终止系动词<br>
+表示主语已终止动作，主要有 prove，trun out，表达"证实"，"变成"之意。<br>
+例：The rumor proved false.<br>
+这谣言证实有假。
+
+### 助动词
+
+协助主要动词构成谓语动词词组的词叫助动词，最常用的助动词有：be，have，do，shall，will，should，would，助动词自身没有词义，不可单独使用。<br>
+A、表示时态，例：He is singing. 他在唱歌。<br>
+B、表示语态，例：He was sent to England. 他被派往英国。<br>
+C、构成一般疑问句，例：Do you like college life? 你喜欢大学生活吗？<br>
+D、与否定副词 not 合用，构成否定句，例：I don't like him.  我不喜欢他。<br>
+E、加强语气，例：Do come to the party tomorrow evening. 明天晚上一定来参加晚会。
+
+### 实义动词
+
+实义动词是与系动词是相对的，系动词亦称连系动词，作为系动词，它本身有词义，但不能单独用作谓语，后边必须跟表语（亦称补语），构成系表结构说明主语的状况、性质、特征等情况，实义动词意思完全，能独立用作谓语。
+
+实义动词词义完整，能独立作谓语，可分成：及物动词和不及物动词。
+
+1、及物动词要求有宾语<br>
+例：Mr. Smith gave his wife twenty pounds for her birthday.<br>
+史密斯先生给了他的妻子20英镑过生日。
+
+2、不及物动词不要求有宾语<br>
+例： Most shops in Britain open at 9:00 a.m. and close at 5:00 or 5:30 in the evening.<br>
+英国大部分商店九点开门，晚五点或五点半关门。
+
+### 情态动词
+
+是一种本身有一定的词义，但要与动词原形及其被动语态一起使用，给谓语动词增添情态色彩，表示说话人对有关行为或事物的态度和看法，认为其可能、应该或必要等。情态动词后面加动词原形。
+
+情态动词有四类：<br>
+①只做情态动词：must，can(could)，may(might)……<br>
+②可做情态动词又可做实义动词：need，dare<br>
+③具有情态动词特征：have (had, has) to，used to<br>
+④情态动词表猜测：一肯一否三不定（must 一肯，must not 一否，can，could，would 三不定。） 注：mustn't 代表强烈禁止
+
+### 动词的语态有两种
+
+主动语态和被动语态。
+
+主语是动作的发出者为主动语态；主语是动作的接受者为被动语态。
+
+1）若宾语补足语是不带 to 的不定式，变为被动语态时，该不定式前要加“to”。此类动词为感官动词。feel，hear，help，listen to，look at，make，observe，see，notice，watch<br>
+例：The teacher made me go out of the classroom. --> I was made to go out of the classroom (by the teacher).<br>
+老师让我从教室出去。
+
+2）情态动词+ be +过去分词，构成被动语态。<br>
+例：Coal can be used to produce electricity for agriculture and industry.<br>
+煤炭可用来发电支持工业和农业生产。
+
+**let 的用法：**
+
+1）当 let 后只有一个单音节动词，变被动语态时，可用不带 to 的不定式。<br>
+They let the strange go.---> The strange was let go.
+
+2）若 let 后宾补较长时，let 通常不用被动语态，而用 allow 或 permit 代替。<br>
+The nurse let me go to see my classmate in the hospital. --> I was allowed / permitted to see my classmate in the hospital.
+
+**折叠不用被动语态的情况：**
+
+1、不及物动词或动词短语无被动语态<br>
+例：The price has been risen.（错）<br>
+The price has risen.（对）<br>
+The accident was happened last week.（错）<br>
+The accident happened last week..（对）<br>
+要想正确地使用被动语态，就须注意哪些动词是及物的，哪些是不及物的。特别是一词多义的动词往往有两种用法。解决这一问题唯有在学习过程中多留意积累。
+
+2、不能用于被动语态的及物动词或动词短语<br>
+fit，have，hold，marry，own，wish，cost，notice，watch agree with，arrive at / in，shake hands with，succeed in，suffer from，happen to，take part in，walk into，belong to<br>
+例：This key just fits the lock.<br>
+这把钥匙是这个锁上面的。
+
+3、系动词无被动语态<br>
+appear，be ecome，fall，feel，get，grow，keep，look，remain，seem，smell，sound，stay，taste，turn<br>
+例：It sounds good.<br>
+那听起来很不错。
+
+4、带同源宾语的及物动词，反身代词，相互代词，不能用于被动语态：die，death，dream，live，life<br>
+例：She dreamed a bad dream last night.<br>
+她昨晚做了一个恶梦。
+
+5、当宾语是不定式时，很少用于被动语态<br>
+She likes to swim.（对）
+To swim is liked by her.（错）
+
+**有些动词虽然是主动形式，但是表示被动意义**
+
+A、wash，clean，cook，iron，look，cut，sell，read，wear，feel，draw，write，sell，drive……<br>
+例：The book sells well.<br>
+这本书销路好。
+
+B、blame，let（出租），remain，keep，rent，build<br>
+例：I was to blame for the accident.<br>
+我要为这次事故负责。
+
+C 、在need，require，want，worth（形容词），deserve 后的动名词必须用主动形式。<br>
+例：This room needs cleaning.<br>
+这房间应该打扫一下。
+
+D、特殊结构：make sb. heard / understood（使别人能听见/理解自己），have sth. done（要某人做某事）。
+
+**有些动词的被动形式也可以表示主动意义**
+
+be determined，be pleased，be graduated (from)，be finished，be prepared (for)，be occupied (in)，get marries<br>
+例：He is graduated from a famous university.<br>
+他毕业于一所有名的大学。
+
+注意：表示同某人结婚，用 marry sb. 或 get married to sb. 都可。<br>
+He married a rich girl.=He got married to a rich girl.<br>
+他和一个富贵的女子结婚了。
+
+need/want/require/worth<br>
+当 need，want，require，worth（形容词）后面接 doing 也可以表示被动。<br>
+例：Your hair wants cutting.<br>你的头发该理了。
+The floor requires washing.<br> 地板需要冲洗。
+The book is worth reading.<br>这本书值得一读。
+
+**怎样把主动语态改成被动语态**
+
+1、先找出谓语动词；<br>
+2、再找出谓语动词后的宾语；<br>
+3、把宾语用作被动语态中的主语；<br>
+4、注意人称、时态和数的变化。<br>
+例：1. Bruce writes a letter every week. →A letter is written by Bruce every week.<br>
+布鲁斯每星期写一封信。
+
+**使用被动语态应注意的几个问题：**
+
+1、不及物动词无被动语态。<br>
+例：What will happen in 100 years?<br>在将来的100年会发生点什么呢？
+
+2、有些动词用主动形式表示被动意义。<br>
+例：This pen writes well.<br>
+这支笔很好用。
+
+3、感官动词或使役动词使用省略 to 的动词不定式，主动语态中不带 to ，但变为被动语态时，须加上 to。<br>
+make somebody do something --> somebody+ be +made to do something<br>
+see somebody do something --> somebody +be +seen to do something<br>
+例：A girl saw my wallet drop when she passed by. --> My wallet was seen to drop by a girl when she passed by.<br>
+一个女孩路过时看到我的钱包掉了。
+
+4、如果是接双宾语的动词改为被动语态时，直接宾语（物）作主语，那么动词后要用介词，这个介词是由与其搭配的动词决定。<br>
+例：He gave me a book.→A book was given to me by him.<br>
+他给了我一本书。
+
+5、 一些动词短语用于被动语态时，动词短语应当看作一个整体，而不能丢掉其中的介词或副词。<br>
+例：We can’t laugh him. →He can’t be laugh by us.<br>
+我们不能嘲笑他。
 
 
 
