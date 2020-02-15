@@ -711,7 +711,94 @@ see somebody do something --> somebody +be +seen to do something<br>
 例：We can’t laugh him. →He can’t be laugh by us.<br>
 我们不能嘲笑他。
 
+## 六、副词
 
+副词在句子中表示行为或状态特征的词，用以修饰动词、形容词、其他副词或全句，表示时间、地点、程度、方式等概念。
+
+副词可分为：时间和频率副词、地点副词、方式副词、程度副词、疑问副词、连接副词、关系副词。
+
+副词连用顺序：程度副词+方式副词+地点副词+时间副词。
+
+1）时间和频率副词<br>
+now，then，often，always，usually，early，today，late，next，last day，already（已经），generally（一般地），frequently（频繁），seldom（很少地），ever，never，yet，soon，too，immediately（立即），finally，shortly（很快），before，ago，sometimes，yesterday，once，twice
+
+2） 地点副词<br>
+here，there，everywhere，anywhere，somewhere，in，out，inside，outside，above，below，down，back，forward（向前地），home，upstairs（楼上地），downstairs，across，along，round ，around，near，off，past，up，away，on
+
+3） 方式副词<br>
+carefully（仔细地），properly（适当地），anxiously（焦虑地），suddenly，normally（正常地），fast，well，calmly（冷静地），politely（有礼貌地），proudly（自豪地），softly，warmly ，slowly
+
+4） 程度副词<br>
+much，little，very，rather（相当），so，too，still，quite，perfectly（完美地），enough，extremely（非常），entirely（整个），almost，slightly（细小地）， hardly
+
+5） 疑问副词<br>
+how，when，where，why，what
+
+6） 关系副词<br>
+when，where，why 等。
+
+7）连接副词<br>
+therefore（因此），moreover（此外），however，otherwise（另外），then，when ，where，how，why等。
+
+**副词的用法：**
+
+1、副词作状语<br>
+例：He works hard.<br>
+他工作努力。
+
+2、副词作表语<br>
+例：Is she in?<br>
+她在家吗？
+
+3、副词作定语<br>
+例：Food here is hardly to get. （here 作定语，hardly 作状语）<br>
+这儿很难弄到食物。
+
+4、副词作补语<br>
+例：Let him out!（作补语）<br>
+让他出去！
+
+**形容词和副词比较等级的用法：**
+
+1、原级的用法
+
+表示双方在程度、性质、特征等方面相等时。用 as+形容词、副词原级+as 结构；表示双方不相等时，用 not so+形容词、副词原级+as 结构表示；表示一方是另一方的若干倍时，用倍数+as+形容词、副词的原级+as 结构。<br>例：Jack is as old as Jim. <br>杰克和吉姆一般大。
+
+2、比较级的用法
+
+（1）当两者相比时，用比较级+than 或者 less……than<br>
+例：it is less cold than it was yesterday.<br>
+今天没有昨天冷。
+
+（2）比较级的修饰语常见有：rather，much，still，even，a lot 等<br>
+例：i feel much better today.<br>
+我今天感觉好多了。
+
+（3）the+比较级……，the+比较级……，表示越……就……<br>
+例：the more you talked，the less attention he paid to you.<br>
+你说的越多，他越不注意听你讲。
+
+（4）比较级+and+比较级，表示越来越……<br>
+例：the city is becoming more and more beautiful.<br>
+这个城市变得越来越美丽了。
+
+3、最高级的用法
+
+三者或者三者以上比较时通常用最高级，形容词最高级前必须加定冠词 the，而副词最高级前的the一般省略。但是要注意的是形容词最高级前也有不加 the 的情况。
+
+（1）当最高级前有物主代词、指示代词、名词所有格修饰时，不加 the。<br>例：he is our best friend.<br>
+他是我们最好的朋友。
+
+（2）作表语的形容词最高级前，如果不是和他人或他物相比，常常不加 the。<br>例：we are busiest on Monday .<br>
+我们周一最忙。
+
+（3）most 表示非常之意，前面不加 the，用 a 代替。<br>
+例：This is a most interesting story.<br>
+这是一个非常有趣的故事。
+
+4、形容词与副词的注意事项<br>
+（1）有一些形容词、副词没有比较形式：comparative，particular，special，extreme 等；<br>
+（2）too+形容词、副词+to do sth. 表示太……而不能做某事，但是当 happy，glad，anxious，willing，thankful 等词用在不定式中，表示肯定的含义，too 前面可以加 only，but，just 等词。<br>例：Rose is all too glad to defeat the defending champion.<br>罗斯打败了卫冕冠军，感到非常高兴。
 
 
 
