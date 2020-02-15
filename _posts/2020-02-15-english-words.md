@@ -28,87 +28,83 @@ $$
 
 名词是指人、物、事、时、地、情感、概念等实体或抽象事物的词，名词可以独立成句，如果是在短语或者句子中，名词通常可以用代词来替代。
 
-### （一）名词按照意义分，一共有两种：
+### （一）名词按照意义分
 
 （1）专有名词：表示具体的人，事物，地点，团体或机构的专有名称。 例：China中国
 
 （2）普通名词：表示某些人，某类事物，某种物质或抽象概念的名称。例：tea 茶，在普通名词中还可以继续细分：
 
-1.抽象名词：表示动作，状态，品质或其他抽象概念。例：health 健康<br>
-2.物质名词：表示物质或不具备确定形状和大小的个体的物质。例：fire 火<br>
-3.个体名词：表示单个的人和事物。例：car 汽车<br>
-4.集体名词：表示一群人或一些事物的名称。例：family家庭<br>
-5.复合名词：两个或两个以上名词连在一起构成的名词。例：boy-friend男友
+1、抽象名词：表示动作，状态，品质或其他抽象概念。例：health 健康<br>
+2、物质名词：表示物质或不具备确定形状和大小的个体的物质。例：fire 火<br>
+3、个体名词：表示单个的人和事物。例：car 汽车<br>
+4、集体名词：表示一群人或一些事物的名称。例：family家庭<br>
+5、复合名词：两个或两个以上名词连在一起构成的名词。例：boy-friend男友
 
 （3）名词按照是否可数又可分为**可数名词**和**不可数名词**。
+
 **可数名词**：能以数目来计算，可以分成个体的人或东西；因此它有复数形式。<br>
 **不可数名词**：不能以数目来计算，不可以分成个体的概念、状态、品质、感情或表示物质材料的东西；它一般没有复数形式，只有单数形式，它的前面不能用不定冠词a / an。抽象名词，物质名词和专有名词一般是不可数名词。
 
 （4）名词常常在句中作主语、宾语、表语、宾语补足语、介词宾语、定语。
- 1．主语：
- 例：The bag is in the desk.
+
+ 1、主语：<br>
+ 例：The bag is in the desk.<br>
  书包在桌子里边。
- 2．宾语：
- 例：I washed my clothes yesterday.
+
+ 2、宾语：<br>
+ 例：I washed my clothes yesterday.<br>
  昨天我洗了我的衣服。
- 3．表语：
- 例：This is a good book.
+
+ 3、表语：<br>
+ 例：This is a good book.<br>
  这是一本好书。
- 4．宾语补足语：
- 例：We selected him our monitor.
+
+ 4、宾语补足语：<br>
+ 例：We selected him our monitor.<br>
  我们选他为我们的班长。
- 5．介词宾语
- 例：Mary lives with her parents.
+
+ 5、介词宾语<br>
+ 例：Mary lives with her parents.<br>
  玛丽和她的父母住在一起。
- 6．定语：
- 例：She is a Partymember.
+
+ 6、定语：<br>
+ 例：She is a Partymember.<br>
  她是一位党员。
 
-#### （二）单数名词变复数：
+### （二）单数名词变复数
 
-1.以o结尾的名词变为复数时，常在词尾加S，但是下列词除外，他们要加ES，Negroes、,Heroes、potato、tomatoes、黑人英雄爱吃土豆、西红柿.
- 2.以f或者fe结尾的名词变复数时，一般直接加s但是下列的需要把f或者fe改为ves，selves，lives、thieves，wives，knives、leaves、shelves、wolves、halves。为了自己活命，小偷和他的妻子手里拿着刀子和树叶站在架子上把狼劈成了两半。
- 3.合成名词构成复数时，通常只将里面所含有的主体名词变为复数，如果没有主体名词，则将最后一部分变为复数。例：sons—in—law（女婿）
+1、以 o 结尾的名词变为复数时，常在词尾加 s，但是下列词除外，他们要加 es，Negroes、,Heroes、potato、tomatoes、黑人英雄爱吃土豆、西红柿。<br>
+2、以 f 或者 fe 结尾的名词变复数时，一般直接加 s 但是下列需要把 f 或者 fe 改为 ves，selves，lives、thieves，wives，knives、leaves、shelves、wolves、halves。为了自己活命，小偷和他的妻子手里拿着刀子和树叶站在架子上把狼劈成了两半。<br>
+3、合成名词构成复数时，通常只将里面所含有的主体名词变为复数，如果没有主体名词，则将最后一部分变为复数。例：sons—in—law（女婿）
 
-#### （三）下列名词通常用作不可数名词
+### （三）下列名词通常用作不可数名词
 
-Fun 、advice、 weather、progress、information、bread、butter、baggage、meat、equipment等等
+fun 、advice、 weather、progress、information、bread、butter、baggage、meat、equipment 等等。
 
-#### （四）有些名词的复数形式表示特定的含义
+### （四）有些名词的复数形式表示特定的含义
 
-Papers，文件，试卷，报纸，论文；ashes，骨灰；glasses眼镜；drinks，饮料；goods，货物，货品等等。
+papers，文件，试卷，报纸，论文；<br>ashes，骨灰；<br>glasses眼镜；<br>drinks，饮料；<br>goods，货物，货品<br>等等。
 
-#### （五）有些名词的单数复数形式同形
+### （五）有些名词的单数复数形式同形
 
-Chinese中国人，Japanese日本人，sheep绵阳，deer鹿，series系列，means方式，works工厂，fish鱼，fruit水果，crossroads十字路口等，其中fish，fruit表示种类的时候，可以加复数词尾，即fishes，fruits。
+Chinese 中国人，Japanese 日本人，sheep 绵羊，deer 鹿，series 系列，means 方式，works 工厂，fish 鱼，fruit 水果，crossroads 十字路口等，其中 fish，fruit 表示种类的时候，可以加复数词尾，即 fishes，fruits。
 
-#### （六）名词的所有格
+### （六）名词的所有格
 
 **名词所有格表示所属关系，相当于物主代词，在句中作定语、宾语或主语。**
 
-##### A表示人或其它有生命的东西的名词常在词尾加’s。
+1、表示人或其它有生命的东西的名词常在词尾加 ’s。<br>例：my sister’s book（我姐姐的书）
 
-例：my sister’s book（我姐姐的书）
+2、以 s 或 es 结尾的复数名词。只在词尾加 ’。<br>例：Teachers’ Day（教师节）<br>
+特殊的名词复数仍要加  ’s 如 children 就是 child 的名词复数形式它变所有格时则必须加 ’s
 
-##### B以s或es结尾的复数名词。只在词尾加’。
+3、有些表示时间、距离以及世界、国家、城镇等无生命的名词，也可在词尾加 ’s<br>例：today’s newspaper（今天的报纸）,
 
-例：Teachers’ Day（教师节）
- 特殊的名词复数仍要加 ’s如children就是child的名词复数形式它变所有格时则必须加 ’s
+4、无论表示有生命还是无生命的东西的名词，一般均可用介词of短语来表示所有关系。<br>例：a fine daughter of the Party（党的好女儿）
 
-##### C有些表示时间、距离以及世界、国家、城镇等无生命的名词，也可在词尾加’s.
+5、双重所有格：名词+of+名词所有格/名词性物主代词构成双重所有格例：a friend of  mine（我的一个朋友）<br>注意：of短语所修饰的名词前可以加指示代词this，that，these，those等，表达赞赏或者厌恶的感情色彩。<br>例：That dog of  Mike’s is  always making troubles. 麦克的那只狗总是惹祸。
 
-例：today’s newspaper（今天的报纸）,
-
-##### D无论表示有生命还是无生命的东西的名词，一般均可用介词of短语来表示所有关系。
-
-例：a fine daughter of the Party（党的好女儿）
-
-##### E双重所有格：名词+of+名词所有格/名词性物主代词构成双重所有格例：a friend of  mine（我的一个朋友）
-
-注意：of短语所修饰的名词前可以加指示代词this，that，these，those等，表达赞赏或者厌恶的感情色彩。
- 例：That dog of  Mike’s is  always making troubles. 麦克的那只狗总是惹祸。
-
-#### （七）主谓一致原则：
+### （七）主谓一致原则：
 
 1． 主语和谓语基本上保持单复数的一致，当主语是可数名词单数或不可数名词时，谓语动词用单数形式：
  例：The water in the glass is very cold.（玻璃杯里的水很冷）
@@ -123,7 +119,7 @@ Chinese中国人，Japanese日本人，sheep绵阳，deer鹿，series系列，me
  5．glasses,shoes,socks,trousers,gloves等名词往往用复数形式，故谓语用复数。
  例：The trousersarevery cheap and I want to take them.（裤子很便宜，我想买）
 
-#### （八）动名词与现在分词：
+### （八）动名词与现在分词：
 
 我们知道：动名词和现在分词：都被称作动状词，他们都是由动词变化而来，自身仍然具有动词的性质与原义，但是并不能作为动词使用,当－ing形式的词语在句中作定语时，它可能是现在分词，也可能是动名词。
 
