@@ -956,7 +956,161 @@ K、although …  yet…，但 although 不与 but 连用。<br>
 例：Although he was weak, yet he tried his best to do the work.<br>
 虽然他很虚弱，但他还是尽力去做这工作。
 
+## 三、感叹词
 
+感叹词是用于表达各种感情的词，它与后面句子的其余成分无语法联系。
+
+### Oh
+
+表示惊讶、指责、痛苦、称赞、懊恼等，可译为“哦”、“哎呀”、“噢”、“啊”、“呀”等。
+
+1、"Oh, who was that?" Mr. Black asked."<br>“哦，是谁？”布莱克先生问。
+
+2、"Oh, how blind you are!" he cried."<br>“哎呀，你们真瞎！”他大声道。
+
+3、"Oh, oh!" he cried." My stomach! My head! oh! oh!""<br>“哎呀，哎哟！”他大声道，“我的肚子！我的头！哎哟！哎哟！”
+
+4、Oh, learned judge! Oh, wise young man.
+噢，博学的法官！噢，聪明的年轻人！
+
+### Ah
+
+表示惊奇、高兴、讨厌、懊悔、藐视、威胁等，可译为“呀、啊”等。
+
+1、Ah, yes, Jeanne married a man with a lot of money.<br>
+啊，对啦，让娜嫁给了一个很有钱的人。
+
+2、"Ah, what splendid clothes!" thought the Emperor."<br>“啊！多华丽的衣服啊！”皇帝想。
+
+3、Ah, how pitiful!<br>呀，多可惜！
+
+4、Ah, here is the thing I am after.<br>
+哎呀，我找的东西在这儿呢。
+
+### come
+
+表示鼓励、不耐烦、引起注意、安慰等，可译为“喂、好吧、说吧、得啦”等。
+
+1、Oh, come, Mathilde. Surely you can tell an old friend.<br>
+嗨，说吧，玛蒂尔德，你对老朋友说说总是可以的吧。
+
+2、Come, we must hurry.<br>
+喂，我们得赶紧啦！
+
+3、Come, come, get him his change. Tod, get him his change.<br>
+好吧，好吧，托德，快把钱找给他，快把钱找给他。
+
+4、Come, come! What were you really doing behind the bicycle sheds?<br>
+喂！喂！你还在车棚里磨蹭啥？
+
+### dear
+
+表示后悔、难过、怜悯、同情、吃惊、盼望等，可译为“哎呀、天哪”等。
+
+1、Dear me! What awful weather!<br>哎呀!多糟的天气！
+
+2、Oh, dear, dear! Where can Harry be?<br>天哪，天哪，亨利会在哪儿？
+
+3、Dear, dear! Where have I put my keys?<br>哎呀，我把钥匙放在哪啦？
+
+4、"Dear me," he said to himself, "Am I foolish or unfit for my office?"<br>“哎呀！”他心里嘀咕着，“我是愚蠢呢还是不称职？”
+
+### well
+
+表示快慰、让步、期望、讥讽、解释、责备、犹豫等，可译为“好吧、不过、好啦、嗯”等。
+
+1、Well, your father has found him in the garage.<br>
+好啦，你父亲在车库里找到他了。
+
+2、Are you sure? Well, perhaps you are right.<br>
+你能肯定吗？嗯，也许你说得对。
+
+3、Well, you must come to lunch tomorrow.<br>
+不过，你明天一定要来吃午饭。
+
+4、I handed the note to him and said, "Oh, very well, I apologize."<br>
+我把那张票子递给了他，说道：“啊，好极了，我向你道歉。”
+
+5、Well, why don't you make a notice like theirs?<br>
+那么，你为什么不做个像他们那样的广告牌呢？
+
+### now
+
+表示警告、命令、请求、说明、安慰筹，可译为“喂、喏、好了”等，有时也可不必译出。
+
+1、Now, now, you two; Don't fight again.<br>喂，喂，你们俩，别再打了。
+
+2、Now, now, my boy! It's all right! There's no need to cry!<br>好了，好了，孩子，没事了，别哭了。
+
+3、Now, let's play basketball.<br>喏，咱们打篮球吧!
+
+4、Now, lift me up, Doctor, lift me up. Where is he?<br>把我扶起来吧，医生，把我扶起来。他在哪里?
+
+### there
+
+表示得意、鼓励、同情、悲哀、不耐烦、失望、安慰、挑衅、引起注意等，可译为“哟、瞧、好啦、得啦”等。
+
+1、There! There! Never mind, you'll soon feel better.<br>好啦，好啦，不要紧，你马上会好的。
+
+2、There, there, you said too much.<br>得啦，得啦，你说的太多了。
+
+3、There, I've filled it up again.<br>瞧，我又把它灌满了。
+
+4、There, what's that?<br>哟，那是什么!
+
+### man
+
+表示兴奋、轻蔑、不耐烦、引起注意、可译为“啊、嗨”等。
+
+1、"Use you knife，man!" ordered the British officer nearby.<br>“嗨，用刀子割！”旁边的英国军官命令道。
+
+2、Hurry up, man.<br>嗨，快点。
+
+3、We have won the match, man!<br>啊，我们胜利了。
+
+### boy
+
+表示高兴、兴奋、惊奇等，可译为“嘿、哇、哼、怎么样”等。
+
+1、Boy, oh, boy! Our team's going to win! How fantastic?<br>
+哇，怎么样！我们队要赢了！真是太好了！
+
+2、Boy! his soup is good, Mama!<br>嘿，妈妈，这汤好得很。
+
+3、Oh, boy! I just had a wonderful dream!<br>嘿，我刚才做了个好梦。
+
+此外还有：
+
+- ha（惊奇、疑惑、鄙视），aha（得意、惊奇、嘲弄、满意）；<br>
+- hey（喜悦、打招呼），hell（喜悦、惊奇、打招呼）；<br>
+- sh（制止、引起注意），why（吃惊、抗议）；<br>
+- nonsense（胡说），Good heavens（惊异、不高兴）；<br>
+- what、how（多么……）
+
+1、Ha! Proud as these nobles are, he is afraid to see me.<br>
+哈！这些贵族尽管傲慢，他却害怕见到我。
+
+2、The trousers are all right, now the waistcoat, aha, right again.<br>
+裤子合身，再请穿上背心试试，啊哈，也很合适。
+
+3、Hey! I didn't expect to meet you here.<br>
+嗨，我没想到会在这儿遇到你。
+
+4、Hello? Yes, this is Professor Hunter's house.<br>
+喂，是的，这儿是亨特教授的家。
+
+5、They were about to go down. When Tum suddenly whispered. "Sh! Keep still. Don't move!"<br>
+他们正想再下去，这时托姆突然低声道：“嘘，安静，别动！”
+
+6、Why, what's the harm?<br>
+咳，这有什么害处呢？
+
+7、"Nonsense, " the king shouted. "My cook is the best cook in the world."<br>“胡说！”那国王喊道，“我的厨师是世界上最好的厨师。”
+
+8、"Good heavens! Listen to that silly child," said the father."<br>“天哪！听听那傻孩子在瞎说些什么！”孩子的父亲说。
+
+9、what 和 how 意思相同，但表达方式有所不同，如：<br>
+"What a beautiful girl she is!" 或 "How beautiful the girl is!"
 
 
 
