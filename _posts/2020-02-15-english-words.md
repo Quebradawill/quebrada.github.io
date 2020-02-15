@@ -830,7 +830,131 @@ D、表示 “遍及” 的介词有 throughout、all over all along 等。
 5、表示数量<br>
 常用的有 about (around)、over 等。
 
+## 二、连词
 
+连词是一种虚词，它不能独立担任句子成分而只起连接词与词，短语与短语以及句与句的作用。连词主要可分为以下几类：并列连词、转折连词和因果连词。
+
+### 并列连词
+
+并列连词引导两个并列的句子。
+
+1、and 与 or<br>
+例：They sat down and talked about something.<br>
+他们坐了下来并且开始谈论什么。<br>
+注意：and 还可以和祈使句或名词词组连用表示条件。（or 也有此用法）
+
+2、both … and 两者都<br>
+例：She plays (both) the piano and the guitar.<br>
+她会弹钢琴和吉他两种乐器。
+
+3、not only … but ... as well as = not only ... but also 不但…而且…<br>
+例：She plays not only the piano, but (also) the guitar.<br>
+她不仅会弹钢琴，还会弹吉他。<br>
+注意：not only … but also... 关联两个分句时，一个分句因有否定词 not 而必须倒装<br>
+例：Not only does he like reading stories, but also he can even write some.<br>
+他不仅喜欢读故事，而且还可以写一些。
+
+4、neither … nor 意思为“既不……也不……”谓语动词采用就近原则，与 nor 后的词保持一致。<br>
+例：Neither you nor he is to blame.
+
+### 转折连词
+
+1、but 表示转折，while 表示对比。<br>
+例：Some people love cats,while others hate them.<br>
+有些人喜欢猫，但是也有些人讨厌猫。
+
+2、not … but … 意思为“不是……而是……”<br>
+not 和 but 后面的用词要遵循一致原则。<br>
+例：They were not the bones of an animal, but (the bones) of a human being.<br>
+它们不是动物的骨头，而是人的骨头。
+
+### 因果连词
+
+1、for 因为<br>
+例：He is absent today,for he is ill.<br>
+因为他生病了，所以今天他缺席了。<br>
+for 是并列连词，不能置于含两个并列分句的句子的句首，只能将其放在两个分句中间。
+
+2、so，therefore 因此，所以<br>
+例：He hurt his leg,so he couldn't play in the game.<br>
+他的腿伤着了，所以不能参加比赛。
+
+3、because 因为<br>
+例：I cannot sleep because I am too excited.<br>
+我睡不着是以你为我太兴奋了。
+
+注意：because 、for 的意思很相近，通常是可以互换使用的。为了安全起见，最好用 because 引导从句，因为同 because 引导的从句相比，for 引导的从句的用法要受到某些限制：<br>
+①for 引导的从句不能位于它所解释的动词之前。<br>
+例：Because it was wet he took a taxi.<br>
+因为下雨，他叫了一辆出租车。（这里不能用 for）<br>
+②for 引导的从句不能位于 not、but 或任何连词之后。<br>
+③for 引导的从句不能用于回答问题。<br>
+例：Why did you do it? 你为什么这么做?<br>
+I did it because I was angry. 因为我生气才这么做的。（这里不能用for）<br>
+④for 引导的从句不能单单用来复述已讲过的话，而必须包括新的内容。<br>
+例：He spoke in French. 他讲法语。<br>
+She was angry because he had spoken in French. 因为他讲法语，她生气了。
+
+**连词的误用：**
+
+因为连词的种类非常多，有并列连词（连接并列句），有从属连词（引导复合句），而从属连词引导的从句又可分为三类：名词性从句、定语从句和状语从句。尤其应注意的是有些连词可引导不止一种从句，具有多重功能，这往往是学习的难点，也是易混点。
+
+**难点回顾：**
+
+A、as 可引导多种从句，如时间状语从句、原因状语从句、让步状语从句、方式状语从句、比较状语从句以及定语从句。<br>
+例： As you can see,he is always ready to help others.<br>
+正如你所看到的，他总是乐于助人。
+
+B、that 可引导多种从句，如定语从句、名词性从句、状语从句等。<br>
+例：That you don't like him is none of my business.<br>
+你不喜欢他，这不关我的事。
+
+C、where 可引导多种从句，如定语从句、状语从句以及名词性从句。<br>
+例： Go to find your watch. It's where you left it.<br>
+去找你的手表吧，它在你遗失的地方。
+
+D、what 可引导感叹句、特殊疑问句、名词性从句等。<br>
+例：What an interesting story he told us!<br>
+他将给我们的是多么有趣的一个故事啊。
+
+E、no matter + what/who ... 与 whatever/whoever ... 的区别：前者只能引导让步状语从句，而后者既可引导让步状语从句，也可引导名词性从句。<br>
+例：I will make friends with whoever shares my interest.<br>
+我会和所有的朋友分享我的兴趣。
+
+F、whether 和 if 的区别：两者引导名词性从句时都是从属连词，作“是否”讲，本身不作成分，此时句子中往往出现表示“不肯定”意义的一些短语，如 not sure/certain、not known/decided、... is still question、depend on 等。<br>
+whether 和 if 引导动词后的宾语从句时可互换，但下列情况一般只能用 whether：<br>
+（1）引导介词后的宾语从句；<br>（2）引导主语从句；<br>（3） 引导表语从句；<br>（4）引导同位语从句；<br>（5）后面出现 or not。<br>
+例：Whether you can pass the exam depends on how hard you work.<br>
+你是否能够通过考试取决于你的努力程度。
+
+G、while、when、as 引导时间状语从句时的区别：<br>
+while 只能表示“在一段时间或过程中”，即只能表示时间的“一段”，后面一般用进行时或表示状态的结构；<br>
+when 常与一般时态连用，用于表示一个动作与另一个动作在同一时间发生，或一个动作在另一动作所延续的时间范围内发生。可以表示一段时间，也可表示时间的“一点”；<br>
+例：When it is wet the buses are crowded.<br>
+天下雨时公共汽车就很拥挤。<br>
+When she pressed the button the lift stopped.<br>
+她按了按键，电梯停住了。<br>
+as 引导时间状语从句时，表示两个动作同时进行，作“一边……一边……”讲。还可表示第二个动作发生在第一个动作结束之前。<br>
+例： I picked up some French words while I was having a holiday in Paris.<br>
+当我在巴黎旅行的时候，我还顺便学习了一些法语。
+
+H、because、as、since (now that) 引导原因状语从句时的区别：<br>
+because 引导原因状语从句时，表示直接的原因，可以回答 why 的提问；as 只能是一种“附加的”理由，不能回答 why 的提问；since (now that) 多表示双方都已很清楚的事实，作“既然”讲。<br>
+例：since (now that) we've finished most of the work, let's have a rest.<br>
+直到现在我们已经完成了大部分工作，让我们休息一下吧。
+
+I、however 和 as 引导让步状语从句时的区别：
+however 引导让步状语从句时，相当于 no matter how，后面跟形容词或副词；as 引导让步状语从句时，用倒装语序，即把作状语的副词或作表语的形容词或名词提前，而且如果作表语的是单数名词，前面不加冠词，也可以把谓语动词部分的实义动词提前。<br>
+例：Model worker as he is, he remains modest.<br>
+虽然他是模范工人，但是他仍然很谦虚。
+
+J、两个并列连词不能连用，但 therefore、then、yet 可以和并列连词连用。<br>
+例：You can watch TV, and or you can go to bed.<br>
+你可以看电视，也可以去睡觉。
+
+K、although …  yet…，但 although 不与 but 连用。<br>
+例：Although he was weak, yet he tried his best to do the work.<br>
+虽然他很虚弱，但他还是尽力去做这工作。
 
 
 
