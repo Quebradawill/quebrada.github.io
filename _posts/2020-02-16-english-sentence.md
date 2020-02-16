@@ -170,7 +170,142 @@ D、that 在表语从句中不可以省掉。表语从句只能置于主句之�
 
 可以做同位语的成分有以下几种：名词、短语、直接引语、句子。
 
+同位语从句中句中做某些名词的同位语，这些名词常见的有：fact、news、hope、truth、idea、suggestion、thought、question、order、problem、belief、doubt、fear 等。引导同位语从句的连词通常有 that 和 whether、what、why、how……等。
 
+A、在复合句中用作同位语的从句叫同位语从句。它一般跟在某些名词后面，用以说明该名词表示的具体内容。<br>
+如：I heard the news that our team had won.<br>
+我听到了我们队获胜的消息。
+
+B、可以跟同位语从句的名词通常有同位语从句的先行词只能是名词，同位从句一般跟在某些名词如 answer、hope、fact、belief、news、idea 等。
+例：I’ve come from Mr. Wang with a message that he won’t be able to see you this afternoon．<br>
+我从王先生那里来，他让我告诉你他今天下午不能来看你了。
+
+C、英语中引导同位语从句的词通有连词 that、whether，连接副词 how、when、where、why，连接代词 what、who、whom、whose、which（if  不能引导同位语从句）<br>
+例：He must answer the question whether he agrees to it or not.<br>
+他必须回答他是否同意这样一个问题。
+
+D、有时同位语从句可以不紧跟在说明的名词后面，而被别的词隔开。<br>
+如：Several years later, word came that Napoleon himself was coming to inspect them.<br>
+几年以后，有消息传来说拿破仑要亲自视 察他们。
+
+## 2. 定语从句
+
+定语从句在句中做定语，修饰一个名词或代词，被修饰的名词，词组或代词即先行词。定语从句通常出现在先行词之后，由关系词（关系代词或关系副词）引出。
+
+### 2.1 关系代词引导的定语从句
+
+1、关系代词用来指代先行词是人或物的名词或代词
+
+例1：This is the detective who came from London.<br>
+这是从伦敦来的侦探。
+
+例2：The book which I am reading is written by Tomas Hardy.<br>
+我正在读的这本书是由托马斯*哈代写的。
+
+2、关系代词的用法
+
+1）如果先行词是 all、much、anything、something、nothing、everything、little、none 等不定代词，关系代词一般只用 that，不用 which。<br>
+例如：All the people that are burst into tears.<br>
+所有的人都满含热泪。
+
+2）如果先行词被形容词最高级以及 first、last、any、only、few、most、no、some、very 等词修饰，关系代词常用 that，不用which、who，或 whom。
+
+3）非限制性定语从句中，不能用关系代词 that，作宾语用的关系代词也不能省略。<br>
+例：There are about seven million people taking part in the election, most of whom, are well educated.<br>
+选举中有大约七百万人参加选举，其中大部分是受过良好教育的。
+
+4）which 还有一种特殊用法，它可以引导从句修饰前面的整个主句，代替主句所表示的整体概念或部分概念。在这种从句中，which 可以作主语，也可以作宾语或表语，多数情况下意思是与 and this 相似，并可以指人。<br>
+例：He succeeded in the competition, which made his parents very happy.<br>
+他在比赛中成功了，这让他的父母非常高兴。
+
+5）that 可指人或物，在从句中作表语，（指人作主语时多用 who）仅用于限制性定语从句中。
+
+6）which 可作表语，既可指人，以可指物。指人时，一般指从事某种职业或是有某种特征．品性或才能的人。which 引导的定语从句可以是限制性的，也可以是非限制性的。
+
+7）如果作先作词的集体名词着眼于集体的整体，关系代词用 which；若是指集体中的各个成员，则用 who。
+
+8）先行词有两个，一个指人，一个指物，关系代词应该用 that。
+
+9）如果先行词是 anyone、anybody、everyone、everybody、someone、somebody，关系代词应该用 who 或 whom，不用 which。
+例：Is there anyone here who will go with you?
+
+3、“介词＋关系代词”是一个普遍使用的结构
+
+1）“介词＋关系代词”可以引导限制性定语从句，也可以引导非限制性定语从句。“介词＋关系代词“结构中的介词可以是in、on、about、from、for、with、to at、of、without 等，关系代词只可用 whom 或 which，不可用 that。
+
+2）from where 为“介词＋关系副词“结构，但也可以引导定语从句。<br>
+例：We stood at the top of the hill, from where we can see the town.<br>
+我们站在山顶上，从那里我们可以看到这个城市。
+
+3）像 listen to、look at、depend on、pay attention to、take care of 等固定短语动词，在定语从句中一般不宜将介词与动词分开。<br>
+例：This is the boy whom she has taken care of.<br>
+这就是她所照顾的那个男孩。
+
+### 2.3 关系副词引导的定语从句
+
+1、关系副词也可以引导定语从句<br>关系副词在从句中分别表示时间、地点或原因。关系副词 when 在从句中充当时间状语，where 充当地点状语，why 充当原因状语。
+
+2、that 可引导定语从句表示时间、地点或原因<br>that 有时可以代替关系副词 when、where 或者 why 引导定语从句表示时间．地点或原因，在 that 引导的这种定语从句中，that 也可以省去。
+
+## 3. 状语从句
+
+一般结构：主 + 谓 + 宾语 + 状语，用来修饰谓语动词、其它动词、定语、状语或整个句子的从句叫做状语从句。
+
+状语从句可分为：
+
+1、时间状语从句<br>
+常用引导词：when、as、while、as soon as、before、after、since 、till、until<br>
+特殊引导词：the minute、the moment、the second、every time、the day<br>
+例：I didn’t realize how special my mother was until I became an adult.<br>
+直到我成为一个成年人，我才意识到我的母亲是多么的特别。
+
+2、地点状语从句<br>
+常用引导词：where<br>
+特殊引导词：wherever、anywhere、everywhere<br>
+例：Wherever you go、you should work hard.<br>
+无论你走到哪里，你都应该努力工作。
+
+3、原因状语从句<br>
+常用引导词：because、since、as、for<br>
+特殊引导词：seeing that、now that、in that、considering that、given that<br>
+例：My friends dislike me because I’m handsome and successful.<br>
+我的朋友不喜欢我，因为我很英俊，很成功。
+
+4、条件状语从句
+常用引导词：if、unless<br>
+特殊引导词：as/so long as、only if、providing/provided that、supposing that<br>
+例：We’ll start our project if the president agrees.<br>
+如果总统同意，我们将开始我们的项目。
+
+5、目的状语从句<br>
+常用引导词：so that、in order that<br>
+特殊引导词：lest、in case、for fear that，in the hope that、for the purpose that<br>
+例：The boss asked the secretary to hurry up with the letters so that he could sign them.<br>
+老板请秘书赶快把信给他，以便他能够在信上签名。
+
+6、让步状语从句<br>
+常用引导词：though、although、even if、even though<br>
+特殊引导词：as（用在让步状语从句中必须要倒装），while （一般用在句首），no matter …， in spite of the fact that、while、whatever、whoever、wherever<br>
+例：Much as I respect him, I can’t agree to his proposal.<br>
+虽然我很尊重他，但是我不同意他的建议。
+
+7、比较状语从句<br>
+常用引导词：as（同级比较）、than（不同程度的比较）<br>
+特殊引导词：the more … the more …；just as …, so…；A is to B what, no … more than；not A so much as B<br>
+例：She is as bad-tempered as her mother.<br>
+她和她的母亲拥有一样的坏脾气。
+
+8、方式状语从句<br>
+常用引导词：as、as if、how<br>
+特殊引导词：the way<br>
+例：When in Rome, do as the Roman do.<br>
+入乡随俗。
+
+9、结果状语从句<br>
+常用引导词：so … that、so … that、such … that<br>
+特殊引导词：such that、to the degree that、to the extent that、to such a degree that<br>
+例：He got up so early that he caught the first bus.<br>
+因为他起得很早，所以他赶上了第一班公共汽车。
 
 
 
