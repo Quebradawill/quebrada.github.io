@@ -1,7 +1,13 @@
 ---
-Title: PyTorch Cheat Sheet
-PyTorch version: 1.0Pre
-Date updated: 7/30/18
+layout: post
+title: PyTorch Cheat Sheet
+date: 2020-02-18
+categories: Deep-Learning
+tags: PyTorch
+status: publish
+type: post
+published: true
+author: Quebradawill
 ---
 
 # Imports
