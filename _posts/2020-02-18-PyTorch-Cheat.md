@@ -121,9 +121,9 @@ x.cpu()                                # move x's data from GPU to CPU and retur
 
 # device agnostic code and modularity
 if not args.disable_cuda and torch.cuda.is_available():
-    args.device = torch.device('cuda')                  #
-else:                                                   #
-    args.device = torch.device('cpu')                   #
+    args.device = torch.device('cuda')
+else:
+    args.device = torch.device('cpu')
 
 # recursively convert their parameters and buffers to device specific tensors
 net.to(device)
