@@ -24,4 +24,14 @@ Control Panel $$\to$$ Region $$\to$$ Administrative $$\to$$ Change system locale
 
 1）按下 Win+i 进入到 Win 10 下的“设置界面”，点击“设备”；<br>2）点击已连接设备，然后电脑的外接设备就会出现在左侧的列表里面，可以看见，我们连接的 U 盘出现了；<br>3）点击 U 盘就出现了“删除设备”的点击项，点击“删除设备”；<br>4）最后拔掉U盘，再插上 U 盘就会出现在电脑中即可正常打开！
 
-### 4.
+### 4. 解决github下载速度变慢问题
+
+主要修改的 hosts（C:\Windows\System32\drivers\etc\hosts）地址为：github.com 和 github.global.ssl.fastly.net 。查看网站对应的 IP 地址的方法为访问 ipaddress 网站，输入网址则可查阅到对应的IP地址。ipaddress 地址：https://www.ipaddress.com/
+
+修改完 hosts 还不会立即生效，你需要刷新 DNS 缓存，告诉电脑我的 hosts 文件已经修改了。
+
+输入指令：`sudo /etc/init.d/networking restart` 即可。（此处这个指令我用了不行，用的是 `sudo killall -HUP mDNSResponder`）
+
+然后，你关闭浏览器再访问 github 就不会出现速度很慢的现象了。（亲测不关闭浏览器直接访问也可）
+
+Windows下刷新 DNS 的方法：打开 CMD，输入 `ipconfig /flushdns`
