@@ -121,4 +121,12 @@ keyword.kwlist
 keyword.iskeyword('continue')
 ```
 
-### 12.
+### 12. 查看某变量的身份和类型
+
+```python
+a = 5
+id(a)
+type(a)
+```
+
+### 13.
