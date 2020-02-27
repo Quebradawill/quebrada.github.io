@@ -111,4 +111,14 @@ os.path.exists(directory)
 
 确认是 Excel 文件，有时候保存为 Strict Open XML Spreadsheet 文件，其扩展名也是 .xlsx。
 
-### 11.
+### 11. 查看关键字
+
+查看 Python 所有关键字，及判断某字符串是否是关键字：
+
+```python
+import keyword
+keyword.kwlist
+keyword.iskeyword('continue')
+```
+
+### 12.
