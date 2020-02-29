@@ -37,17 +37,16 @@ summary(model, (3, 640, 640))
 model_urls = {'resnet50': '/home/huihua/NewDisk1/pretrain_parameter/resnet50-19c8e357.pth'}
 
 def resnet50(pretrained=False, **kwargs):
-    ```
+    """
     Constructs a ResNet-50 model.
     Args:
         pretrained (bool): If True, returns a model pretrained on ImageNet.
-    ```
+    """
     model = ResNet(Bottleneck, [3,4,6,3], **kwargs)
     if pretrained:
         model.load_state_dict(model_zoo.load_url(model_urls['resnet50']))
     return model
 ```
-
 从官网加载预训练好的模型：
 
 ```python
