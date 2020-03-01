@@ -15,7 +15,7 @@ author: Quebradawill
 使用 torchsummary 模块，首先需要安装：`pip install torchsummary`
 
 ```python
-import models
+from torchvision import models
 from torchsummary import summary
 
 model = models.resnet50(pretrained=False, num_classes=7, scale=1)
@@ -68,7 +68,7 @@ model.load_state_dict(pre)
 
 **2）把模型权重下载至 torch 的缓存文件夹**
 
-由于 torch 在加载模型时候首先检查本地缓存	是否已经存在模型，所以在本用户目录下，预先下载放入可快速加载模型。相比第一种方法简单点。
+由于 torch 在加载模型时候首先检查本地缓存是否已经存在模型，所以在本地用户目录下，预先下载放入模型，可快速加载该模型。相比第一种方法简单点。
 
 参考：
 
