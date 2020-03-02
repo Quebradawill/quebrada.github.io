@@ -18,7 +18,9 @@ author: Quebradawill
 from torchvision import models
 from torchsummary import summary
 
-model = models.resnet50(pretrained=False, num_classes=7, scale=1)
+# cannot recognize arg scale
+# model = models.resnet50(pretrained=False, num_classes=7, scale=1)
+model = models.resnet50(pretrained=False, num_classes=7)
 print(model)
 summary(model, (3, 640, 640))
 ```
