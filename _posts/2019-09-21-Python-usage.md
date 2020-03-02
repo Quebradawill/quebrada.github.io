@@ -251,4 +251,6 @@ pprint.pprint(data2)
 pkl_file.close()
 ```
 
+参考：[python数据持久存储：pickle模块的基本使用](http://www.cnblogs.com/pzxbc/archive/2012/03/18/2404715.html)
+
 ### 15.
