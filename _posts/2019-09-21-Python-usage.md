@@ -129,4 +129,76 @@ id(a)
 type(a)
 ```
 
-### 13.
+### 13. Python 读取写入字典的方法
+
+**1）使用 json 转换方法**
+
+（1）字典写入 txt
+
+```python
+import json
+
+dic = {
+    'andy':{
+        'age': 23,
+        'city': 'beijing',
+        'skill': 'python'
+    },
+    'william': {
+        'age': 25,
+        'city': 'shanghai',
+        'skill': 'js'
+    }
+}
+
+js = json.dumps(dic)
+file = open('test.txt', 'w')
+file.write(js)
+file.close()
+```
+
+（2）读取 txt 中的字典
+
+```python
+import json
+
+file = open('test.txt', 'r')
+js = file.read()
+dic = json.loads(js)
+print(dic)
+file.close()
+```
+
+**2）使用 str 转换方法**
+
+（1）字典写入 txt
+
+```python
+dic = {
+    'andy':{
+        'age': 23,
+        'city': 'beijing',
+        'skill': 'python'
+    },
+    'william': {
+        'age': 25,
+        'city': 'shanghai',
+        'skill': 'js'
+    }
+}
+
+fw = open('test.txt', 'w+')
+fw.write(str(dic))
+fw.close()
+```
+
+（2）读取 txt 中的字典
+
+```python
+fr = open('test.txt', 'r+')
+dic = eval(fr.read())
+print(dic)
+fr.close()
+```
+
+### 14.
