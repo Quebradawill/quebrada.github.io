@@ -33,7 +33,7 @@ summary(model, (3, 640, 640))
 
 通过查找自己代码里所调用网络的类，使用 PyCharm 自带的函数查找功能（Ctrl+鼠标左键），查看此网络的加载方法，修改 `model.load_state_dict()` 函数。
 
-例如：已经下载好的 resnet50 的参数文件：放在 model_urls 里面，这样就可以提前下载直接使用。
+例如：已经下载好的 resnet50 的参数文件：放在 model_urls 指定的文件夹里，这样就可以提前下载直接使用。
 
 ```python
 model_urls = {'resnet50': '/home/huihua/NewDisk1/pretrain_parameter/resnet50-19c8e357.pth'}
@@ -44,12 +44,14 @@ def resnet50(pretrained=False, **kwargs):
     Args:
         pretrained (bool): If True, returns a model pretrained on ImageNet.
     """
+    # define neural network model
     model = ResNet(Bottleneck, [3,4,6,3], **kwargs)
     if pretrained:
+        # load parameters from local folder
         model.load_state_dict(model_zoo.load_url(model_urls['resnet50']))
     return model
 ```
-从官网加载预训练好的模型：
+下面的代码是从官网加载预训练好的模型，也就是默认的方式：
 
 ```python
 import torchvision.models as models
@@ -62,15 +64,18 @@ print(model)
 
 ```python
 import torchvision.models as models
- 
+
+# define neural network model
 model = models.vgg16(pretrained=False)
-pre=torch.load(r'D:/Python_models/pytorch_models/vgg16-397923af.pth')
+# load parameters
+pre = torch.load(r'D:/Python_models/pytorch_models/vgg16-397923af.pth')
+# load parameters to model
 model.load_state_dict(pre)
 ```
 
 **2）把模型权重下载至 torch 的缓存文件夹**
 
-由于 torch 在加载模型时候首先检查本地缓存是否已经存在模型，所以在本地用户目录下，预先下载放入模型，可快速加载该模型。相比第一种方法简单点。
+由于 torch 在加载模型时候首先检查本地缓存是否已经存在模型，所以在本地用户目录下，预先下载模型参数文件 .pth，可快速加载该模型。相比第一种方法简单点，不过需占用 C 盘空间。
 
 参考：
 
