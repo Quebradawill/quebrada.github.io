@@ -145,10 +145,11 @@ fc3.weight 	 torch.Size([10, 84])
 fc3.bias 	 torch.Size([10])
 optimizer's state_dict:
 state 	 {}
-param_groups 	 [{'lr': 0.0001, 'momentum': 0.9, 'dampening': 0, 'weight_decay': 0,
-                   'nesterov': False, 'params': [2524756933672, 2524756933752, 2524756933832,
-                                                 2524756933912, 2524756933992, 2524756934072, 2524756934152,
-                                                 2524756934232, 2524756934312, 2524756934392]}]
+param_groups [{'lr': 0.0001, 'momentum': 0.9, 'dampening': 0, 'weight_decay': 0,
+               'nesterov': False, 'params': [2524756933672, 2524756933752, 2524756933832,
+                                             2524756933912, 2524756933992, 2524756934072,
+                                             2524756934152, 2524756934232, 2524756934312,
+                                             2524756934392]}]
 ```
 
 **2）保存和加载模型**
@@ -175,9 +176,7 @@ model.eval()
 
 ```python
 torch.save(model, PATH)
-```
 
-```python
 # Model class must be defined somewhere
 model = torch.load(PATH)
 model.eval()
@@ -186,6 +185,7 @@ model.eval()
 （3）保存/加载
 
 ```python
+# save
 torch.save({
     'epoch': epoch,
     'model_state_dict': model.state_dict(),
@@ -193,9 +193,8 @@ torch.save({
     'loss': loss,
     ...
 }, PATH)
-```
 
-```python
+# load
 model = TheModelClass(*args, **kwargs)
 optimizer = TheOptimizerClass(*args, **kwargs)
 
@@ -217,10 +216,10 @@ model.train()
 （1）保存到 GPU，加载到 CPU
 
 ```python
+# save
 torch.save(model.state_dict(), PATH)
-```
 
-```python
+# load
 device = torch.device('cpu')
 model = TheModelClass(*args, **kwargs)
 model.load_state_dict(torch.load(PATH, map_location=device))
@@ -229,10 +228,10 @@ model.load_state_dict(torch.load(PATH, map_location=device))
 ​	（2）保存到 GPU，加载到 GPU
 
 ```python
+# save
 torch.save(model.state_dict(), PATH)
-```
 
-```python
+# load
 device = torch.device("cuda")
 model = TheModelClass(*args, **kwargs)
 model.load_state_dict(torch.load(PATH))
@@ -243,10 +242,10 @@ model.to(device)
 （3）保存到 CPU，加载到 GPU
 
 ```python
+# load
 torch.save(model.state_dict(), PATH)
-```
 
-```python
+# load
 device = torch.device("cuda")
 model = TheModelClass(*args, **kwargs)
 # Choose whatever GPU device number you want
@@ -258,10 +257,10 @@ model.to(device)
 （4）保存/加载 `torch.nn.DataParallel` 模型
 
 ```python
+# save
 torch.save(model.module.state_dict(), PATH)
-```
 
-```python
+# load
 # Load to whatever device you want
 ```
 
