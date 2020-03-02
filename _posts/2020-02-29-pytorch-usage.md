@@ -90,9 +90,9 @@ model.load_state_dict(pre)
 
 **1）什么是 state_dict**
 
-在 PyTorch 中，torch.nn.Module 的可学习参数（即权重和偏差），模块模型包含在 model 的参数中（通过 `model.parameters()` 访问）。`state_dict` 是个简单的 Python dictionary 对象，它将每个层映射到它的参数张量。
+在 PyTorch 中，`torch.nn.Module` 的可学习参数（即权重和偏差），模块模型包含在 model 的参数中（通过 `model.parameters()` 访问）。`state_dict` 是个简单的 Python dictionary 对象，它将每个层映射到它的参数张量。
 
-注意，只有具有可学习参数的层（卷积层、线性层等）才有 model 的 state_dict 中的条目。优化器对象（`connector.optim`）也有一个 state_dict，其中包含关于优化器状态以及所使用的超参数的信息。
+注意，只有具有可学习参数的层（卷积层、线性层等）才有 model 的 `state_dict` 中的条目。优化器对象（`connector.optim`）也有一个 `state_dict`，其中包含关于优化器状态以及所使用的超参数的信息。
 
 ```python
 import torch
@@ -201,7 +201,7 @@ torch.save({'epoch': epochID + 1, 'state_dict': model.state_dict(), 'best_loss':
 
 以上包含的信息有：epochID、state_dict、min_loss、optimizer，以及自定义损失函数的两个参数。格式以字典的格式存储。
 
-加载的方式：
+加载方式：
 
 ```python
 def load_checkpoint(model, checkpoint_PATH, optimizer):
@@ -269,7 +269,7 @@ model.eval()
 model.train()
 ```
 
-在保存用于推理或恢复训练的通用检查点时，必须保存模型的 state_dict。另外，保存优化器的 state_dict 也是很重要的，因为它包含缓冲区和参数，这些缓冲区和参数是在模型训练时更新的。要保存多个组件，请将它们组织在字典中，并使用 `torch.save()` 序列化字典。一个常见的 PyTorch 约定是使用 <font color='blue'>.tar</font> 文件扩展名保存这些检查点。
+在保存用于推理或恢复训练的通用检查点时，必须保存模型的 `state_dict`。另外，保存优化器的 `state_dict` 也是很重要的，因为它包含缓冲区和参数，这些缓冲区和参数是在模型训练时更新的。要保存多个组件，请将它们组织在字典中，并使用 `torch.save()` 序列化字典。一个常见的 PyTorch 约定是使用 <font color='blue'>.tar</font> 文件扩展名保存这些检查点。
 
 **3）通过设备保存/加载模型**
 
@@ -392,7 +392,7 @@ for i,p in enumerate(net.parameters()):
         p.requires_grad = False
 ```
 
-在优化器中添加上面的那句话可以实现参数的屏蔽。
+在优化器中添加上面的代码可以实现参数的屏蔽。
 
 参考：
 
