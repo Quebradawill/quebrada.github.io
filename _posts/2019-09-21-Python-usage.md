@@ -201,4 +201,54 @@ print(dic)
 fr.close()
 ```
 
-### 14.
+参考：[Python txt文件读取写入字典的方法（json、eval）](https://blog.csdn.net/li532331251/article/details/78203438)
+
+### 14. Python 列表、字典读写文件：pickle 模块的基本使用
+
+Python 的 pickle 模块实现了基本的数据序列和反序列化。通过 pickle 模块的序列化操作我们能够将程序中运行的对象信息保存到文件中去，永久存储；通过 pickle 模块的反序列化操作，我们能够从文件中创建上一次程序保存的对象。
+
+基本接口：`pickle.dump(obj, file, [,protocol])`<br>
+注解：<br>将对象 obj 保存到文件 file 中去；<br>protocol 为序列化使用的协议版本，0：ASCII 协议，所序列化的对象使用可打印的 ASCII 码表示；1：老式的二进制协议；2：2.3 版本引入的新二进制协议，较以前的更高效。其中协议 0 和 1 兼容老版本的 Python。protocol 默认值为 0；<br>file：对象保存到的类文件对象，file 必须有 `write()` 接口， file 可以是一个以 'w' 方式打开的文件或者一个 StringIO 对象或者其他任何实现 write() 接口的对象。如果protocol >= 1，文件对象需要是二进制模式打开的。
+
+`pickle.load(file)`<br>注解：<br>从 file 中读取一个字符串，并将它重构为原来的 Python 对象；<br>file：类文件对象，有 `read()` 和 `readline()` 接口。
+
+使用 pickle 模块将数据对象保存到文件
+
+```python
+import pickle
+
+data1 = {'a': [1, 2.0, 3, 4+6j],
+         'b': ('string', u'Unicode string'),
+         'c': None}
+
+selfref_list = [1, 2, 3]
+selfref_list.append(selfref_list)
+
+output = open('data.pkl', 'wb')
+
+# Pickle dictionary using protocol 0.
+pickle.dump(data1, output)
+
+# Pickle the list using the highest protocol available.
+pickle.dump(selfref_list, output, -1)
+
+output.close()
+```
+
+使用 pickle 模块从文件中重构 Python 对象
+
+```python
+import pprint, pickle
+
+pkl_file = open('data.pkl', 'rb')
+
+data1 = pickle.load(pkl_file)
+pprint.pprint(data1)
+
+data2 = pickle.load(pkl_file)
+pprint.pprint(data2)
+
+pkl_file.close()
+```
+
+### 15.
