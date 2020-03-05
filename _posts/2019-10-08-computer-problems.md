@@ -26,6 +26,8 @@ Control Panel $$\to$$ Region $$\to$$ Administrative $$\to$$ Change system locale
 
 ### 4. 解决github下载速度变慢问题
 
+**1）方法一**
+
 主要修改的 hosts（C:\Windows\System32\drivers\etc\hosts）地址为：github.com 和 github.global.ssl.fastly.net 。查看网站对应的 IP 地址的方法为访问 ipaddress 网站，输入网址则可查阅到对应的IP地址。ipaddress 地址：https://www.ipaddress.com/
 
 修改完 hosts 还不会立即生效，你需要刷新 DNS 缓存，告诉电脑我的 hosts 文件已经修改了。
@@ -35,3 +37,9 @@ Control Panel $$\to$$ Region $$\to$$ Administrative $$\to$$ Change system locale
 然后，你关闭浏览器再访问 github 就不会出现速度很慢的现象了。（亲测不关闭浏览器直接访问也可）
 
 Windows下刷新 DNS 的方法：打开 CMD，输入 `ipconfig /flushdns`
+
+方法一一般不太管用（亲测），可以试一下如下的方法。
+
+**2）方法二**
+
+（1）打开码云（当然不是福报）https://gitee.com/ 并注册登录；<br>（2）创建仓库；<br>（3）在新建仓库页选择 “导入已有仓库”；<br>（4）复制你需要下载的git链接，如：https://github.com/quebrada/fastai 放到导入已有仓库中；<br>（5）点击创建，然后下载。
