@@ -42,4 +42,4 @@ Windows下刷新 DNS 的方法：打开 CMD，输入 `ipconfig /flushdns`
 
 **2）方法二**
 
-（1）打开码云（当然不是福报）https://gitee.com/ 并注册登录；<br>（2）创建仓库；<br>（3）在新建仓库页选择 “导入已有仓库”；<br>（4）复制你需要下载的git链接，如：https://github.com/quebrada/fastai 放到导入已有仓库中；<br>（5）点击创建，然后下载。
+（1）打开码云（当然不是福报）[https://gitee.com/](https://gitee.com) 并注册登录；<br>（2）创建仓库；<br>（3）在新建仓库页选择 “导入已有仓库”；<br>（4）复制你需要下载的git链接，如：[https://github.com/quebrada/fastai](https://github.com/quebrada/fastai) 放到导入已有仓库中；<br>（5）点击创建，然后下载。
