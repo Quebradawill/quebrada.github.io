@@ -84,9 +84,9 @@ model.load_state_dict(pre)
 ### 3. PyTorch 保存和加载模型
 
 当提到保存和加载模型时，有三个核心功能需要熟悉：<br>
- 1、[torch.save](https://pytorch.org/docs/stable/torch.html?highlight=save#torch.save)：将序列化的对象保存到 disk。这个函数使用 Python 的 pickle 实用程序进行序列化。使用这个函数可以保存各种对象的模型、张量和字典；<br>
- 2、[torch.load](https://pytorch.org/docs/stable/torch.html?highlight=torch load#torch.load)：使用 pickle unpickle 工具将 pickle 的对象文件反序列化到内存；<br>
- 3、[torch.nn.Module.load_state_dict](https://pytorch.org/docs/stable/nn.html?highlight=load_state_dict#torch.nn.Module.load_state_dict)：使用反序列化状态字典加载 model 的参数字典。
+ 1、[torch.save](https://pytorch.org/docs/stable/torch.html?highlight=save#torch.save)：将序列化的对象保存到磁盘。这个函数使用 Python 的 pickle 实用程序进行序列化。使用这个函数可以保存各种对象的模型、张量和字典；<br>
+ 2、[torch.load](https://pytorch.org/docs/stable/torch.html?highlight=torch load#torch.load)：使用 pickle 的 unpickle 工具将 pickle 的对象文件反序列化到内存；<br>
+ 3、[torch.nn.Module.load_state_dict](https://pytorch.org/docs/stable/nn.html?highlight=load_state_dict#torch.nn.Module.load_state_dict)：把反序列化状态的字典加载到 model 的参数字典中。
 
 **1）什么是 state_dict**
 
@@ -175,7 +175,7 @@ model.load_state_dict(torch.load(PATH))
 model.eval()
 ```
 
-记住，您必须调用 `model.eval()`，以便在运行推断之前将 dropout 和 batch 规范化层设置为评估模式。如果不这样做，将会产生不一致的推断结果。
+<font color='red'>记住：</font>f您必须调用 `model.eval()`，以便在运行推断之前将 dropout 和 batch 规范化层设置为评估模式。如果不这样做，将会产生不一致的推断结果。
 
 **注意：**`load_state_dict()` 函数接受一个 dictionary 对象，而不是保存对象的路径。这意味着您必须在将保存的 state_dict 传至 load_state_dict() 函数之前反序列化它。
 
