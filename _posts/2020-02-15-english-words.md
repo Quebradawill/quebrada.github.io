@@ -32,15 +32,15 @@ $$
 
 ### （一）名词按照意义分
 
-（1）专有名词：表示具体的人，事物，地点，团体或机构的专有名称。 例：China中国
+（1）专有名词：表示具体的人，事物，地点，团体或机构的专有名称。 例：China 中国
 
 （2）普通名词：表示某些人，某类事物，某种物质或抽象概念的名称。例：tea 茶，在普通名词中还可以继续细分：
 
 1、抽象名词：表示动作，状态，品质或其他抽象概念。例：health 健康<br>
 2、物质名词：表示物质或不具备确定形状和大小的个体的物质。例：fire 火<br>
 3、个体名词：表示单个的人和事物。例：car 汽车<br>
-4、集体名词：表示一群人或一些事物的名称。例：family家庭<br>
-5、复合名词：两个或两个以上名词连在一起构成的名词。例：boy-friend男友
+4、集体名词：表示一群人或一些事物的名称。例：family 家庭<br>
+5、复合名词：两个或两个以上名词连在一起构成的名词。例：boy-friend 男朋友
 
 （3）名词按照是否可数又可分为**可数名词**和**不可数名词**。
 
@@ -70,14 +70,14 @@ $$
  玛丽和她的父母住在一起。
 
  6、定语：<br>
- 例：She is a Partymember.<br>
+ 例：She is a Party member.<br>
  她是一位党员。
 
 ### （二）单数名词变复数
 
-1、以 o 结尾的名词变为复数时，常在词尾加 s，但是下列词除外，他们要加 es，Negroes、Heroes、potato、tomatoes、黑人英雄爱吃土豆、西红柿。<br>
+1、以 o 结尾的名词变为复数时，常在词尾加 s，但是下列词除外，他们要加 es，Negroes、Heroes、potatoes、tomatoes、黑人英雄爱吃土豆、西红柿。<br>
 2、以 f 或者 fe 结尾的名词变复数时，一般直接加 s 但是下列需要把 f 或者 fe 改为 ves / selves，lives、thieves、wives、knives、leaves、shelves、wolves、halves。为了自己活命，小偷和他的妻子手里拿着刀子和树叶站在架子上把狼劈成了两半。<br>
-3、合成名词构成复数时，通常只将里面所含有的主体名词变为复数，如果没有主体名词，则将最后一部分变为复数。例：sons—in—law（女婿）
+3、合成名词构成复数时，通常只将里面所含有的主体名词变为复数，如果没有主体名词，则将最后一部分变为复数。例：sons-in-law（女婿）
 
 ### （三）下列名词通常用作不可数名词
 
@@ -85,7 +85,7 @@ fun 、advice、 weather、progress、information、bread、butter、baggage、m
 
 ### （四）有些名词的复数形式表示特定的含义
 
-papers，文件，试卷，报纸，论文；<br>ashes，骨灰；<br>glasses眼镜；<br>drinks，饮料；<br>goods，货物，货品<br>等等。
+papers，文件，试卷，报纸，论文；<br>ashes，骨灰；<br>glasses，眼镜；<br>drinks，饮料；<br>goods，货物，货品<br>等等。
 
 ### （五）有些名词的单数复数形式同形
 
@@ -98,53 +98,53 @@ Chinese 中国人，Japanese 日本人，sheep 绵羊，deer 鹿，series 系列
 1、表示人或其它有生命的东西的名词常在词尾加 ’s。<br>例：my sister’s book（我姐姐的书）
 
 2、以 s 或 es 结尾的复数名词。只在词尾加 ’。<br>例：Teachers’ Day（教师节）<br>
-特殊的名词复数仍要加  ’s 如 children 就是 child 的名词复数形式它变所有格时则必须加 ’s
+特殊的名词复数仍要加  ’s，如 children 就是 child 的名词复数形式，它变所有格时则必须加 ’s。
 
 3、有些表示时间、距离以及世界、国家、城镇等无生命的名词，也可在词尾加 ’s<br>例：today’s newspaper（今天的报纸）
 
 4、无论表示有生命还是无生命的东西的名词，一般均可用介词 of 短语来表示所有关系。<br>例：a fine daughter of the Party（党的好女儿）
 
-5、双重所有格：名词+of+名词所有格/名词性物主代词构成双重所有格例：a friend of  mine（我的一个朋友）<br>注意：of 短语所修饰的名词前可以加指示代词 this，that，these，those 等，表达赞赏或者厌恶的感情色彩。<br>例：That dog of  Mike’s is  always making troubles. 麦克的那只狗总是惹祸。
+5、双重所有格：名词+of+名词所有格/名词性物主代词构成双重所有格例：a friend of  mine（我的一个朋友）<br>注意：of 短语所修饰的名词前可以加指示代词 this、that、these、those 等，表达赞赏或者厌恶的感情色彩。<br>例：That dog of  Mike’s is  always making troubles. <br>麦克的那只狗总是惹祸。
 
 ### （七）主谓一致原则
 
 1、主语和谓语基本上保持单复数的一致，当主语是可数名词单数或不可数名词时，谓语动词用单数形式：<br>
  例：The water in the glass is very cold.（玻璃杯里的水很冷）
 
-2、当集体名词（family, class, team, group, row, police, school）做句子主语时，如果表示整体概念，则谓语用单数形式：<br>例：His family is large.（她的家人很多）<br>如果表示其中的所有成员时，则谓语用复数形式：
+2、当集体名词（family、class、team、group、row、police、school）做句子主语时，如果表示整体概念，则谓语用单数形式：<br>例：His family is large.（她的家人很多）<br>如果表示其中的所有成员时，则谓语用复数形式：
 例：His family are all teachers（她的家人都是老师）
 
-3、Chinese, Japanese, fish, sheep, people 等表示单个时谓语用单数，表示许多时，谓语用复数。<br>例：There is a sheep in the yard.（院子里有只绵羊）
+3、Chinese、Japanese、fish、sheep、people 等表示单个时谓语用单数，表示许多时，谓语用复数。<br>例：There is a sheep in the yard.（院子里有只绵羊）
 
-4、maths, news 等虽然有 s 结尾，但不是复数，因此谓语仍用单数：<br>例：The news is very exciting.（这个消息令人兴奋）
+4、maths、news 等虽然有 s 结尾，但不是复数，因此谓语仍用单数：<br>例：The news is very exciting.（这个消息令人兴奋）
 
-5、glasses, shoes, socks, trousers, gloves 等名词往往用复数形式，故谓语用复数。<br>例：The trousers are very cheap and I want to take them.（裤子很便宜，我想买）
+5、glasses、shoes、socks、trousers、gloves 等名词往往用复数形式，故谓语用复数。<br>例：The trousers are very cheap and I want to take them.（裤子很便宜，我想买）
 
 ### （八）动名词与现在分词
 
-我们知道：动名词和现在分词：都被称作动状词，他们都是由动词变化而来，自身仍然具有动词的性质与原义，但是并不能作为动词使用,当 -ing 形式的词语在句中作定语时，它可能是现在分词，也可能是动名词。
+我们知道：动名词和现在分词：都被称作动状词，他们都是由动词变化而来，自身仍然具有动词的性质与原义，但是并不能作为动词使用，当 -ing 形式的词语在句中作定语时，它可能是现在分词，也可能是动名词。
+
+**动状词**是指似乎带有动作或状态的观念，但不是作为真正动词的字。它们有时被称为「非限定」（未完成或不完整）动词。然而，由于时间是所有动词型态的决定性因素，不管限定（finite）或非限定（nonfinite）动词，我们必须遵循正确的时态一致。按这里一下，我们有一个表格专门叙述在不同的时间因素下如何使用正确的动状词型态。动状词通常与其他相关字连接来组成动状词片语（verbal phrase）。
 
 1、动名词作定语时
 
-说明被修饰的名词的用途（可以用“use for +动名词”这个结构代替），它和所修饰的名词在逻辑上没有主谓关系；<br>现在分词作定语时：表示它所修饰的名词的行为，和它所修饰的名词在逻辑上有主谓关系（可以扩展为定语从句）；<br>另一种区别方法：<br>如果 -ing 形式相当于一个名词，可以与主语交换位置，它就是动名词；<br>如果 -ing 形式相当于形容词，不能与主语交换位置，它就是现在分词。<br>a sleeping car = a car used  for sleeping 一节卧车车厢 （sleeping 此处为动名词 ）<br>a sleeping child = a child  who is sleeping 一个睡着的孩子 （sleeping 此处为现在分词 ）
+说明被修饰的名词的用途（可以用“used for +动名词”这个结构代替），它和所修饰的名词在逻辑上没有主谓关系；<br>现在分词作定语时：表示它所修饰的名词的行为，和它所修饰的名词在逻辑上有主谓关系（可以扩展为定语从句）；<br>另一种区别方法：<br>如果 -ing 形式相当于一个名词，可以与主语交换位置，它就是动名词；<br>如果 -ing 形式相当于形容词，不能与主语交换位置，它就是现在分词。<br>a sleeping car = a car used  for sleeping 一节卧车车厢 （sleeping 此处为动名词 ）<br>a sleeping child = a child  who is sleeping 一个睡着的孩子 （sleeping 此处为现在分词 ）
 
 2、动名词具有名词的性质
 
 A、可以和名词一样有冠词或 this、some 等形容词；<br>例：A knocking at the door was heard.<br>
 门口传来了敲门声。
 
-B、可以和名词一样有所有格、复数形式；<br>例：He enjoys for reading’s sake,not for scholarship.<br>他喜欢读书，并不是为了获得奖学金。
+B、可以和名词一样有所有格、复数形式；<br>例：He enjoys for reading’s sake, not for scholarship.<br>他喜欢读书，并不是为了获得奖学金。
 
 C、可以带有所有格已表明动作者。<br>例：Please excuse my coming late.<br>请原谅我来晚了。
 
-3、“动名词+名词”和“现在分词+名词”的读音不同，
-
-“动名词+名词”的重音在“动名词”上（a 'sleeping suit），<br>
+3、“动名词+名词”和“现在分词+名词”的读音不同。<br>“动名词+名词”的重音在“动名词”上（a 'sleeping suit），<br>
 “现在分词+名词”的重音在“名词”上（a sleeping 'child）。
 
 4、动名词用法的特殊情况
 
-① No+动名词：用于简短的禁令或禁律<br>No smoking = Don't do = Don't smoke.
+① No+动名词：用于简短的禁令或禁律。<br>No smoking = Don't do = Don't smoke.
 
 ② There is no + -ing（…是不可能的）= It is impossible to ~ = No one can ~ (or We cannot ~)<br>There is no telling when lasting peace will come.<br>（谁也不知道永久的和平何时到来）
 
