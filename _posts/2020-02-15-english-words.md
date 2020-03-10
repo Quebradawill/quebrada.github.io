@@ -482,7 +482,7 @@ tired 累的，more tired 更累的，most tired 最累的
 例：Are you two coming?<br>
 你们俩来吗？
 
-**折叠序数词与冠词**
+**序数词与冠词**
 
 1、序数词前一般要加定冠词 the。<br>如：It's the third time I've been here.<br>这是我第三次到这里来。
 
@@ -619,7 +619,7 @@ They let the strange go.---> The strange was let go.
 2）若 let 后宾补较长时，let 通常不用被动语态，而用 allow 或 permit 代替。<br>
 The nurse let me go to see my classmate in the hospital. --> I was allowed / permitted to see my classmate in the hospital.
 
-**折叠不用被动语态的情况：**
+**不用被动语态的情况：**
 
 1、不及物动词或动词短语无被动语态<br>
 例：The price has been risen.（错）<br>
