@@ -103,7 +103,7 @@ B、另一种是主语搁置句末，句前用形式主语代替，真正的主�
 例：It is certain that he will win the match.<br>
 他赢得比赛是毫无疑问的。
 
-在这类句子中，以 that 引出的主语从句,常常以形式主语 it 引导，，在有些 that 从句中要用虚拟语气（should + do/should + have done）。<br>
+在这类句子中，以 that 引出的主语从句，常常以形式主语 it 引导，在有些 that 从句中要用虚拟语气（should + do/should + have done）。<br>
 如：It is important that we all should attend the meeting.<br>
 非常重要的是我们都需要出席会议。
 
@@ -116,7 +116,7 @@ A、动词的宾语从句<br>
 例：We all expect that they will win, for members of their team are stronger.<br>
 我们都预料他们会赢，因为他们的队员更强壮。
 
-常见的动词短语也可以带宾语从句：make sure ，make up one’s mind，keep in mind 等等。<br>
+常见的动词短语也可以带宾语从句：make sure、make up one’s mind、keep in mind 等等。<br>
 例：Make sure that there are no mistakes in your papers before you turn them in.<br>
 在你交卷之前，记得确认你的试卷没有错误。
 
