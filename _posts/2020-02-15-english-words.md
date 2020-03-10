@@ -399,20 +399,20 @@ K、形容词词干+形容词：red-hot炽热的
 
 3、表语形容词
 
-表语形容词（afraid，alone，awake，asleep，alive，alike，ashamed，afloat，well，sorry，unable，worth，sure）并非只能作表语，他们还可以做补足语，有的还可以做后置定语（一般不做前置定语）。
+表语形容词（afraid、alone、awake、asleep、alive、alike、ashamed、afloat、well、sorry、unable、worth、sure）并非只能作表语，他们还可以做补足语，有的还可以做后置定语（一般不做前置定语）。
 
-例：To my Surprised，the drive I still alive after the traffic accident.<br>
+例：To my Surprised, the drive I still alive after the traffic accident.<br>
 让我惊讶的是，交通事故后，司机还活着。
 
 4、形容词作状语
 
 形容词作状语常常用来表示伴随或结果，并不表示动作的方式。
 
-例：He is standing there，full of fear。<br>他站在了那里，充满了恐惧。
+例：He is standing there, full of fear。<br>他站在了那里，充满了恐惧。
 
 5、形容词的比较级和最高级
 
-绝大多数形容词有三种形式，原级，比较级和最高级， 以表示形容词说明的性质在程度上的不同。<br>
+绝大多数形容词有三种形式，原级、比较级和最高级， 以表示形容词说明的性质在程度上的不同。<br>
 形容词的比较级和最高级形式是在形容词的原级形式的基础上变化的。<br>
 分为规则变化和不规则变化。
 
@@ -451,14 +451,14 @@ tired 累的，more tired 更累的，most tired 最累的
 
 **特殊情况：**
 
-当被表示程度的副词，如：a little，a bit，a few，a lot，much，even，far，still，rather，any 等修饰时，用形容词的比较级。
+当被表示程度的副词，如：a little、a bit、a few、a lot、much、even、far、still、rather、any 等修饰时，用形容词的比较级。
 
 例：I feel even worse now.<br>
 现在的我感觉更糟糕了。
 
 ## 四、数词
 
-表示数量或顺序的词叫做数词。数词分为两大类，即基数词和序数词。基数词表示数量，如：one，two，three，four……；序数词表示顺序，如：first，second，third，fourth……序数词前一般要加 the。
+表示数量或顺序的词叫做数词。数词分为两大类，即基数词和序数词。基数词表示数量，如：one、two、three、four……；序数词表示顺序，如：first、second、third、fourth……序数词前一般要加 the。
 
 **数词的用法：**（第一个例子是基数词，第二个例子是序数词）
 
@@ -541,32 +541,32 @@ She can sing many English songs.<br>
 他是一名教师。（is 与补足语一起说明主语的身份。）
 
 2）持续系动词<br>
-用来表示主语继续或保持一种状况或态度，主要有 keep，rest，remain，stay，lie，stand，等等。例如：<br>
+用来表示主语继续或保持一种状况或态度，主要有 keep、rest、remain、stay、lie、stand，等等。例如：<br>
 例：He always kept silent at meeting.　<br>
 他开会时总保持沉默。
 
 3）表像系动词<br>
-用来表示“看起来像”这一概念，主要有 seem，appear，look，等等。例如：<br>
+用来表示“看起来像”这一概念，主要有 seem、appear、look，等等。例如：<br>
 例：He looks tired.<br>他看起来很累。
 
 4）感官系动词<br>
-感官系动词主要有 feel，smell，sound，taste，等等。<br>
+感官系动词主要有 feel、smell、sound、taste，等等。<br>
 例：This kind of cloth feels very soft.<br>
 这种布手感很软。
 
 5）变化系动词<br>
-这些系动词表示主语变成什么样，变化系动词主要有 become，grow，turn，fall，get，go，come，run，等等。<br>
+这些系动词表示主语变成什么样，变化系动词主要有 become、grow、turn、fall、get、go、come、run，等等。<br>
 例：He became mad after that.<br>
 自那之后，他疯了。
 
 6）终止系动词<br>
-表示主语已终止动作，主要有 prove，trun out，表达"证实"，"变成"之意。<br>
+表示主语已终止动作，主要有 prove、trun out，表达"证实"、"变成"之意。<br>
 例：The rumor proved false.<br>
 这谣言证实有假。
 
 ### 助动词
 
-协助主要动词构成谓语动词词组的词叫助动词，最常用的助动词有：be，have，do，shall，will，should，would，助动词自身没有词义，不可单独使用。<br>
+协助主要动词构成谓语动词词组的词叫助动词，最常用的助动词有：be、have、do、shall、will、should，would，助动词自身没有词义，不可单独使用。<br>
 A、表示时态，例：He is singing. 他在唱歌。<br>
 B、表示语态，例：He was sent to England. 他被派往英国。<br>
 C、构成一般疑问句，例：Do you like college life? 你喜欢大学生活吗？<br>
@@ -592,10 +592,10 @@ E、加强语气，例：Do come to the party tomorrow evening. 明天晚上一�
 是一种本身有一定的词义，但要与动词原形及其被动语态一起使用，给谓语动词增添情态色彩，表示说话人对有关行为或事物的态度和看法，认为其可能、应该或必要等。情态动词后面加动词原形。
 
 情态动词有四类：<br>
-①只做情态动词：must，can(could)，may(might)……<br>
-②可做情态动词又可做实义动词：need，dare<br>
-③具有情态动词特征：have (had, has) to，used to<br>
-④情态动词表猜测：一肯一否三不定（must 一肯，must not 一否，can，could，would 三不定。） 注：mustn't 代表强烈禁止
+①只做情态动词：must、can(could)、may(might)……<br>
+②可做情态动词又可做实义动词：need、dare<br>
+③具有情态动词特征：have (had, has) to、used to<br>
+④情态动词表猜测：一肯一否三不定（must 一肯，must not 一否，can、could、would 三不定。） 注：mustn't 代表强烈禁止
 
 ### 动词的语态有两种
 
@@ -603,7 +603,7 @@ E、加强语气，例：Do come to the party tomorrow evening. 明天晚上一�
 
 主语是动作的发出者为主动语态；主语是动作的接受者为被动语态。
 
-1）若宾语补足语是不带 to 的不定式，变为被动语态时，该不定式前要加“to”。此类动词为感官动词。feel，hear，help，listen to，look at，make，observe，see，notice，watch<br>
+1）若宾语补足语是不带 to 的不定式，变为被动语态时，该不定式前要加“to”。此类动词为感官动词。feel、hear、help、listen to、look at、make、observe、see、notice、watch<br>
 例：The teacher made me go out of the classroom. --> I was made to go out of the classroom (by the teacher).<br>
 老师让我从教室出去。
 
@@ -629,16 +629,16 @@ The accident happened last week..（对）<br>
 要想正确地使用被动语态，就须注意哪些动词是及物的，哪些是不及物的。特别是一词多义的动词往往有两种用法。解决这一问题唯有在学习过程中多留意积累。
 
 2、不能用于被动语态的及物动词或动词短语<br>
-fit，have，hold，marry，own，wish，cost，notice，watch agree with，arrive at / in，shake hands with，succeed in，suffer from，happen to，take part in，walk into，belong to<br>
+fit、have、hold、marry、own、wish、cost、notice、watch agree with、arrive at / in、shake hands with、succeed in、suffer from、happen to、take part in、walk into、belong to<br>
 例：This key just fits the lock.<br>
 这把钥匙是这个锁上面的。
 
 3、系动词无被动语态<br>
-appear，be ecome，fall，feel，get，grow，keep，look，remain，seem，smell，sound，stay，taste，turn<br>
+appear、be ecome、fall、feel、get、grow、keep、look、remain、seem、smell、sound、stay、taste、turn<br>
 例：It sounds good.<br>
 那听起来很不错。
 
-4、带同源宾语的及物动词，反身代词，相互代词，不能用于被动语态：die，death，dream，live，life<br>
+4、带同源宾语的及物动词、反身代词、相互代词，不能用于被动语态：die、death、dream、live、life<br>
 例：She dreamed a bad dream last night.<br>
 她昨晚做了一个恶梦。
 
@@ -648,23 +648,23 @@ To swim is liked by her.（错）
 
 **有些动词虽然是主动形式，但是表示被动意义**
 
-A、wash，clean，cook，iron，look，cut，sell，read，wear，feel，draw，write，sell，drive……<br>
+A、wash、clean、cook、iron、look、cut、sell、read、wear、feel、draw、write、sell、drive……<br>
 例：The book sells well.<br>
 这本书销路好。
 
-B、blame，let（出租），remain，keep，rent，build<br>
+B、blame、let（出租）、remain、keep、rent、build<br>
 例：I was to blame for the accident.<br>
 我要为这次事故负责。
 
-C 、在need，require，want，worth（形容词），deserve 后的动名词必须用主动形式。<br>
+C 、在need、require、want、worth（形容词）、deserve 后的动名词必须用主动形式。<br>
 例：This room needs cleaning.<br>
 这房间应该打扫一下。
 
-D、特殊结构：make sb. heard / understood（使别人能听见/理解自己），have sth. done（要某人做某事）。
+D、特殊结构：make sb. heard / understood（使别人能听见/理解自己）、have sth. done（要某人做某事）。
 
 **有些动词的被动形式也可以表示主动意义**
 
-be determined，be pleased，be graduated (from)，be finished，be prepared (for)，be occupied (in)，get marries<br>
+be determined、be pleased、be graduated (from)、be finished、be prepared (for)、be occupied (in)、get marries<br>
 例：He is graduated from a famous university.<br>
 他毕业于一所有名的大学。
 
@@ -673,7 +673,7 @@ He married a rich girl.=He got married to a rich girl.<br>
 他和一个富贵的女子结婚了。
 
 need/want/require/worth<br>
-当 need，want，require，worth（形容词）后面接 doing 也可以表示被动。<br>
+当 need、want、require、worth（形容词）后面接 doing 也可以表示被动。<br>
 例：Your hair wants cutting.<br>你的头发该理了。
 The floor requires washing.<br> 地板需要冲洗。
 The book is worth reading.<br>这本书值得一读。
@@ -719,25 +719,25 @@ see somebody do something --> somebody +be +seen to do something<br>
 副词连用顺序：程度副词+方式副词+地点副词+时间副词。
 
 1）时间和频率副词<br>
-now，then，often，always，usually，early，today，late，next，last day，already（已经），generally（一般地），frequently（频繁），seldom（很少地），ever，never，yet，soon，too，immediately（立即），finally，shortly（很快），before，ago，sometimes，yesterday，once，twice
+now、then、often、always、usually、early、today、late、next、last day、already（已经）、generally（一般地）、frequently（频繁）、seldom（很少地）、ever、never、yet、soon、too、immediately（立即）、finally、shortly（很快）、before、ago、sometimes、yesterday、once、twice
 
 2） 地点副词<br>
-here，there，everywhere，anywhere，somewhere，in，out，inside，outside，above，below，down，back，forward（向前地），home，upstairs（楼上地），downstairs，across，along，round ，around，near，off，past，up，away，on
+here、there、everywhere、anywhere、somewhere、in、out、inside、outside、above、below、down、back、forward（向前地）、home、upstairs（楼上地）、downstairs、across、along、round 、around、near、off、past、up、away、on
 
 3） 方式副词<br>
-carefully（仔细地），properly（适当地），anxiously（焦虑地），suddenly，normally（正常地），fast，well，calmly（冷静地），politely（有礼貌地），proudly（自豪地），softly，warmly ，slowly
+carefully（仔细地）、properly（适当地）、anxiously（焦虑地）、suddenly、normally（正常地）、fast、well、calmly（冷静地）、politely（有礼貌地）、proudly（自豪地）、softly、warmly 、slowly
 
 4） 程度副词<br>
-much，little，very，rather（相当），so，too，still，quite，perfectly（完美地），enough，extremely（非常），entirely（整个），almost，slightly（细小地）， hardly
+much、little、very、rather（相当）、so、too、still、quite、perfectly（完美地）、enough、extremely（非常）、entirely（整个）、almost、slightly（细小地）、 hardly
 
 5） 疑问副词<br>
-how，when，where，why，what
+how、when、where、why、what
 
 6） 关系副词<br>
-when，where，why 等。
+when、where、why 等。
 
 7）连接副词<br>
-therefore（因此），moreover（此外），however，otherwise（另外），then，when ，where，how，why等。
+therefore（因此）、moreover（此外）、however、otherwise（另外）、then、when 、where、how、why等。
 
 **副词的用法：**
 
@@ -769,7 +769,7 @@ therefore（因此），moreover（此外），however，otherwise（另外）�
 例：it is less cold than it was yesterday.<br>
 今天没有昨天冷。
 
-（2）比较级的修饰语常见有：rather，much，still，even，a lot 等<br>
+（2）比较级的修饰语常见有：rather、much、still、even、a lot 等<br>
 例：i feel much better today.<br>
 我今天感觉好多了。
 
@@ -796,14 +796,14 @@ therefore（因此），moreover（此外），however，otherwise（另外）�
 这是一个非常有趣的故事。
 
 4、形容词与副词的注意事项<br>
-（1）有一些形容词、副词没有比较形式：comparative，particular，special，extreme 等；<br>
-（2）too+形容词、副词+to do sth. 表示太……而不能做某事，但是当 happy，glad，anxious，willing，thankful 等词用在不定式中，表示肯定的含义，too 前面可以加 only，but，just 等词。<br>例：Rose is all too glad to defeat the defending champion.<br>罗斯打败了卫冕冠军，感到非常高兴。
+（1）有一些形容词、副词没有比较形式：comparative、particular、special、extreme 等；<br>
+（2）too+形容词、副词+to do sth. 表示太……而不能做某事，但是当 happy、glad、anxious、willing、thankful 等词用在不定式中，表示肯定的含义，too 前面可以加 only、but、just 等词。<br>例：Rose is all too glad to defeat the defending champion.<br>罗斯打败了卫冕冠军，感到非常高兴。
 
 # 虚词
 
 ## 一、介词
 
-介词又称作前置词，表示名词、代词等与句中其他词的关系，在句中不能单独作句子成分。介词后面一般有名词、代词或相当于名词的其他词类、短语或从句作它的宾语，表示与其他成分的关系。介词和它的宾语构成介词词组，在句中作状语，表语，补语或介词宾语。介词可以分为时间介词、地点介词、方式介词、原因介词、数量介词和其他介词。
+介词又称作前置词，表示名词、代词等与句中其他词的关系，在句中不能单独作句子成分。介词后面一般有名词、代词或相当于名词的其他词类、短语或从句作它的宾语，表示与其他成分的关系。介词和它的宾语构成介词词组，在句中作状语、表语，补语或介词宾语。介词可以分为时间介词、地点介词、方式介词、原因介词、数量介词和其他介词。
 
 ### 介词的主要用途
 
