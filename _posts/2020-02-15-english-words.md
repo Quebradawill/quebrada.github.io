@@ -1170,7 +1170,7 @@ K、although …  yet…，但 although 不与 but 连用。<br>
 11）和某些形容词连用，表示一类人或事物，是复数概念<br>
 例：the rich 富人
 
-**折叠哪些地方不出现冠词**
+**哪些地方不出现冠词**
 
 A、表示一类人或事物的复数名词前不用冠词<br>例：We are all students.<br>
 我们都是学生。
