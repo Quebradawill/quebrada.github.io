@@ -160,14 +160,14 @@ It goes without saying that no animal can live without breathing.
 代词出现在语言学和语法学中，指代替名词或名词短语的形式词。
 
 代词主要有以下几种：<br>
-人称代词 ：I 我 you你 he他 she她 they他们 me我（宾格）you你（宾格）him他（宾格）her她（宾格）them他们（宾格）<br>
-物主代词 ：my我的 his他的 your你的（your你们的） their他们的 her她的<br>
-反身代词：myself我自己 himself他自己 themselves他们自己<br>
-相互代词 ：each other 互相 one another互相<br>
-指示代词 ：this这 that那 these这些 those 那些<br>
-不定代词：some一些 many许多 both两个；两个都<br>
-疑问代词：who谁 what什么 which哪个<br>
-关系代词：which……的物 who……的人 that……的人或物 who谁 that引导定语从句。
+人称代词 ：I 我、you 你、he 他、she 她、they 他们、me 我（宾格）、you 你（宾格）、him 他（宾格）、her 她（宾格）、them 他们（宾格）；<br>
+物主代词 ：my 我的、his 他的、your 你的、your 你们的、 their 他们的、her 她的；<br>
+反身代词：myself 我自己、himself 他自己、themselves 他们自己；<br>
+相互代词 ：each other 互相、one another 互相；<br>
+指示代词 ：this 这、that 那、these 这些、those 那些；<br>
+不定代词：some 一些、many 许多、both 两个 两个都；<br>
+疑问代词：who 谁、what 什么、which 哪个；<br>
+关系代词：which ……的物、who ……的人、that ……的人或物、who 谁、that 引导定语从句。
 
 **代词的用法：**
 
@@ -177,7 +177,7 @@ It goes without saying that no animal can live without breathing.
 单数主格：I，you，he，she，it；<br>单数宾格：me，you，him，her，it；<br>复数主格：we，you，they，they，they；<br>复数宾格：us，you，them，them，them。
 
 人称代词可用作主语，表语，宾语以及介词。<br>
-例：I am a worker,I work in the factory.<br>
+例：I am a worker, I work in the factory.<br>
 我是一个工人，我在工厂工作。
 
 **注意：**
@@ -186,19 +186,19 @@ A、第一人称单数代词“I（我）”不论在什么地方都要大写。
 例：I study English every day.<br>
 我天天学习英语。
 
-B、 “we ” 常常代替“I”表示一种和读者、听众或观众之间的亲密关系。<br>
+B、 “we” 常常代替“I”表示一种和读者、听众或观众之间的亲密关系。<br>
 例：We shall do our best to help the poor.<br>
 我们将尽全力帮助贫困者。
 
-C、“she ”常常代替国家，城市，宠物等，表示一种亲密或爱抚的感情。<br>
+C、“she”常常代替国家，城市，宠物等，表示一种亲密或爱抚的感情。<br>
 例：I live in China. She is a great country.<br>
 我住在中国。她是一个伟大的国家。
 
-D、“it ”有时也可指人。<br>
+D、“it”有时也可指人。<br>
 例：It's me. Open the door, please.<br>
 是我，请开门。
 
-E、“they ”有时代替一般人。<br>
+E、“they”有时代替一般人。<br>
 例：They say you are good at computer.<br>
 他们说你精通计算机。
 
@@ -207,18 +207,18 @@ E、“they ”有时代替一般人。<br>
 表示所有关系的代词叫做物主代词。物主代词可分为形容词性物主代词和名词性物主代词两种。列表如下：
 
 
-形容词性物主代词：my，your，his，her，its，our，your，their<br>名词性物主代词：mine，your，his，hers，its，ours，yours，theirs
+形容词性物主代词：my、your、his、her、its、our、your、their<br>名词性物主代词：mine、your、his、hers、its、ours、yours、theirs
 
 形容词性物主代词可用作定语，例如：I love my country. 我热爱我的国家。<br>
-名词性的物主代词可用作主语，宾语，表语以及与“of” 连接的定语。That car is mine, not yours. 那辆汽车是我的，不是你的。
+名词性的物主代词可用作主语、宾语、表语以及与“of” 连接的定语。That car is mine, not yours. 那辆汽车是我的，不是你的。
 
 ### （三）反身代词
 
-反身代词表示我自己，你自己，他自己，我们自己，你们自己，他们自己等。反身代词第一、二人称构成是由形容词性物主代词加 “-self”（复数加 -selves）构成，第三人称反身代词是由人称代词宾格形式加 -self （复数加 -selves）构成。
+反身代词表示我自己、你自己、他自己、我们自己、你们自己、他们自己等。反身代词第一、二人称构成是由形容词性物主代词加 “-self”（复数加 -selves）构成，第三人称反身代词是由人称代词宾格形式加 -self （复数加 -selves）构成。
 
-**用法：**
+**用法：**	
 
-反身代词可用作宾语，表语，主语的同位语和宾语的同位语。用作同位语时表示强调“本人，自己”。<br>
+反身代词可用作宾语、表语、主语的同位语和宾语的同位语。用作同位语时表示强调“本人、自己”。<br>
 例：I am teaching myself computer.<br>
 我自学计算机。
 
@@ -238,7 +238,7 @@ A、作动词宾语<br>
 人们应当彼此相爱。
 
 B、可作介词宾语<br>
-例：Dogs bark,cocks crow,frogs croak to each other.<br>
+例：Dogs bark, cocks crow, frogs croak to each other.<br>
 狗吠、鸡鸣、蛙儿对唱。
 
 C、相互代词可加-'s构成所有格<br>
@@ -247,7 +247,7 @@ C、相互代词可加-'s构成所有格<br>
 
 ### （五）指示代词
 
-表示这个，那个，这些，那些的词叫做指示代词。指示代词常在句中作主语，宾语，表语，定语。
+表示这个、那个、这些，那些的词叫做指示代词。指示代词常在句中作主语、宾语、表语、定语。
 
 **用法：**
 
@@ -257,7 +257,7 @@ this 和 these 表示在时间上或空间上较近的人或物。<br>
 **it的用法：**
 
 1、用作人称代词，代替前面提到的人或者物，在句子中做主语或者宾语。<br>
-例：Your story is interesting ,but I don't like it .<br>
+例：Your story is interesting, but I don't like it .<br>
 你的故事很有趣，但是我不喜欢。
 
 2、用于疑问句的答语中，代替指示代词（this，that）<br>
@@ -286,12 +286,11 @@ this 和 these 表示在时间上或空间上较近的人或物。<br>
 
 ### （六）不定代词
 
-不定代词大都可以代替名词和形容词，在句中作主语、宾语、表语、定语和状语。常见的有 all，both，every，each，either，neither，more，little，few，much，many 等等。
+不定代词大都可以代替名词和形容词，在句中作主语、宾语、表语、定语和状语。常见的有 all、both、every、each、either、neither、more、little、few、much、many 等等。
 
 **用法：**
 
-1、both，all，any，neither，none 的用法
-
+1、both、all、any、neither、none 的用法
 
 $$
 \begin{array} & & 都 & 任何 & 都不 \\ 两者 & \rm{both} & \rm{either} & \rm{neither} \\ 三者或者三者以上 & \rm{all} & \rm{any} & \rm{none} \\  \end{array}
@@ -314,9 +313,9 @@ I am afraid neither day is possible.<br>
 你要茶还是咖啡？<br>Either, I really don't mind.<br>
 哪个都可以，我不介意。
 
-2、none，nothing，nobody（no one）的区别
+2、none、nothing、nobody（no one）的区别
 
-（1）none 既可以指人，还可以指物，并且表示特指概念，常回答 how many，how much 引导的疑问句；nobody 只能指人，且表示泛指概念，常回答 who 引导的疑问句，nothing 只能指物，且表示泛指概念，常回答 what 引导的疑问句。
+（1）none 既可以指人，还可以指物，并且表示特指概念，常回答 how many、how much 引导的疑问句；nobody 只能指人，且表示泛指概念，常回答 who 引导的疑问句，nothing 只能指物，且表示泛指概念，常回答 what 引导的疑问句。
 
 例：How much money do you have?<br>
 你有多少钱？<br>
@@ -331,7 +330,7 @@ Nothing.<br>什么也没有做。
 例：If I have some money, I would lead him some. but unfortunately, I have none.<br>
 如果我有钱的话，我就借给他一些，但不幸的是，我没钱。
 
-（3）none 后面可以跟 of 短语，而 something，anything、everything、nothing 和 someone、anyone、everyone、no one 却不能。
+（3）none 后面可以跟 of 短语，而 something、anything、everything、nothing 和 someone、anyone、everyone、no one 却不能。
 
 例：As we were sleep, none of us heard the sound.<br>
 由于我们都在睡觉，没人听到那声音。
@@ -350,11 +349,11 @@ the other+单数名词特指两者之中的另一个，可以用 the one 代替�
 例：I don't like this sweater and give me another one please.<br>
 我不喜欢这件毛衣，请给我再拿一件。
 
-I only have one shoe ,the one is missing.<br>我只有一只鞋，另一只找不到了。
+I only have one shoe, the one is missing.<br>我只有一只鞋，另一只找不到了。
 
 ### （七）疑问代词
 
-表示“谁（who），谁（whom），谁的（whose），什么（what），哪个或哪些（which）”等词叫疑问代词。
+表示“谁（who）、谁（whom）、谁的（whose）、什么（what）、哪个或哪些（which）”等词叫疑问代词。
 
 疑问代词用于特殊疑问句中，疑问代词一般放在句子的最前面，在句中可用作主语，宾语，表语，定语。
 
@@ -368,7 +367,7 @@ I only have one shoe ,the one is missing.<br>我只有一只鞋，另一只找�
 
 ### （八）关系代词
 
-关系代词是用来引导定语从句的代词。关系代词有 who，whose，whom，that，which。它们在句中可用作主语，表语，宾语，定语。在主句中，它们还代表着从句所修饰的那个名词或代词。
+关系代词是用来引导定语从句的代词。关系代词有 who、whose、whom、that、which。它们在句中可用作主语、表语、宾语、定语。在主句中，它们还代表着从句所修饰的那个名词或代词。
 
 例：This is the man who helped me yesterday.<br>
 这个男人昨天帮了我。
