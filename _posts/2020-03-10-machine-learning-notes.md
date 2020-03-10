@@ -1,9 +1,9 @@
 ---
 layout: post
-title: PyTorch 使用问题汇总
-date: 2020-02-29
+title: 机器学习笔记
+date: 2020-03-10
 categories: Research
-tags: Python PyTorch
+tags: machine-learning
 status: publish
 type: post
 published: true
