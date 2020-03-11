@@ -253,4 +253,8 @@ pkl_file.close()
 
 参考：[python数据持久存储：pickle模块的基本使用](http://www.cnblogs.com/pzxbc/archive/2012/03/18/2404715.html)
 
-### 15.
+### 15. Python 在 `import Iterable` 时报 DeprecationWarning
+
+在 Python 3.6 以前版本中可以使用 `from collections import Iterable`，在 3.6 以后版本中应该使用 `import collections.abc import Iterable`
+
+### 16.
