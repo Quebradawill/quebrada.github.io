@@ -35,3 +35,19 @@ PCA 是无监督学习中的最常见的数据降维方法，但实际问题特�
 总结一下 PCA 的完整操作：<br>1、一开始我们有 5 维特征，分别是**房间面积**、**房间个数**、**卧室个数**、**周边好学校个数**和**周边犯罪率**；<br>2、这 5 维特征可以体现在一个 5D 图中，虽然我们无法精准地把它们画出来；<br>3、计算协方差矩阵，5 维特征得到 $5 \times 5$ 的对称矩阵；<br>4、求出**特征向量**和**特征值**，将特征值从大到小排序，去除**明显比较小**（这个需要点主观判断）的，假设去除了后三个，保留了前两个；<br>5、这 2 维特征可以体现在一个 2D 图中，我们人类终于可以可视化它了；<br>6、当然原来「5 维特征的数据表」缩减成了「2 维特征的数据表」，希望这 2 维体现的是抽象的**尺寸特征**和**环境特征**，就像开头那张图一样。
 
 ### 1.6 [小孩都看得懂的循环神经网络](https://mp.weixin.qq.com/s?__biz=MzIzMjY0MjE1MA==&mid=2247488290&idx=1&sn=427aee1a0afaf4c4f34b6d451de8bd3d&chksm=e890902bdfe7193d612a6c6516ad4c5ebae2936bf9428fa46edcfa631271fbe9a6c2be43d943&scene=126&sessionid=1583762096&key=1eff3ffcd7f0512886c5e33abd93a1cb373e712fdb3e9b5b5d20de091db9d37d32066696b3e8325a367f28c89818b74c345bb7faee970b42ab729cb1724fc7bf995fc8aa02a9d0520946678172f44a86&ascene=1&uin=MjQwMDA2NDE0Mw%3D%3D&devicetype=Windows+10&version=62080079&lang=en&exportkey=AShGIMkFl3V9SHuREPI%2F5A4%3D&pass_ticket=sF2QUN0lpuQP3Ov7rnxpUj5mY1AvrDoOEcJXeRgDwyNGd4NkDR9NMQotsQeJCRVl)
+
+### 1.7 [小孩都看得懂的 Embedding](https://mp.weixin.qq.com/s?__biz=MzIzMjY0MjE1MA==&mid=2247488377&idx=2&sn=0d1b24802b9dcc363b686f632e0b9195&chksm=e8909070dfe71966451e18c57b586f2da57b5944b5e196f3ee90e96b457e76b4a19f2543a7da&scene=126&sessionid=1583762096&key=1eff3ffcd7f05128549fd441c3abeca8d0cf19e141a252fa10d3563f8a5746915e872e1bafe8de931a41e66f320f72f11bb1c09b731d8f19cff2ffd130bd14f02cf31716532905c70df7a3a8183ee11e&ascene=1&uin=MjQwMDA2NDE0Mw%3D%3D&devicetype=Windows+10&version=62080079&lang=en&exportkey=AXQiOf%2BAusKOP6fYpl0Ra4Q%3D&pass_ticket=sF2QUN0lpuQP3Ov7rnxpUj5mY1AvrDoOEcJXeRgDwyNGd4NkDR9NMQotsQeJCRVl)
+
+Embedding 中文是**嵌入**，一种把**对象**（object）**映射**（map）为实数域**向量**（vector）的技术。
+
+向量相似度可以用**余弦距离**来计算，其值范围在 $-1$ 到 $1$ 之间，值越大越相似，值越小越相反。
+
+**总结**：我们可以将人和事物 (所有东西) 表示为代数向量，而计算机很容易能计算出这些向量之间的相似程度。
+
+在自然语言处理（Natural Language Processing，NLP）中，**词嵌入**把词转换成实数向量，从 word 转到 vector，因此大家都也把词嵌入称为 word2vec，用到的技术就是神经网络。
+
+在推荐系统（Recommender System，RS）中，**物品嵌入**把推荐的物品转换成实数向量，item2vec。
+
+图神经网络（Graph Neural Network，GNN）存在很多通路，将各个节点连成一条线，这些连线蕴含着节点之间的相互关系，就如同句子中各个词语的关系一样，这样我们也可以用**节点嵌入**的方法把节点 node 转成向量 vector，node2vec。
+
+**万物皆嵌入：everything2vec**
