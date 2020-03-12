@@ -51,3 +51,5 @@ Embedding 中文是**嵌入**，一种把**对象**（object）**映射**（map�
 图神经网络（Graph Neural Network，GNN）存在很多通路，将各个节点连成一条线，这些连线蕴含着节点之间的相互关系，就如同句子中各个词语的关系一样，这样我们也可以用**节点嵌入**的方法把节点 node 转成向量 vector，node2vec。
 
 **万物皆嵌入：everything2vec**
+
+### 1.8 [小孩都看得懂的熵、交叉熵和 KL 散度](https://mp.weixin.qq.com/s?__biz=MzIzMjY0MjE1MA==&mid=2247488540&idx=1&sn=5277ba2e927951aad3fa5c442126535c&chksm=e8909715dfe71e035d8b119789f3a925ea96ff4c3168af7e4d75099a8fdaff1df6d437d385f9&scene=126&sessionid=1583762073&key=035b3b5c6d51d99b985d2603ecad25ee165684814c9c78ad16c04fb715e2def595fd87cdcd09b2f32e044739dda88a13f83e8b3048e3644e4630f995554607eb7dac1a9a353e7b45f4f1928f9b5ea4d0&ascene=1&uin=MjQwMDA2NDE0Mw%3D%3D&devicetype=Windows+10&version=62080079&lang=en&exportkey=AU1ibl6LZ5HsT1mFNHSv6Hc%3D&pass_ticket=sF2QUN0lpuQP3Ov7rnxpUj5mY1AvrDoOEcJXeRgDwyNGd4NkDR9NMQotsQeJCRVl)
