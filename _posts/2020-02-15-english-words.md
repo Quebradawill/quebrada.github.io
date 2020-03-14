@@ -32,11 +32,11 @@ $$
 
 ### （一）名词按照意义分
 
-（1）专有名词：表示具体的人，事物，地点，团体或机构的专有名称。 例：China 中国
+（1）专有名词：表示具体的人、事物、地点、团体或机构的专有名称。 例：China 中国
 
-（2）普通名词：表示某些人，某类事物，某种物质或抽象概念的名称。例：tea 茶，在普通名词中还可以继续细分：
+（2）普通名词：表示某些人、某类事物、某种物质或抽象概念的名称。例：tea 茶，在普通名词中还可以继续细分：
 
-1、抽象名词：表示动作，状态，品质或其他抽象概念。例：health 健康<br>
+1、抽象名词：表示动作、状态、品质或其他抽象概念。例：health 健康<br>
 2、物质名词：表示物质或不具备确定形状和大小的个体的物质。例：fire 火<br>
 3、个体名词：表示单个的人和事物。例：car 汽车<br>
 4、集体名词：表示一群人或一些事物的名称。例：family 家庭<br>
@@ -75,13 +75,13 @@ $$
 
 ### （二）单数名词变复数
 
-1、以 o 结尾的名词变为复数时，常在词尾加 s，但是下列词除外，他们要加 es，Negroes、Heroes、potatoes、tomatoes、黑人英雄爱吃土豆、西红柿。<br>
-2、以 f 或者 fe 结尾的名词变复数时，一般直接加 s 但是下列需要把 f 或者 fe 改为 ves / selves，lives、thieves、wives、knives、leaves、shelves、wolves、halves。为了自己活命，小偷和他的妻子手里拿着刀子和树叶站在架子上把狼劈成了两半。<br>
+1、以 o 结尾的名词变为复数时，常在词尾加 s，但是下列词除外，他们要加 es。例如，Negroes、Heroes、potatoes、tomatoes，黑人英雄爱吃土豆、西红柿。<br>
+2、以 f 或者 fe 结尾的名词变复数时，一般直接加 s，但是下列需要把 f 或者 fe 改为 ves / selves。例如，lives、thieves、wives、knives、leaves、shelves、wolves、halves，为了自己活命，小偷和他的妻子手里拿着刀子和树叶站在架子上把狼劈成了两半。<br>
 3、合成名词构成复数时，通常只将里面所含有的主体名词变为复数，如果没有主体名词，则将最后一部分变为复数。例：sons-in-law（女婿）
 
 ### （三）下列名词通常用作不可数名词
 
-fun 、advice、 weather、progress、information、bread、butter、baggage、meat、equipment 等等。
+fun、advice、 weather、progress、information、bread、butter、baggage、meat、equipment 等等。
 
 ### （四）有些名词的复数形式表示特定的含义
 
@@ -126,9 +126,9 @@ Chinese 中国人，Japanese 日本人，sheep 绵羊，deer 鹿，series 系列
 
 **动状词**是指似乎带有动作或状态的观念，但不是作为真正动词的字。它们有时被称为「非限定」（未完成或不完整）动词。然而，由于时间是所有动词型态的决定性因素，不管限定（finite）或非限定（nonfinite）动词，我们必须遵循正确的时态一致。按这里一下，我们有一个表格专门叙述在不同的时间因素下如何使用正确的动状词型态。动状词通常与其他相关字连接来组成动状词片语（verbal phrase）。
 
-1、动名词作定语时
+1、作定语
 
-说明被修饰的名词的用途（可以用“used for +动名词”这个结构代替），它和所修饰的名词在逻辑上没有主谓关系；<br>现在分词作定语时：表示它所修饰的名词的行为，和它所修饰的名词在逻辑上有主谓关系（可以扩展为定语从句）；<br>另一种区别方法：<br>如果 -ing 形式相当于一个名词，可以与主语交换位置，它就是动名词；<br>如果 -ing 形式相当于形容词，不能与主语交换位置，它就是现在分词。<br>a sleeping car = a car used  for sleeping 一节卧车车厢 （sleeping 此处为动名词 ）<br>a sleeping child = a child  who is sleeping 一个睡着的孩子 （sleeping 此处为现在分词 ）
+<font color='red'>动名词</font>作定语时，说明被修饰的名词的用途（可以用<font color='blue'>“used for +动名词”</font>这个结构代替），它和所修饰的名词在逻辑上<font color='blue'>没有主谓关系</font>；<br><font color='red'>现在分词</font>作定语时，表示它所修饰的名词的行为，和它所修饰的名词在逻辑上<font color='blue'>有主谓关系</font>（可以扩展为定语从句）；<br>另一种区别方法：<br>如果 -ing 形式相当于一个<font color='blue'>名词</font>，可以与主语交换位置，它就是<font color='red'>动名词</font>；<br>如果 -ing 形式相当于<font color='blue'>形容词</font>，不能与主语交换位置，它就是<font color='red'>现在分词</font>。<br>a sleeping car = a car used  for sleeping 一节卧车车厢 （sleeping 此处为动名词 ）<br>a sleeping child = a child  who is sleeping 一个睡着的孩子 （sleeping 此处为现在分词 ）
 
 2、动名词具有名词的性质
 
@@ -139,8 +139,8 @@ B、可以和名词一样有所有格、复数形式；<br>例：He enjoys for r
 
 C、可以带有所有格已表明动作者。<br>例：Please excuse my coming late.<br>请原谅我来晚了。
 
-3、“动名词+名词”和“现在分词+名词”的读音不同。<br>“动名词+名词”的重音在“动名词”上（a 'sleeping suit），<br>
-“现在分词+名词”的重音在“名词”上（a sleeping 'child）。
+3、“动名词+名词”和“现在分词+名词”的<font color='red'>重音</font>不同。<br>“动名词+名词”的重音在“<font color='blue'>动名词</font>”上（a 'sleeping suit），<br>
+“现在分词+名词”的重音在“<font color='blue'>名词</font>”上（a sleeping 'child）。
 
 4、动名词用法的特殊情况
 
@@ -153,7 +153,7 @@ C、可以带有所有格已表明动作者。<br>例：Please excuse my coming 
 ④ It goes without saying that （…是不用说的）= It is needless to say that<br>
 It goes without saying that no animal can live without breathing.
 
-5、如果动名词形式在句中充当状语和补语，那么它一定是现在分词；如果 -ing 形式在句中充当主语、宾语、同位语，那么它一定是动名词。
+5、如果动名词形式在句中充当<font color='blue'>状语</font>和<font color='blue'>补语</font>，那么它一定是<font color='red'>现在分词</font>；如果 -ing 形式在句中充当<font color='blue'>主语</font>、<font color='blue'>宾语</font>、<font color='blue'>同位语</font>，那么它一定是<font color='red'>动名词</font>。
 
 ## 二、代词
 
