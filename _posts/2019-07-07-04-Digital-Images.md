@@ -19,7 +19,7 @@ Reference: [Digital Images](http://fourier.eng.hmc.edu/e161/lectures/digital_ima
 
 The continuous range of light intensity $0\le x \le G$ received by the digital image acquisition system need to be quantized to $L$ gray levels (e.g., $L=2^8=256$). The numbers of gray levels of the following eight images are respectively 256, 128, 64, 32, 16, 8, 4, and 2, respectively.
 
-<img src='./pictures/04-GlevelRes.gif' width=80%>
+![](/pictures/20190707-04-GlevelRes.gif width=80%)
 
 ##### 1.1.1 Uniform distribution
 
