@@ -155,7 +155,7 @@ The difference $d_p$ can be well modeled by Laplacian distribution $Q_L(g) = \ex
 
 The CLBP framework is illustrated in following:
 
-<img src="./pictures/clbpframework.png">
+![](/pictures/20190125-clbpframework.png)
 
 1. **CLBP_S and CLBP_M** 
 
@@ -347,7 +347,7 @@ FAST 算子的**基本原理**是：若某像素点与其周围邻域内足够�
 
 为了提高检测速度，FAST 提出**分割测试**的概念，不是逐个遍历考察圆周上的 $16$ 个像素点，而是<font color="blue">先考察垂直和水平方向上的 $4$ 个点</font>，$1,9,5,13$ 进行测试（先测试 $1$ 和 $9$，如果它们符合阈值要求再测试 $5$ 和 $13$）。如果 $p$ 是角点，那么这四个点中<font color="blue">至少有 $3$ 个要符合阈值要求</font>。如果不是的话肯定不是角点，就放弃。对通过这步测试的点再继续进行测试（是否有 $12$ 个点符合阈值要求）。基于 FAST 算子要求圆周上<font color="blue">最少有 $12$（或 $9$）个连续的差异较大的点</font>，如果垂直和水平方向上 $4$ 个点中有 $2$ 个或 $2$ 个以上不满足要求的点，则可以直接判断该点不是 FAST 特征点，这样可以排除绝大部分非 FAST 特征点。进过初步筛选，再对剩下的符合条件的点实施 FAST 算子进行特征点检测，最后进行非极大值抑制后得到最终的特征点检测结果。
 
-<img src="./pictures/fast.jpg">
+![](/pictures/20190125-fast.jpg)
 
 FAST 速度较快。缺点是不具有方向性，尺度不变性。 
 
@@ -410,7 +410,7 @@ BRIEF 算法得到的描述子不具备以上性质。ORB 没有解决尺度一�
 
 ORB 在计算 BRIEF 描述子时，建立的坐标系是以关键点为圆心，以关键点和取点区域的形心的连线为 $X$ 轴建立二维坐标系。
 
-<img src="./pictures/brief.png">
+![](pictures/20190125-brief.png)
 
 在上图中，$P$ 为关键点。圆内为取点区域，每个小格子代表一个像素。现在，把这块圆心区域看做一块木板，木板上每个点的质量等于其对应的像素值。根据积分学的知识，可以求出这个密度不均匀木板的质心 $Q$。计算公式如下（其中，$R$ 为圆的半径）：
 $$
