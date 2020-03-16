@@ -2,7 +2,7 @@
 layout: post
 title: 图像纹理
 date: 2019-01-25
-categories: Image-Processing
+categories: Image-processing
 tags: Texture
 status: publish
 type: post
