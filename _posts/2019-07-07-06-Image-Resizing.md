@@ -10,8 +10,6 @@ published: True
 author: Quebradawill
 ---
 
-
-
 ## Image Scaling and Rotation
 
 Reference: [Image Scaling and Rotation](http://fourier.eng.hmc.edu/e161/lectures/resize/index.html)
@@ -98,7 +96,7 @@ Again, this operation can be implemented in a two-step process:
 
 It is obviously more desirable to arbitrarily resize a given image (enlarge or reduce the image proportionally or non-proportionally). We first consider converting a one-dimensional $m$-sample input $\{ x_i, (i=0, 1, \cdots, m-1) \}$ into an $n$-sample output $\{ y_j, (j=0, 1, \cdots, n-1) \}$, where $n$ is the desired size of the output, which may be either smaller or greater than $m$, i.e., the scaling factor $n/m$ can be either greater or smaller than 1 (for either enlargement or reduction). The method is essentially a two-step process of **linear interpolation** and **re-sampling**.
 
-<img src='./pictures/06-interpolate_0d.gif' width=66%>
+![](/pictures/20190707-06-interpolate_0d.gif width=66%)
 
 - **Convert indices**:
 
@@ -124,7 +122,7 @@ It is obviously more desirable to arbitrarily resize a given image (enlarge or r
   y_k=x_{p}=x_i+d=x_i+u(x_{i+1}-x_i)
   $$
 
-<img src='./pictures/06-interpolate_1d.gif' width=35%>
+![](/pictures/20190707-06-interpolate_1d.gif width=35%)
 
 This method of linear interpolation can be generalized from 1-D to 2-D bilinear interpolation for image resizing.
 
@@ -146,7 +144,7 @@ This method of linear interpolation can be generalized from 1-D to 2-D bilinear 
   a=x_{i,j},\;\;\;\;\;\; b=x_{i+1,j},\;\;\;\;\;\; c=x_{i,j+1},\;\;\;\;\;\; d=x_{i+1,j+1}
   $$
 
-<img src='./pictures/06-interpolate_2d.gif' width=50%>
+![](/pictures/20190707-06-interpolate_2d.gif width=50%)
 
 The bilinear interpolation is carried out in two levels of linear interpolations. We first find the two interpolations of $a$, $b$ and $c$, $d$ along the dimension with index $i$: 
 
@@ -167,7 +165,7 @@ y[k,l]=x[p,q]=g+u(h-g)=(1-u-v+uv)a+u(1-v)b+v(1-u)c+uvd
 $$
 The result is exactly the same as before.
 
-<img src='./pictures/06-LennaScale.gif' width=70%>
+![](/pictures/20190707-06-LennaScale.gif width=70%)
 
 ### 4. Arbitrary rotation
 
@@ -182,6 +180,6 @@ $$
 $$
 Next we find the interpolation value $x[p,q]$ for each pixel $y[k,l]$ of the output image using the same bilinear interpolation method as in the arbitrary scaling discussed above. Note that some pixels in the image after the rotation may be outside the original image before the rotation, they can be arbitrarily assigned with any color, such as black.
 
-<img src='./pictures/06-ImageRotate1.gif' width=75%>
+![](/pictures/20190707-06-ImageRotate1.gif width=75%)
 
-<img src='./pictures/06-LennaRotate.gif' width=60%>
+![](/pictures/20190707-06-LennaRotate.gif width=60%)
