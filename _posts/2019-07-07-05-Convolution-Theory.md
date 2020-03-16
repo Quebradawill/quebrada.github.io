@@ -24,7 +24,7 @@ h*(g*x)=(h*g)*x
 $$
 Typically, $y(t)$ is the output of a system characterized by its impulse response function $h(t)$ with input $x(t)$.
 
-<img src='./pictures/05-ConvolutionEx1.gif' width=70%>
+![](/pictures/20190707-05-ConvolutionEx1.gif width=70%)
 
 Convolution in *discrete* form is
 $$
@@ -74,7 +74,7 @@ y[n],\;\;\;\;\;\;(-k \le n \le N+k-1)
 $$
 Digital convolution can be best understood graphically (where the index of $y[n]$ is rearranged) as shown below:
 
-<img src='./pictures/05-digital_convolution.gif' width=70%>
+![](/pictures/20190707-05-digital_convolution.gif width=70%)
 
 Assume the size of the input signal $x[n]$ is $N$ ($n=0,\cdots,N-1$) and the size of $h$ is $M=2k+1$ (usually an odd number), then the size of the resulting convolution $y=x*h$ is $N+M-1=N+2k$. However, as it is usually desirable for the output $y$ to have the same size as the input $x$, we can drop $k$ components at each end of $y$. When the size of $h$ is even, we can drop $k$ components at one end and $k-1$ from the other of $y$.
 
@@ -82,7 +82,4 @@ In particular, if the elements of the kernel are all the same (an *average* oper
 
 In image processing, all of the discussions above for one-dimensional convolution are generalized into two dimensions, and $h$ is called a **convolution kernel**, or **mask**.
 
-$$
-y[m,n]=\sum_{i=-k}^k \sum_{j=-k}^k x[m+i,n+j] h[i,j]
-$$
-<img src='./pictures/05-digital_convolution_2D.gif' width=65%>
+![](/pictures/20190707-05-digital_convolution_2D.gif width=65%)
