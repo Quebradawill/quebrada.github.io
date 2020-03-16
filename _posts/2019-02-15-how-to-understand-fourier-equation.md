@@ -47,19 +47,19 @@ $$
 
 比如下面这个函数的周期为 $ 2 \pi$：
 
-<img src="./Pictures/20190215-2.png" width="60%" align="center">
+![](/pictures/20190215-2.png width="60%" align="center")
 
 很显然，$\sin(x)$ 的周期也是$ 2\pi$：
 
-<img src="./Pictures/20190215-3.png" width="60%" align="center">
+![](/pictures/20190215-3.png width="60%" align="center")
 
 $\sin(2x)$ 的周期也是 $2\pi$，虽然最小周期是 $\pi$：
 
-<img src="./Pictures/20190215-4.png" width="60%" align="center">
+![](/pictures/20190215-4.png width="60%" align="center")
 
 很显然，$\sin(nx), n\in\Bbb{N}$ 的周期都是 $2\pi$：
 
-<img src="./Pictures/20190215-5.png" width="60%" align="center">
+![](/pictures/20190215-5.png width="60%" align="center")
 
 更一般的，如果 $f(x)$ 的周期为 $T$，那么：
 $$
@@ -92,7 +92,7 @@ $$
 
 看到复数也不要怕，根据之前的文章[如何通俗易懂地解释欧拉公式](https://www.matongxue.com/madocs/8.html)，看到类似于 $e^{i\theta}$ 这种就应该想到复平面上的一个夹角为 $\theta$ 的向量：
 
-<img src="./Pictures/20190215-6.png" width="40%" align="center">
+![](/pictures/20190215-6.png width="40%" align="center")
 
 那么当 $\theta$ 不再是常数，而是代表时间的变量 $t$ 的时候：
 $$
@@ -109,7 +109,7 @@ e^{it}= \cos(t)+i \sin(t)
 $$
 所以，在时间 $t$ 轴上，把 $e^{it}$ 向量的虚部（也就是纵坐标）记录下来，得到的就是 $\sin(t)$
 
-<img src="./Pictures/20190215-7.png" width="60%" align="center">
+![](/pictures/20190215-7.png width="60%" align="center")
 
 在时间 $t$ 轴上，把 $e^{it}$ 向量的实部（横坐标）记录下来，得到的就是 $\cos(t)$
 
@@ -121,7 +121,7 @@ $$
 
 这两种角度，一个可以观察到旋转的频率，所以称为**频域**；一个可以看到流逝的时间，所以称为**时域**：
 
-<img src="./Pictures/20190215-8.png" width="60%" align="center">
+![](/pictures/20190215-8.png width="60%" align="center")
 
 > 即两种角度（频域和时域）分别来看 $\sin (x) $ 和 $\cos (x) $
 
@@ -135,17 +135,17 @@ g(x)= \sin(x)+ \sin(2x)
 $$
 是一个 $T=2\pi$ 的函数：
 
-<img src="./Pictures/20190215-9.png" width="60%" align="center">
+![](/pictures/20190215-9.png width="60%" align="center")
 
 如果转到频域去，那么它们是下面这个复数函数的虚部：$e^{it}+e^{i2t}$
 
 先看看 $e^{i\theta}+e^{i2\theta}$，其中 $ \theta$ 是常数，很显然这是两个向量之和：
 
-<img src="./Pictures/20190215-10.png" width="40%" align="center">
+![](/pictures/20190215-10.png width="40%" align="center")
 
 现在让它们动起来，把 $\theta$ 变成流逝的时间 $t$，并且把虚部记录下来：
 
-<img src="./Pictures/20190215-11.png" width="70%" align="center">
+![](/pictures/20190215-11.png width="70%" align="center")
 
 我们令：
 $$
