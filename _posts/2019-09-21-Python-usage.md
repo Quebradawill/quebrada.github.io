@@ -257,4 +257,36 @@ pkl_file.close()
 
 在 Python 3.6 以前版本中可以使用 `from collections import Iterable`，在 3.6 以后版本中应该使用 `import collections.abc import Iterable`
 
-### 16.
+### 16. PyQt 和 Qt Designer 的使用
+
+PyQt5 5.7 版本以后不再在 pip 安装中提供 QT designer，所以需要自己安装。
+
+安装 PyQt：`pip install PyQt5`
+
+pyqt5工具安装：`pip install pyqt5-tools`
+
+#### 1.1 PyQt 简介
+
+自 4.5 版本以后，PyQt 同时支持 Python 2.x 与 Python 3.x。但是在 API 方面有所区别，最主要的是运行在 Python 3.x 下的 PyQt 不使用 QString，而是 str。另外，之前为了避开 Python 2.x 关键词限制的 `exec_()`、`print_()`两个函数现在重命名为`exec()`，`print()`。
+
+#### 1.2 Qt Designer 的介绍
+
+Qt Designer生成的 .ui 文件（实质上是 XML 格式的文件）也可以通过 pyuic5 工具转换成 .py 文件。
+
+#### 1.3 PyCharm 中 PyQt5 工具配置
+
+打开 PyCharm，选择 Settings $\to$ Tools $\to$ External Tools，点击左上角的绿色加号。
+
+Name 填入 QtDesigner（方便后续使用，名称无所谓）。Program 选择我们安装的 PyQt5-tools 下面的 designer.exe。Working directory 则选择我们的工作目录。然后点击 OK，则添加了 QtDesigner 作为 PyCharm 的外置工具。
+
+C:\Users\Quebradawill\AppData\Local\Programs\Python\Python37\Lib\site-packages\pyqt5_tools\Qt\bin\designer.exe
+
+然后添加 PyUIC（UI 转换工具），PyUIC 的 Program 为 pyuic5.exe，在 Python 的安装目录下面的 Scripts 目录下（C:\Users\Quebradawill\AppData\Local\Programs\Python\Python37\Scripts\pyuic5.exe），Working directory 同理设为我们的工作目录，Arguments 则填入如下代码：
+
+`-m PyQt5.uic.pyuic  $FileName$ -o $FileNameWithoutExtension$.py`
+
+最后添加 pyrcc 用于 PyQt5 的资源文件转码。具体配置与上述内容相同，Arguments 填入：
+
+`$FileName$ -o $FileNameWithoutExtension$_rc.py`
+
+### 17.
