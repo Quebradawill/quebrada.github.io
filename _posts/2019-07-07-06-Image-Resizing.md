@@ -1,3 +1,17 @@
+---
+layout: post
+title: HMC - E161 - 06 - Image Scaling and Rotation
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
+
+
 ## Image Scaling and Rotation
 
 Reference: [Image Scaling and Rotation](http://fourier.eng.hmc.edu/e161/lectures/resize/index.html)

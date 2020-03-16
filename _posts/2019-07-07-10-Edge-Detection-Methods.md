@@ -1,3 +1,15 @@
+---
+layout: post
+title: HMC - E161 - 10 - Edge Detection Methods
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
 ## Edge Detection Methods
 
 Reference: [Edge Detection Methods](http://fourier.eng.hmc.edu/e161/lectures/canny/index.html)

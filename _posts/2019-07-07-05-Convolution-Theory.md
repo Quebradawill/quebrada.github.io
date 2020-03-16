@@ -1,3 +1,15 @@
+---
+layout: post
+title: HMC - E161 - 05 - Digital Convolution
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
 ## Digital Convolution
 
 Reference: [Digital Convolution](http://fourier.eng.hmc.edu/e161/lectures/convolution/index.html)

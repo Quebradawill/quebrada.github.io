@@ -1,3 +1,15 @@
+---
+layout: post
+title: HMC - E161 - 12 - The Fourier Transform
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
 ## The Fourier Transform
 
 Reference: [The Fourier Transform](http://fourier.eng.hmc.edu/e161/lectures/fourier/index.html)

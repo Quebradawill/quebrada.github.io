@@ -1,3 +1,15 @@
+---
+layout: post
+title: HMC - E161 - 24 - Hough Transform
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
 ## Hough Transform
 
 Reference: [Hough Transform](http://fourier.eng.hmc.edu/e161/lectures/hough/index.html)

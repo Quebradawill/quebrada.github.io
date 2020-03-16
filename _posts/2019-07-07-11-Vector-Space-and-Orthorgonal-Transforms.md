@@ -1,3 +1,15 @@
+---
+layout: post
+title: HMC - E161 - 11 - Vector Space and Orthogonal Transforms
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
 ## Vector Space and Orthogonal Transforms
 
 Reference: [Vector Space and Orthogonal Transforms](http://fourier.eng.hmc.edu/e161/lectures/VectorSpace/index.html)

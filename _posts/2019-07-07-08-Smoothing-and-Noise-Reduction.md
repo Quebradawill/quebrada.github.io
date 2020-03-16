@@ -1,3 +1,15 @@
+---
+layout: post
+title: HMC - E161 - 08 - Low-pass Filtering and Smoothing
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
 ## Low-pass Filtering and Smoothing
 
 Reference: [Low-pass Filtering and Smoothing](http://fourier.eng.hmc.edu/e161/lectures/smooth_sharpen/index.html)

@@ -1,3 +1,15 @@
+---
+layout: post
+title: HMC - E161 - 09 - Sharpening and Edge Detection
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
 ## Sharpening and Edge Detection
 
 Reference: [Sharpening and Edge Detection](http://fourier.eng.hmc.edu/e161/lectures/gradient/index.html)
