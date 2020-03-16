@@ -3,7 +3,7 @@ layout: post
 title: Computer Image Processing and Analysis (E161)  - Harvey Mudd College
 date: 2019-03-15
 categories: Image-Processing
-tags: Low-Level-Image-Processing
+tags: HMC-Image-Processing
 status: publish
 type: post
 published: true

@@ -1,3 +1,15 @@
+---
+layout: post
+title: HMC - E161 - 04 - Digital Images
+date: 2019-07-07
+categories: Image-processing
+tags: HMC-Image-Processing
+status: publish
+type: post
+published: True
+author: Quebradawill
+---
+
 ## Digital Images
 
 Reference: [Digital Images](http://fourier.eng.hmc.edu/e161/lectures/digital_image/index.html)
