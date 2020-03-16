@@ -36,7 +36,7 @@ Then the quantization can be defined as a function
 $$
 \begin{equation}x'=f(x)=r_k,\;\;\;\;\mbox{iff}\;\;t_k \le x \le t_{k+1} \end{equation}
 $$
-<img src='./pictures/04-linear_quantize.gif' width=50%>
+![](/pictures/20190707-04-linear_quantize.gif width=50%)
 
 ##### 1.1.2 Mean square error optimization
 
@@ -67,7 +67,7 @@ $$
 $$
 As shown in the figure, to perceive the same contrast, larger intensity difference is needed for higher intensity regions than lower ones. To most efficiently use the limited number of gray levels available, we can allocate more gray levels in the low intensity region where our eye is more sensitive to contrast) than in high intensity region.
 
-<img src='./pictures/04-contrast.gif' width=60%>
+![](/pictures/20190707-04-contrast.gif width=60%)
 
 Weber's law describes a general phenomenon in human perception. Another example is the difference between different sound frequencies. The difference between $C_4$ (middle C, 261.63 Hz) and $C_5$ (523.25 Hz) is an octave, perceived the same as the difference between $C_5$ and $C_6$ (1046.5 Hz), although the frequency differences between the two pairs are quite different (261.63 Hz. vs. 523.25 Hz).
 
@@ -80,13 +80,13 @@ $$
 
 where the ranges of both the input and output are normalized so that  $0\le x,y\le 1$. Here $A$ is a constant scaling factor, and $\gamma$ is a parameter that characterizes the nonlinearity. Obviously when $\gamma=1$,  $y$ is linearly related to $x$. Otherwise, we have a nonlinear mapping. As an example, the nonlinear CRT mapping modeled by $y=x^\gamma=2^{2.2}$ can be corrected by another nonlinear mapping $z=y^{1/\gamma}=y^{1/2.2}=(x^{2.2})^{1/2.2}=x$, as shown below:
 
-<img src='./pictures/04-CRTgamma.gif' width=40%>
+![](/pictures/20190707-04-CRTgamma.gif width=40%)
 
 #### 1.2 Spatial sampling
 
 Also, the continuous two-dimensional image space need to be sampled by the digital image acquisition system to form a raster, a 2D array of pixels (picture-elements) in rows and columns. Same as in 1D case, the sampling theorem also applies her, with the only difference that the sampling is carried out in two spatial dimensions, instead of one temporal dimension.
 
-<img src='./pictures/04-ImageResolution.gif' width=100%>
+![](/pictures/20190707-04-ImageResolution.gif width=100%)
 
 #### 1.3 Color and pseudo-color images
 
@@ -96,9 +96,9 @@ Sometimes artificial colors can be assigned to a gray level image to better dist
 
 The display of *gray level*, *pseudo-color* and *true-color* images on a monitor screen through color-map (color lookup table) is illustrated below.
 
-<img src='./pictures/04-image_display_a.gif' width=70%>
+![](/pictures/20190707-04-image_display_a.gif width=70%)
 
-<img src='./pictures/04-image_display_b.gif' width=70%>
+![](/pictures/20190707-04-image_display_b.gif width=70%)
 
 ### 2. Neighbors and Connectivities
 
@@ -207,7 +207,7 @@ $$
 $$
 The following figure shows the iso-distance contours composed of all points having equal distance to the center point. The circle is for Euclidean distance, the square is for the $D_8$ distance, the diamond is for the $D_4$ distance.
 
-<img src='./pictures/04-iso_distance.gif' width=30%$>
+![](/pictures/20190707-04-iso_distance.gif width=30%)
 
 Distance between two connected pixels can be defined as the number of hops from one pixel to the next along the shortest path connecting the two pixels, according to the definition of connectivity (4, 8, or mix-connected).
 
